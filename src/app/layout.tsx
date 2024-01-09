@@ -22,12 +22,12 @@ export const metadata: Metadata = {
     siteName: "VGSEVEN",
     images: [
       {
-        url: "https://eo4grnhr9puxdgdq.public.blob.vercel-storage.com/vgseven.png",
+        url: "https://eo4grnhr9puxdgdq.public.blob.vercel-storage.com/vgseven-company.png",
         width: 800,
         height: 600,
       },
       {
-        url: "https://eo4grnhr9puxdgdq.public.blob.vercel-storage.com/vgseven.png",
+        url: "https://eo4grnhr9puxdgdq.public.blob.vercel-storage.com/vgseven-company.png",
         width: 1800,
         height: 1600,
         alt: "VGSEVEN",
@@ -45,7 +45,7 @@ export const metadata: Metadata = {
     creator: "@vgsevenn",
     creatorId: "0707",
     images: [
-      "https://eo4grnhr9puxdgdq.public.blob.vercel-storage.com/vgseven.png",
+      "https://eo4grnhr9puxdgdq.public.blob.vercel-storage.com/vgseven-company.png",
     ],
   },
   metadataBase: new URL("https://vgseven.com"),
