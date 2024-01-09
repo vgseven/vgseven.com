@@ -55,13 +55,15 @@ export default function Header() {
         damping: 14,
       }}
     >
-      <Image
-        src={vgseven}
-        alt="logo"
-        width={44}
-        height={44}
-        className={"rounded-full"}
-      />
+      <Link href="/">
+        <Image
+          src={vgseven}
+          alt="logo"
+          width={44}
+          height={44}
+          className={"rounded-full"}
+        />
+      </Link>
 
       <motion.ul
         className={`w-full dark:text-black text-white ${
