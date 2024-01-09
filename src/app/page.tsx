@@ -17,9 +17,14 @@ export default function Home() {
         <div className="relative tracking-tighter">
           <span>VGSEVEN</span>
         </div>
-        <div className="relative tracking-widest">
-          <span>COMPANY</span>
-        </div>
+      </h1>
+      <h1
+        className={cn(
+          "fixed top-3/4 left-1/2 -translate-x-1/2 -translate-y-1/2 text-lg text-center text-white"
+        )}
+      >
+        Obsessed with AI, Quantum Computing, Space, Psychology and Philosophy
+        and Entrepreneurship..
       </h1>
       <Canvas />
     </div>
