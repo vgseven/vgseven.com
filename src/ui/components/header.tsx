@@ -89,11 +89,19 @@ export default function Header() {
           showNav ? "visible" : "",
         ]}
       >
-        <li className={"hover:bg-black hover:text-white px-4 py-1 rounded-2xl"}>
-          <Link href={"/"}>VGSEVEN</Link>
+        <li>
+          <Link href={"/"}>
+            <Button variant={"secondary"} className={"rounded-2xl"}>
+              vgseven
+            </Button>
+          </Link>
         </li>
-        <li className={"hover:bg-black hover:text-white px-4 py-1 rounded-2xl"}>
-          <Link href={"/projects"}>PROJECTS</Link>
+        <li>
+          <Link href={"/projects"}>
+            <Button variant={"secondary"} className={"rounded-2xl"}>
+              Projects
+            </Button>
+          </Link>
         </li>
         <li>
           <a href={"https://x.com/vgsevenn/"} target={"_blank"}>

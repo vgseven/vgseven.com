@@ -43,8 +43,6 @@ export default function ProjectHome() {
             Additionally, the projects are in their private beta stage.
           </Label>
           <SkeletonCard title={"Silvi"} />
-          <SkeletonCard title={"Capital"} />
-          <SkeletonCard title={"Timeline"} />
         </div>
         <div className={"my-2 flex flex-col"}>
           <Label
@@ -60,7 +58,6 @@ export default function ProjectHome() {
             stage.
           </Label>
           <SkeletonCard title={"Nebula"} />
-          <SkeletonCard title={"Silvimail"} />
         </div>
       </div>
       <Footer />

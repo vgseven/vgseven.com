@@ -31,10 +31,10 @@ export default function Home() {
       <Link href={"/projects"}>
         <Button
           className={
-            "fixed mt-14 top-3/4 left-1/2 -translate-x-1/2 -translate-y-1/2 text-lg"
+            "fixed mt-14 top-3/4 left-1/2 -translate-x-1/2 -translate-y-1/2 text-lg rounded-2xl"
           }
         >
-          Explore
+          Explore Projects
         </Button>
       </Link>
       <Canvas />
