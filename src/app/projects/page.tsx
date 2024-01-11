@@ -32,31 +32,17 @@ export default function ProjectHome() {
         <div className={"my-2 flex flex-col"}>
           <Label
             className={
-              "text-3xl font-bold tracking-tighter sm:text-3xl xl:text-4xl bg-clip-text text-transparent my-4 bg-gradient-to-tl from-purple-200 dark:via-purple-400 via-purple-500 to-purple-800"
-            }
-          >
-            FORKED TIMELINE PROJECTS
-          </Label>
-          <Label className={"text-zinc-400 mb-2 leading-5"}>
-            The Forked Timeline, the projects that are currently active but need
-            more research and extensive work, and I am researching them.
-            Additionally, the projects are in their private beta stage.
-          </Label>
-          <SkeletonCard title={"Silvi"} />
-        </div>
-        <div className={"my-2 flex flex-col"}>
-          <Label
-            className={
-              "text-3xl font-bold tracking-tighter sm:text-3xl xl:text-4xl bg-clip-text text-transparent my-4 bg-gradient-to-tl dark:from-green-200 from-green-300 dark:to-green-900 to-green-700"
+              "text-3xl font-bold tracking-tighter sm:text-3xl xl:text-4xl bg-clip-text text-transparent my-4 bg-gradient-to-tl from-zinc-900 dark:via-gray-100 via-zinc-400 to-zinc-900"
             }
           >
             BRANCHED TIMELINE PROJECTS
           </Label>
           <Label className={"text-zinc-400 mb-2 leading-5"}>
-            The Branched Timeline, the projects that are currently upcoming, and
-            I am researching them. Additionally, the projects are in their alpha
-            stage.
+            The Branched Timeline, the projects that are currently active but
+            need more research and extensive work, and I am researching on them
+            heavily. Additionally, the projects are in their private beta stage.
           </Label>
+          <SkeletonCard title={"Silvi"} />
           <SkeletonCard title={"Nebula"} />
         </div>
       </div>

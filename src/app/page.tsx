@@ -3,6 +3,7 @@ import { PatriotFont } from "@/ui/fonts/fonts";
 import { Canvas } from "@/ui/components/canvas";
 import { Button } from "@/ui/primitives/button";
 import Link from "next/link";
+import { ArrowRightIcon } from "@radix-ui/react-icons";
 
 export default function Home() {
   return (
@@ -31,10 +32,15 @@ export default function Home() {
       <Link href={"/projects"}>
         <Button
           className={
-            "fixed mt-14 top-3/4 left-1/2 -translate-x-1/2 -translate-y-1/2 text-lg rounded-2xl"
+            "fixed mt-20 top-3/4 left-1/2 -translate-x-1/2 -translate-y-1/2 text-base rounded-full py-6"
           }
         >
           Explore Projects
+          <ArrowRightIcon
+            height={35}
+            width={35}
+            className={"rounded-full ml-4 bg-black text-white p-2"}
+          />
         </Button>
       </Link>
       <Canvas />
