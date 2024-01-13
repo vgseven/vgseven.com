@@ -7,20 +7,21 @@ import {
   CardHeader,
   CardTitle,
 } from "@/ui/primitives/card";
+import { ProjectCardProps } from "@/lib/schemas/project-card-props";
+import { Badge } from "@/ui/primitives/badge";
 
-export default function SkeletonCard({ title }: { title: string }) {
+export default function SkeletonCard(props: ProjectCardProps) {
   return (
     <Card className={"my-4 p-2"}>
       <CardHeader>
-        <CardTitle>{title}</CardTitle>
+        <CardTitle>{props.title}</CardTitle>
         <CardDescription className="flex flex-col gap-2">
-          <Skeleton className="h-3 w-[350px] max-[470px]:w-auto" />
-          <Skeleton className="h-3 w-[350px] max-[470px]:w-auto" />
+          {props.description}
         </CardDescription>
         <CardDescription className="flex flex-row gap-2 mt-3">
-          <Skeleton className="h-3 w-[50px]" />
-          <Skeleton className="h-3 w-[50px]" />
-          <Skeleton className="h-3 w-[50px]" />
+          <Badge>{props.stage}</Badge>
+          <Badge variant={"secondary"}>{props.date}</Badge>
+          <Badge variant={"outline"}>{props.timeline}</Badge>
         </CardDescription>
       </CardHeader>
       <CardContent className={"flex flex-col gap-3"}>

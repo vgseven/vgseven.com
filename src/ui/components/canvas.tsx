@@ -3,28 +3,15 @@
 import React from "react";
 import { useEffect } from "react";
 
-let x = 0;
-let y = 0;
-let dx = 1;
-let dy = 1;
-
-let viewportHeight = 0;
-let viewportWidth = 0;
 let currentColorId = 0;
 
-const PUCK_SPEED = 0.8;
-
 const COLORS = ["#00FFFF", "#4444FF", "#FF00FF", "#FF8800"];
-let currentT = 1;
 
 export function Canvas() {
   const blobRef = React.useRef<HTMLDivElement | null>(null);
 
   const canvasRef = React.useRef<HTMLCanvasElement | null>(null);
   const ctxRef = React.useRef<CanvasRenderingContext2D | null>(null);
-
-  const TRIANGLE_HEIGHT = 64;
-  const TRIANGLE_WIDTH = 64;
 
   useEffect(() => {
     if (typeof window === "undefined") {
@@ -41,25 +28,11 @@ export function Canvas() {
 
     window.requestAnimationFrame(render);
 
-    window.addEventListener("resize", () => {
-      canvas.width = window.innerWidth;
-      canvas.height = window.innerHeight;
-
-      viewportHeight = window.innerHeight;
-      viewportWidth = window.innerWidth;
-    });
-
     window.addEventListener("mousemove", (e) => {
       blob.style.translate = `${e.clientX - blob.clientWidth / 2}px ${
         e.clientY - blob.clientHeight / 2
       }px`;
     });
-
-    viewportHeight = window.innerHeight;
-    viewportWidth = window.innerWidth;
-
-    canvas.width = innerWidth;
-    canvas.height = innerHeight;
   });
 
   const render = () => {
@@ -71,27 +44,6 @@ export function Canvas() {
     if (!canvasRef.current) {
       return;
     }
-
-    ctx.clearRect(0, 0, viewportWidth, viewportHeight);
-
-    if (y + TRIANGLE_HEIGHT >= canvasRef.current.height || y < 0) {
-      currentColorId === COLORS.length - 1
-        ? (currentColorId = 0)
-        : currentColorId++;
-      currentT === 4 ? (currentT = 1) : currentT++;
-      dy *= -1;
-    }
-
-    if (x + TRIANGLE_WIDTH >= canvasRef.current.width || x < 0) {
-      currentColorId === COLORS.length - 1
-        ? (currentColorId = 0)
-        : currentColorId++;
-      currentT === 4 ? (currentT = 1) : currentT++;
-      dx *= -1;
-    }
-
-    x += dx * PUCK_SPEED;
-    y += dy * PUCK_SPEED;
 
     ctx.fillStyle = COLORS[currentColorId];
 

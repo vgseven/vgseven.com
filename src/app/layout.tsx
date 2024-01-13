@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import "@/styles/root-layout.css";
 import { GeistSansFont } from "@/ui/fonts/fonts";
 import React, { ReactNode } from "react";
-import { ThemeProvider } from "@/lib/utils/theme-provider";
+import { ThemeProvider } from "@/lib/functions/theme-provider";
 import { Header } from "@/ui/components/header";
 import { Analytics } from "@vercel/analytics/react";
 import { SpeedInsights } from "@vercel/speed-insights/next";

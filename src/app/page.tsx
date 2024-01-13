@@ -1,4 +1,4 @@
-import { cn } from "@/lib/utils/cn";
+import { cn } from "@/lib/utils";
 import { PatriotFont } from "@/ui/fonts/fonts";
 import { Canvas } from "@/ui/components/canvas";
 import { Button } from "@/ui/primitives/button";

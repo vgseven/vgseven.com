@@ -3,7 +3,10 @@ import ProjectCard from "@/ui/components/project-card";
 import SkeletonCard from "@/ui/components/skeleton-card";
 import { Label } from "@/ui/primitives/label";
 import { type Metadata } from "next";
-import { SacredProjectCards } from "@/lib/content/projects";
+import {
+  BranchedProjectCards,
+  SacredProjectCards,
+} from "@/lib/content/projects";
 
 export const metadata: Metadata = {
   title: "Projects",
@@ -37,13 +40,14 @@ export default function ProjectHome() {
           >
             BRANCHED TIMELINE PROJECTS
           </Label>
-          <Label className={"text-zinc-400 mb-2 leading-5"}>
+          <Label className={"dark:text-zinc-400 text-zinc-800 mb-2 leading-5"}>
             The Branched Timeline, the projects that are currently active but
             need more research and extensive work, and I am researching on them
             heavily. Additionally, the projects are in their private beta stage.
           </Label>
-          <SkeletonCard title={"Silvi"} />
-          <SkeletonCard title={"Nebula"} />
+          {BranchedProjectCards.map((project) => (
+            <SkeletonCard key={project.title} {...project} />
+          ))}
         </div>
       </div>
       <Footer />
