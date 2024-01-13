@@ -7,7 +7,7 @@ let currentColorId = 0;
 
 const COLORS = ["#00FFFF", "#4444FF", "#FF00FF", "#FF8800"];
 
-export function Canvas() {
+export function ColorCanvas() {
   const blobRef = React.useRef<HTMLDivElement | null>(null);
 
   const canvasRef = React.useRef<HTMLCanvasElement | null>(null);

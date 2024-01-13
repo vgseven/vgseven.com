@@ -1,6 +1,6 @@
 import { cn } from "@/lib/utils";
 import { PatriotFont } from "@/ui/fonts/fonts";
-import { Canvas } from "@/ui/components/canvas";
+import { ColorCanvas } from "@/ui/components/canvas";
 import { Button } from "@/ui/primitives/button";
 import Link from "next/link";
 import { ArrowRightIcon } from "@radix-ui/react-icons";
@@ -43,7 +43,7 @@ export default function Home() {
           />
         </Button>
       </Link>
-      <Canvas />
+      <ColorCanvas />
     </div>
   );
 }
