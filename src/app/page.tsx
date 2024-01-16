@@ -32,7 +32,7 @@ export default function Home() {
       <Link href={"/projects"}>
         <Button
           className={
-            "fixed mt-24 max-sm:mt-10 top-3/4 left-1/2 -translate-x-1/2 -translate-y-1/2 text-base rounded-full py-6 px-8"
+            "fixed mt-24 max-sm:mt-6 top-3/4 left-1/2 -translate-x-1/2 -translate-y-1/2 text-base rounded-full py-6 px-8"
           }
         >
           Explore Projects
