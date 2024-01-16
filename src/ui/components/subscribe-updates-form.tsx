@@ -75,7 +75,9 @@ export default function SubscribeUpdatesForm() {
   };
   return (
     <div className={"flex justify-center items-center my-8"}>
-      <Card className={"bg-transparent w-96 rounded-3xl px-4 py-6"}>
+      <Card
+        className={"bg-transparent w-96 max-sm:w-auto rounded-3xl px-4 py-6"}
+      >
         <CardContent>
           <Form {...form}>
             <form
