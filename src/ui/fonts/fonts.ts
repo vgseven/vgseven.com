@@ -1,5 +1,4 @@
 import localFont from "next/font/local";
-import { GeistSans } from "geist/font/sans";
 
 export const PatriotFont = localFont({
   src: "./Patriot.otf",
@@ -7,5 +6,3 @@ export const PatriotFont = localFont({
   variable: "--fontPatriot",
   weight: "400",
 });
-
-export const GeistSansFont = GeistSans;

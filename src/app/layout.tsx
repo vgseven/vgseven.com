@@ -1,19 +1,20 @@
 import type { Metadata } from "next";
 import "@/styles/root-layout.css";
-import { GeistSansFont } from "@/ui/fonts/fonts";
 import React, { ReactNode } from "react";
 import { ThemeProvider } from "@/lib/functions/theme-provider";
 import { Header } from "@/ui/components/header";
 import { Analytics } from "@vercel/analytics/react";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 import { Toaster } from "@/ui/primitives/sonner";
+import { GeistSans } from "geist/font/sans";
+import { GeistMono } from "geist/font/mono";
 
 export const metadata: Metadata = {
   title: "VGSEVEN",
   description:
     "Obsessed with AI, Quantum Computing, Space, Psychology and Philosophy and Entrepreneurship.",
   icons: {
-    icon: "favicon.png",
+    icon: "/favicon.png",
   },
   openGraph: {
     title: "VGSEVEN",
@@ -62,7 +63,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
   return (
     <html
       lang="en"
-      className={GeistSansFont.className}
+      className={`${GeistSans.variable} ${GeistMono.variable}`}
       suppressHydrationWarning
     >
       <body>
@@ -73,7 +74,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
           disableTransitionOnChange
         >
           <Header />
-          {children}
+          <main className={"font-sans"}>{children}</main>
           <Toaster />
           <SpeedInsights />
           <Analytics />

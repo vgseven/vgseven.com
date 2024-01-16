@@ -16,7 +16,6 @@ import { SubscribeUpdatesFormSchema } from "@/lib/schemas/subscribe-updates-form
 import { zodResolver } from "@hookform/resolvers/zod";
 import * as z from "zod";
 import { Input } from "@/ui/primitives/input";
-import { Spinner } from "@/ui/components/spinner";
 import React, { useState } from "react";
 import { toast } from "sonner";
 
@@ -76,7 +75,7 @@ export default function SubscribeUpdatesForm() {
   };
   return (
     <div className={"flex justify-center items-center my-8"}>
-      <Card className={"pt-4 bg-transparent"}>
+      <Card className={"bg-transparent w-96 rounded-3xl px-4 py-6"}>
         <CardContent>
           <Form {...form}>
             <form
@@ -90,7 +89,11 @@ export default function SubscribeUpdatesForm() {
                   <FormItem>
                     <FormLabel>Enter your Name</FormLabel>
                     <FormControl>
-                      <Input placeholder="Vaibhav Gosavi" {...field} />
+                      <Input
+                        className={"rounded-full px-4 py-6"}
+                        placeholder="Vaibhav Gosavi"
+                        {...field}
+                      />
                     </FormControl>
                     <FormMessage />
                   </FormItem>
@@ -103,17 +106,18 @@ export default function SubscribeUpdatesForm() {
                   <FormItem>
                     <FormLabel>Enter your Email</FormLabel>
                     <FormControl>
-                      <Input placeholder="vg@vgseven.com" {...field} />
+                      <Input
+                        className={"rounded-full px-4 py-6"}
+                        placeholder="vg@vgseven.com"
+                        {...field}
+                      />
                     </FormControl>
                     <FormMessage />
                   </FormItem>
                 )}
               />
-              <Button
-                onClick={spinnerHandler}
-                disabled={!form.formState.isValid}
-              >
-                {spin ? <Spinner /> : "Subscribe"}
+              <Button className={"rounded-full"} onClick={spinnerHandler}>
+                {spin ? "Subscribing..." : "Subscribe"}
               </Button>
             </form>
           </Form>

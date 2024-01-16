@@ -9,7 +9,7 @@ import Image from "next/image";
 import { ChevronUpIcon, ChevronDownIcon } from "@radix-ui/react-icons";
 import { BrandXIcon } from "@/ui/icons/brand-x-icon";
 
-export default function Header() {
+export function Header() {
   const [showNav, setShowNav] = useState<boolean>(false);
   const [hidden, setHidden] = useState(false);
 
@@ -28,7 +28,7 @@ export default function Header() {
 
   return (
     <motion.nav
-      className={`fixed inset-0 top-4 w-[95%] sm:w-[90%] mx-auto bg-primary font-medium flex  max-sm:justify-between gap-4 px-3 max-w-7xl items-center rounded-full h-14 p-5 overflow-hidden text-black`}
+      className={`z-50 fixed inset-0 top-4 w-[95%] sm:w-[90%] mx-auto bg-primary font-medium flex max-sm:justify-between gap-4 px-3 max-w-7xl items-center rounded-full h-14 p-5 overflow-hidden text-black`}
       variants={{
         long: { maxWidth: 950 },
         short: { maxWidth: 280 },
@@ -40,7 +40,7 @@ export default function Header() {
           transition: { delay: 0, duration: 0.3 },
         },
         showNav: {
-          height: 220,
+          height: 280,
           borderRadius: 22,
           alignItems: "start",
           transition: { delay: 0 },
@@ -156,5 +156,3 @@ export default function Header() {
     </motion.nav>
   );
 }
-
-export { Header };
