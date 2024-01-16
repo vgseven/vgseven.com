@@ -1,14 +1,16 @@
 import { twMerge } from "tailwind-merge";
 
+interface BrandXIconProps {
+  className?: string;
+  width: number;
+  height: number;
+}
+
 export function BrandXIcon({
   className,
   width,
   height,
-}: {
-  className: string;
-  width: number;
-  height: number;
-}) {
+}: BrandXIconProps): JSX.Element {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

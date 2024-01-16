@@ -6,6 +6,7 @@ import { ThemeProvider } from "@/lib/functions/theme-provider";
 import { Header } from "@/ui/components/header";
 import { Analytics } from "@vercel/analytics/react";
 import { SpeedInsights } from "@vercel/speed-insights/next";
+import { Toaster } from "@/ui/primitives/sonner";
 
 export const metadata: Metadata = {
   title: "VGSEVEN",
@@ -73,6 +74,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
         >
           <Header />
           {children}
+          <Toaster />
           <SpeedInsights />
           <Analytics />
         </ThemeProvider>

@@ -91,17 +91,24 @@ export default function Header() {
       >
         <li
           className={
-            "rounded-2xl text-base font-medium hover:bg-secondary hover:text-white text-black px-4 py-[0.35rem]"
+            "rounded-2xl text-base font-medium hover:bg-white dark:hover:bg-black hover:text-black dark:hover:text-white text-white dark:text-black px-4 py-[0.35rem]"
           }
         >
           <Link href={"/"}>Home</Link>
         </li>
         <li
           className={
-            "rounded-2xl text-base font-medium hover:bg-secondary hover:text-white text-black px-4 py-[0.35rem]"
+            "rounded-2xl text-base font-medium hover:bg-white dark:hover:bg-black hover:text-black dark:hover:text-white text-white dark:text-black px-4 py-[0.35rem]"
           }
         >
           <Link href={"/projects"}>Projects</Link>
+        </li>
+        <li
+          className={
+            "rounded-2xl text-base font-medium hover:bg-white dark:hover:bg-black hover:text-black dark:hover:text-white text-white dark:text-black px-4 py-[0.35rem]"
+          }
+        >
+          <Link href={"/subscribe"}>Subscribe</Link>
         </li>
         <li>
           <a href={"https://x.com/vgsevenn/"} target={"_blank"}>

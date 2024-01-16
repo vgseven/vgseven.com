@@ -1,4 +1,4 @@
-import Footer from "@/ui/components/footer";
+import { Footer } from "@/ui/components/footer";
 import ProjectCard from "@/ui/components/project-card";
 import SkeletonCard from "@/ui/components/skeleton-card";
 import { Label } from "@/ui/primitives/label";
