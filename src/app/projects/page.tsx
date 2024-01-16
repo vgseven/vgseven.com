@@ -15,7 +15,7 @@ export const metadata: Metadata = {
 export default function ProjectHome() {
   return (
     <>
-      <div className={"mt-28 mx-auto max-w-5xl max-[1100px]:mx-8"}>
+      <div className={"mt-28 mx-auto max-w-5xl max-[1100px]:mx-6"}>
         <div className={"my-2 flex flex-col"}>
           <Label
             className={
