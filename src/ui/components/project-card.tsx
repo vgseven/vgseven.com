@@ -11,13 +11,26 @@ import { BrandXIcon } from "@/ui/icons/brand-x-icon";
 import { ArrowTopRightIcon } from "@radix-ui/react-icons";
 import { Badge } from "@/ui/primitives/badge";
 import { ProjectCardProps } from "@/lib/schemas/project-card-props";
+import Image from "next/image";
+import { StaticImport } from "next/dist/shared/lib/get-img-props";
 
 export default function ProjectCard(props: ProjectCardProps) {
   return (
     <Card className={"my-4 p-2 rounded-3xl"}>
       <CardHeader>
-        <CardTitle>{props.title}</CardTitle>
-        <CardDescription>{props.description}</CardDescription>
+        <div className={"flex flex-row gap-2"}>
+          <Image
+            className={"mb-1"}
+            src={props.profile as StaticImport}
+            width={42}
+            height={42}
+            alt={"Profile"}
+          />
+          <CardTitle>{props.title}</CardTitle>
+        </div>
+        <CardDescription className={"mt-4"}>
+          {props.description}
+        </CardDescription>
         <CardDescription className={"flex flex-row gap-2 mt-3"}>
           <Badge className={"rounded-2xl"}>{props.stage}</Badge>
           <Badge className={"rounded-3xl"} variant={"secondary"}>

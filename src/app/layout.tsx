@@ -7,7 +7,6 @@ import { Analytics } from "@vercel/analytics/react";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 import { Toaster } from "@/ui/primitives/sonner";
 import { GeistSans } from "geist/font/sans";
-import { GeistMono } from "geist/font/mono";
 
 export const metadata: Metadata = {
   title: "VGSEVEN",
@@ -24,12 +23,12 @@ export const metadata: Metadata = {
     siteName: "VGSEVEN",
     images: [
       {
-        url: "https://eo4grnhr9puxdgdq.public.blob.vercel-storage.com/vgseven-company.png",
+        url: "https://eo4grnhr9puxdgdq.public.blob.vercel-storage.com/vgseven-company/vgseven.jpg",
         width: 800,
         height: 600,
       },
       {
-        url: "https://eo4grnhr9puxdgdq.public.blob.vercel-storage.com/vgseven-company.png",
+        url: "https://eo4grnhr9puxdgdq.public.blob.vercel-storage.com/vgseven-company/vgseven.jpg",
         width: 1800,
         height: 1600,
         alt: "VGSEVEN",
@@ -43,11 +42,8 @@ export const metadata: Metadata = {
     title: "VGSEVEN",
     description:
       "Obsessed with AI, Quantum Computing, Space, Psychology and Philosophy and Entrepreneurship.",
-    siteId: "7777",
-    creator: "@vgsevenn",
-    creatorId: "0707",
     images: [
-      "https://eo4grnhr9puxdgdq.public.blob.vercel-storage.com/vgseven-company.png",
+      "https://eo4grnhr9puxdgdq.public.blob.vercel-storage.com/vgseven-company/vgseven.jpg",
     ],
   },
   metadataBase: new URL("https://vgseven.com"),
@@ -63,7 +59,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
   return (
     <html
       lang="en"
-      className={`${GeistSans.variable} ${GeistMono.variable}`}
+      className={`${GeistSans.variable}`}
       suppressHydrationWarning
     >
       <body>

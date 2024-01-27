@@ -2,10 +2,11 @@ import { ProjectCardProps } from "@/lib/schemas/project-card-props";
 
 export const SacredProjectCards: ProjectCardProps[] = [
   {
+    profile: "https://eo4grnhr9puxdgdq.public.blob.vercel-storage.com/radium/radium-favicon.png",
     title: "Radium",
-    description: "Empowering Developers to Rapidly Ship Projects.",
+    description: "Make Ship Happen.",
     stage: "Live",
-    date: "14.01.2024",
+    date: "27.12.2023",
     timeline: "Sacred",
     summary:
       "Welcome to Radium, the single platform designed to empower developers, whether they are beginners or professionals. Radium offers a comprehensive suite of tools and services crafted to streamline the development process, ensuring a swift and efficient delivery of projects.",
@@ -29,5 +30,43 @@ export const BranchedProjectCards: ProjectCardProps[] = [
     stage: "Pre-Alpha",
     date: "Upcoming",
     timeline: "Branched",
+  },
+];
+
+export const ForkedProjectCards: ProjectCardProps[] = [
+  {
+    title: "MD-Processor",
+    description: "The Markdown Processor for LLM Responses..",
+    stage: "Private-Beta",
+    date: "07.02.2024",
+    timeline: "Forked",
+  },
+   {
+    title: "Profiler",
+    description: "The Profile Card Generator..",
+    stage: "Private-Beta",
+    date: "Upcoming",
+    timeline: "Forked",
+  },
+  {
+    title: "Wallpapers",
+    description: "The Curated Wallpapers..",
+    stage: "Private-Beta",
+    date: "Upcoming",
+    timeline: "Forked",
+  },
+  {
+    title: "Writer",
+    description: "The Web Writer..",
+    stage: "Private-Beta",
+    date: "Upcoming",
+    timeline: "Forked",
+  },
+  {
+    title: "Crop",
+    description: "The Cropper..",
+    stage: "Private-Beta",
+    date: "Upcoming",
+    timeline: "Forked",
   },
 ];
