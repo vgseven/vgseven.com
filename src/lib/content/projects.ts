@@ -27,7 +27,14 @@ export const BranchedProjectCards: ProjectCardProps[] = [
   {
     title: "Nebula",
     description: "The Next Generation Cloud Services..",
-    stage: "Pre-Alpha",
+    stage: "Alpha",
+    date: "Upcoming",
+    timeline: "Branched",
+  },
+   {
+    title: "Darvin",
+    description: "Make Ship Happen.",
+    stage: "Alpha",
     date: "Upcoming",
     timeline: "Branched",
   },
@@ -35,10 +42,10 @@ export const BranchedProjectCards: ProjectCardProps[] = [
 
 export const ForkedProjectCards: ProjectCardProps[] = [
   {
-    title: "MD-Processor",
+    title: "Parser",
     description: "The Markdown Processor for LLM Responses..",
     stage: "Private-Beta",
-    date: "07.02.2024",
+    date: "17.02.2024",
     timeline: "Forked",
   },
    {
