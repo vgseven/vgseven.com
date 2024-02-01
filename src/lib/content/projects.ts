@@ -11,7 +11,7 @@ export const SacredProjectCards: ProjectCardProps[] = [
     summary:
       "Welcome to Radium, the single platform designed to empower developers, whether they are beginners or professionals. Radium offers a comprehensive suite of tools and services crafted to streamline the development process, ensuring a swift and efficient delivery of projects.",
     official: "https://radium.vgseven.com/",
-    knowMore: "https://radium.vgseven.com/introduction",
+    knowMore: "https://radium.vgseven.com/",
     findUpdates: "https://x.com/vgsevenn",
   },
 ];
@@ -26,14 +26,7 @@ export const BranchedProjectCards: ProjectCardProps[] = [
   },
   {
     title: "Nebula",
-    description: "The Next Generation Cloud Services..",
-    stage: "Alpha",
-    date: "Upcoming",
-    timeline: "Branched",
-  },
-   {
-    title: "Darvin",
-    description: "Make Ship Happen.",
+    description: "The Next Generation Object Storage Services..",
     stage: "Alpha",
     date: "Upcoming",
     timeline: "Branched",
@@ -51,28 +44,28 @@ export const ForkedProjectCards: ProjectCardProps[] = [
    {
     title: "Profiler",
     description: "The Profile Card Generator..",
-    stage: "Private-Beta",
+    stage: "Alpha",
     date: "Upcoming",
     timeline: "Forked",
   },
   {
     title: "Wallpapers",
     description: "The Curated Wallpapers..",
-    stage: "Private-Beta",
+    stage: "Alpha",
     date: "Upcoming",
     timeline: "Forked",
   },
   {
     title: "Writer",
     description: "The Web Writer..",
-    stage: "Private-Beta",
+    stage: "Pre-Alpha",
     date: "Upcoming",
     timeline: "Forked",
   },
   {
     title: "Crop",
     description: "The Cropper..",
-    stage: "Private-Beta",
+    stage: "Pre-Alpha",
     date: "Upcoming",
     timeline: "Forked",
   },
