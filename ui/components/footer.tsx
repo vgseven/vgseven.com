@@ -1,6 +1,6 @@
 "use client";
 
-import { BrandXIcon } from "@/ui/icons/brand-x-icon";
+import { BrandIconX } from "@/ui/icons/brand-icon-x";
 import { Label } from "@/ui/primitives/label";
 import {
   GitHubLogoIcon,
@@ -20,7 +20,7 @@ export function Footer() {
         }
       >
         <a href={"https://x.com/vgsevenn/"} target="_blank">
-          <BrandXIcon width={16} height={16} />
+          <BrandIconX width={16} height={16} />
         </a>
         <a href={"https://github.com/thevgseven"} target="_blank">
           <GitHubLogoIcon height={16} width={16} />

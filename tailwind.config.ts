@@ -2,7 +2,7 @@ import type { Config } from "tailwindcss";
 
 const config = {
   darkMode: ["class"],
-  content: ["./src/app/**/*.{ts,tsx}", "./src/ui/**/*.{ts,tsx}"],
+  content: ["./app/**/*.{ts,tsx}", "./ui/**/*.{ts,tsx}"],
   prefix: "",
   theme: {
     container: {
@@ -15,7 +15,7 @@ const config = {
     extend: {
       fontFamily: {
         sans: ["var(--font-geist-sans)"],
-        mono: ["var(--font-geist-mono)"],
+        patriot: ["var(--fontPatriot)"],
       },
       colors: {
         border: "hsl(var(--border))",

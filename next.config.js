@@ -13,3 +13,5 @@ const nextConfig = {
 };
 
 module.exports = nextConfig;
+
+// https://eo4grnhr9puxdgdq.public.blob.vercel-storage.com/vgseven-company/vgseven.jpg

@@ -7,7 +7,7 @@ import {
   CardTitle,
 } from "@/ui/primitives/card";
 import { Button } from "@/ui/primitives/button";
-import { BrandXIcon } from "@/ui/icons/brand-x-icon";
+import { BrandIconX } from "@/ui/icons/brand-icon-x";
 import { ArrowTopRightIcon } from "@radix-ui/react-icons";
 import { Badge } from "@/ui/primitives/badge";
 import { ProjectCardProps } from "@/lib/schemas/project-card-props";
@@ -56,7 +56,7 @@ export default function ProjectCard(props: ProjectCardProps) {
         <a href={props.findUpdates} target={"_blank"}>
           <Button className={"rounded-3xl"} variant={"outline"}>
             Find Updates
-            <BrandXIcon height={15} width={15} className={"ml-2"} />
+            <BrandIconX height={15} width={15} className={"ml-2"} />
           </Button>
         </a>
       </CardFooter>

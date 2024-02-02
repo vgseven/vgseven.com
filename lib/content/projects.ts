@@ -62,11 +62,4 @@ export const ForkedProjectCards: ProjectCardProps[] = [
     date: "Upcoming",
     timeline: "Forked",
   },
-  {
-    title: "Crop",
-    description: "The Cropper..",
-    stage: "Pre-Alpha",
-    date: "Upcoming",
-    timeline: "Forked",
-  },
 ];

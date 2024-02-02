@@ -1,5 +1,3 @@
-import { cn } from "@/lib/utils";
-import { PatriotFont } from "@/ui/fonts/fonts";
 import { Canvas } from "@/ui/components/canvas";
 import { Button } from "@/ui/primitives/button";
 import Link from "next/link";
@@ -7,12 +5,11 @@ import { ArrowRightIcon } from "@radix-ui/react-icons";
 
 export default function Home() {
   return (
-    <div>
+    <main>
       <h1
-        className={cn(
-          "fixed top-72 max-sm:top-56 left-1/2 -translate-x-1/2 -translate-y-1/2 font-bold text-9xl max-sm:text-7xl text-center text-white",
-          PatriotFont.className
-        )}
+        className={
+          "fixed top-72 max-sm:top-56 left-1/2 -translate-x-1/2 -translate-y-1/2 font-bold text-9xl max-sm:text-7xl text-center text-white font-patriot"
+        }
       >
         <div className="relative tracking-normal">
           <span>THE</span>
@@ -46,6 +43,6 @@ export default function Home() {
         </Button>
       </Link>
       <Canvas />
-    </div>
+    </main>
   );
 }

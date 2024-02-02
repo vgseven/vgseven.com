@@ -4,10 +4,10 @@ import Link from "next/link";
 import { useState } from "react";
 import { useScroll, motion, useMotionValueEvent } from "framer-motion";
 import { Button } from "@/ui/primitives/button";
-import vgseven from "../../../public/favicon.png";
+import vgseven from "../../public/favicon.png";
 import Image from "next/image";
 import { ChevronUpIcon, ChevronDownIcon } from "@radix-ui/react-icons";
-import { BrandXIcon } from "@/ui/icons/brand-x-icon";
+import { BrandIconX } from "@/ui/icons/brand-icon-x";
 
 export function Header() {
   const [showNav, setShowNav] = useState<boolean>(false);
@@ -114,7 +114,7 @@ export function Header() {
           <a href={"https://x.com/vgsevenn/"} target={"_blank"}>
             <Button variant={"secondary"} className={"rounded-2xl"}>
               Find More Updates
-              <BrandXIcon height={16} width={16} className={"ml-2 mt-0"} />
+              <BrandIconX height={16} width={16} className={"ml-2 mt-0"} />
             </Button>
           </a>
         </li>

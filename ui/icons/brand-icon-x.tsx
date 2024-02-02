@@ -1,20 +1,11 @@
-import { twMerge } from "tailwind-merge";
+import { cn } from "@/lib/utils";
+import { IconProps } from "@/lib/interfaces/icons";
 
-interface BrandXIconProps {
-  className?: string;
-  width: number;
-  height: number;
-}
-
-export function BrandXIcon({
-  className,
-  width,
-  height,
-}: BrandXIconProps): JSX.Element {
+export function BrandIconX({ height, width, className }: IconProps) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      className={twMerge("icon icon-tabler icon-tabler-brand-x", className)}
+      className={cn("icon icon-tabler icon-tabler-brand-x", className)}
       width={width}
       height={height}
       viewBox="0 0 24 24"

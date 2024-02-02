@@ -1,7 +1,7 @@
 import localFont from "next/font/local";
 
 export const PatriotFont = localFont({
-  src: "./Patriot.otf",
+  src: "../public/fonts/Patriot.otf",
   display: "swap",
   variable: "--fontPatriot",
   weight: "400",

@@ -7,6 +7,7 @@ import { Analytics } from "@vercel/analytics/react";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 import { Toaster } from "@/ui/primitives/sonner";
 import { GeistSans } from "geist/font/sans";
+import { PatriotFont } from "@/lib/fonts";
 
 export const metadata: Metadata = {
   title: "VGSEVEN",
@@ -59,10 +60,10 @@ export default function RootLayout({ children }: { children: ReactNode }) {
   return (
     <html
       lang="en"
-      className={`${GeistSans.variable}`}
+      className={`${GeistSans.variable} ${PatriotFont.variable}`}
       suppressHydrationWarning
     >
-      <body>
+      <body className={"font-sans"}>
         <ThemeProvider
           attribute="class"
           defaultTheme="system"
@@ -70,7 +71,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
           disableTransitionOnChange
         >
           <Header />
-          <main className={"font-sans"}>{children}</main>
+          {children}
           <Toaster />
           <SpeedInsights />
           <Analytics />
