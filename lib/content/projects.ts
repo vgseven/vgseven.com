@@ -4,19 +4,26 @@ export const SacredProjectCards: ProjectCardProps[] = [
   {
     profile: "https://eo4grnhr9puxdgdq.public.blob.vercel-storage.com/radium/radium-favicon.png",
     title: "Radium",
-    description: "Make Ship Happen.",
+    description: "Empowering Developers to Rapidly Ship Projects.",
     stage: "Live",
     date: "27.12.2023",
     timeline: "Sacred",
     summary:
       "Welcome to Radium, the single platform designed to empower developers, whether they are beginners or professionals. Radium offers a comprehensive suite of tools and services crafted to streamline the development process, ensuring a swift and efficient delivery of projects.",
     official: "https://radium.vgseven.com/",
-    knowMore: "https://radium.vgseven.com/",
+    knowMore: "https://radium.vgseven.com/intro",
     findUpdates: "https://x.com/vgsevenn",
   },
 ];
 
 export const BranchedProjectCards: ProjectCardProps[] = [
+  {
+    title: "Silver Cloud",
+    description: "The Next Generation Object Storage Services..",
+    stage: "Alpha",
+    date: "Upcoming",
+    timeline: "Branched",
+  },
   {
     title: "Silvi",
     description: "The Personal Assistant..",
@@ -25,9 +32,15 @@ export const BranchedProjectCards: ProjectCardProps[] = [
     timeline: "Branched",
   },
   {
-    title: "Nebula",
-    description: "The Next Generation Object Storage Services..",
+    title: "Einfi",
+    description: "Everything of everything..",
     stage: "Alpha",
+    date: "Upcoming",
+    timeline: "Branched",
+  },{
+    title: "Silver Mail",
+    description: "The Next Generation email Services..",
+    stage: "Pre-Alpha",
     date: "Upcoming",
     timeline: "Branched",
   },

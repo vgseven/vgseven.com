@@ -26,8 +26,8 @@ export default function ProjectHome() {
             SACRED TIMELINE PROJECTS
           </Label>
           <Label className={"dark:text-zinc-400 text-zinc-800 mb-2 leading-5"}>
-            The Sacred Timeline, the projects that are currently active, and I
-            am working on them regularly.
+            The Sacred Timeline, the projects that are currently active, and In
+            regular Development.
           </Label>
           {SacredProjectCards.map((project) => (
             <ProjectCard key={project.title} {...project} />
@@ -42,9 +42,8 @@ export default function ProjectHome() {
             BRANCHED TIMELINE PROJECTS
           </Label>
           <Label className={"dark:text-zinc-400 text-zinc-800 mb-2 leading-5"}>
-            The Branched Timeline, the projects that are currently active but
-            need more research and extensive work, and I am researching on them
-            heavily. Additionally, the projects are in their private beta stage.
+            The Branched Timeline, the projects that are currently upcoming and
+            need more research and extensive work.
           </Label>
           {BranchedProjectCards.map((project) => (
             <SkeletonCard key={project.title} {...project} />
