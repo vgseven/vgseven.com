@@ -24,16 +24,7 @@ export default function Home() {
         }
       >
         Obsessed with AI, Quantum Computing, Space, Psychology and Philosophy
-        and Entrepreneurship...
-        <a
-          href={"https://radium.vgseven.com/"}
-          target={"_blank"}
-          className={
-            "ml-2 bg-white text-black rounded-2xl px-2 py-1 text-[16px]"
-          }
-        >
-          Chief Meme Officer of Radium
-        </a>
+        and Entrepreneurship..
       </h1>
       <Link href={"/projects"}>
         <Button
