@@ -2,7 +2,8 @@ import { ProjectCardProps } from "@/lib/schemas/project-card-props";
 
 export const SacredProjectCards: ProjectCardProps[] = [
   {
-    profile: "https://eo4grnhr9puxdgdq.public.blob.vercel-storage.com/radium/radium-favicon.png",
+    profile:
+      "https://eo4grnhr9puxdgdq.public.blob.vercel-storage.com/radium/radium-favicon.png",
     title: "Radium",
     description: "Empowering Developers to Rapidly Ship Projects.",
     stage: "Live",
@@ -24,26 +25,6 @@ export const BranchedProjectCards: ProjectCardProps[] = [
     date: "Upcoming",
     timeline: "Branched",
   },
-  {
-    title: "Silvi",
-    description: "The Personal Assistant..",
-    stage: "Private-Beta",
-    date: "Upcoming",
-    timeline: "Branched",
-  },
-  {
-    title: "Einfi",
-    description: "Everything of everything..",
-    stage: "Alpha",
-    date: "Upcoming",
-    timeline: "Branched",
-  },{
-    title: "Silver Mail",
-    description: "The Next Generation email Services..",
-    stage: "Pre-Alpha",
-    date: "Upcoming",
-    timeline: "Branched",
-  },
 ];
 
 export const ForkedProjectCards: ProjectCardProps[] = [
@@ -54,7 +35,7 @@ export const ForkedProjectCards: ProjectCardProps[] = [
     date: "17.02.2024",
     timeline: "Forked",
   },
-   {
+  {
     title: "Profiler",
     description: "The Profile Card Generator..",
     stage: "Alpha",
