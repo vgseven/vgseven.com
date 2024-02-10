@@ -10,7 +10,7 @@
     "db:generate": "drizzle-kit generate:pg --config=drizzle.config.ts",
     "db:push": "drizzle-kit push:pg --config=drizzle.config.ts",
     "ui:add": "pnpm dlx shadcn-ui@latest add",
-    "dev:final": "pnpm run build && pnpm run lint && vercel build",
+    "dev:final": "pnpm run build && pnpm run lint",
     "dev:run": "pnpm i && pnpm up --latest && pnpm store prune && pnpm run dev",
     "prepare": "husky"
   },
