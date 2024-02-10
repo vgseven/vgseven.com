@@ -37,14 +37,7 @@ export const ForkedProjectCards: ProjectCardProps[] = [
   },
   {
     title: "Profiler",
-    description: "The Profile Card Generator..",
-    stage: "Alpha",
-    date: "Upcoming",
-    timeline: "Forked",
-  },
-  {
-    title: "Wallpapers",
-    description: "The Curated Wallpapers..",
+    description: "The Profile..",
     stage: "Alpha",
     date: "Upcoming",
     timeline: "Forked",
