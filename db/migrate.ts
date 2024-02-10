@@ -1,13 +1,7 @@
-import { drizzle } from "drizzle-orm/planetscale-serverless";
-import { migrate } from "drizzle-orm/planetscale-serverless/migrator";
-import { connect } from "@planetscale/database";
+import { drizzle } from "drizzle-orm/vercel-postgres";
+import { migrate } from "drizzle-orm/vercel-postgres/migrator";
+import { sql } from "@vercel/postgres";
 
-const pscale = drizzle(
-  connect({
-    host: process.env.DATABASE_HOST,
-    username: process.env.DATABASE_USERNAME,
-    password: process.env.DATABASE_PASSWORD,
-  })
-);
+const pg = drizzle(sql);
 
-await migrate(pscale, { migrationsFolder: "../../drizzle" });
+await migrate(pg, { migrationsFolder: "../../drizzle" });

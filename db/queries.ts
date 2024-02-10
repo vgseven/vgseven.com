@@ -1,4 +1,4 @@
-import { pscale } from "@/db/pscale";
+import { pg } from "@/db/pg";
 import {
   TInsertUpdatesSubscribers,
   UpdatesSubscribersTable,
@@ -6,7 +6,7 @@ import {
 import { desc } from "drizzle-orm";
 
 export async function GetMaxID() {
-  return pscale
+  return pg
     .select({ id: UpdatesSubscribersTable.id })
     .from(UpdatesSubscribersTable)
     .orderBy(desc(UpdatesSubscribersTable.id))
@@ -14,5 +14,5 @@ export async function GetMaxID() {
 }
 
 export async function InsertUser(props: TInsertUpdatesSubscribers) {
-  return pscale.insert(UpdatesSubscribersTable).values(props).execute();
+  return pg.insert(UpdatesSubscribersTable).values(props).execute();
 }

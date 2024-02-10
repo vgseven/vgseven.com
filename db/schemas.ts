@@ -1,11 +1,11 @@
-import { mysqlTable, int, varchar, timestamp } from "drizzle-orm/mysql-core";
+import { pgTable, integer, varchar, timestamp } from "drizzle-orm/pg-core";
 import { sql } from "drizzle-orm";
 import { InferInsertModel } from "drizzle-orm";
 
-export const UpdatesSubscribersTable = mysqlTable(
+export const UpdatesSubscribersTable = pgTable(
   "vgseven_updates_subscribers",
   {
-    id: int("id").primaryKey(),
+    id: integer("id").primaryKey(),
     name: varchar("name", { length: 256 }).notNull(),
     email: varchar("email", { length: 256 }).unique().notNull(),
     created_at: timestamp("created_at")

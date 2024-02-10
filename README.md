@@ -3,7 +3,7 @@
 #### Stack
 - **Starter**: [Radium-Nextjs-Template](https://github.com/radiumlabs/radium-nextjs-template.git/)
 - **Framework**: [Next.js](https://nextjs.org/)
-- **Database**: [Planetscale](https://planetscale.com/)
+- **Database**: [Vercel Postgres](https://vercel.com/docs/storage/vercel-postgres)
 - **Deployment**: [Vercel](https://vercel.com)
 - **Styling**: [Tailwind CSS](https://tailwindcss.com) and [Radix-UI](https://radix-ui.com/) and [Shadcn-UI](https://ui.shadcn.com)
 - **Analytics**: [Vercel Analytics](https://vercel.com/analytics)
@@ -13,7 +13,7 @@
 
 #### Using
 
-- Consider the repo as inspiration for you personal blog or project, do not use it directly. Instead I recommend the Template [Radium-Nextjs-Template](https://github.com/radiumlabs/radium-nextjs-template.git/) to use as starter template.
+- Consider the repo as inspiration for you personal blog or project, do not use it directly. Instead I recommend the Template [Radium-Nextjs-Template](https://github.com/labradium/radium-nextjs-template.git/) to use as starter template.
 
 #### License
 
