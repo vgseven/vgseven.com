@@ -1,7 +1,7 @@
 ### Obsessed with AI, Quantum Computing, Space, Psychology and Philosophy and Entrepreneurship..
 
 #### Stack
-- **Starter**: [Radium-Nextjs-Template](https://github.com/radiumlabs/radium-nextjs-template.git/)
+- **Starter**: [Radium-Nextjs-Template](https://github.com/silver-company/radium/tree/main/templates/radium-nextjs-template)
 - **Framework**: [Next.js](https://nextjs.org/)
 - **Database**: [Vercel Postgres](https://vercel.com/docs/storage/vercel-postgres)
 - **Deployment**: [Vercel](https://vercel.com)
@@ -13,7 +13,7 @@
 
 #### Using
 
-- Consider the repo as inspiration for you personal blog or project, do not use it directly. Instead I recommend the Template [Radium-Nextjs-Template](https://github.com/labradium/radium-nextjs-template.git/) to use as starter template.
+- Consider the repo as inspiration for you personal blog or project, do not use it directly. Instead I recommend the Template [Radium-Nextjs-Template](https://github.com/silver-company/radium/tree/main/templates/radium-nextjs-template) to use as starter template.
 
 #### License
 

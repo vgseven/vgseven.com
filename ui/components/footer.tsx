@@ -22,7 +22,7 @@ export function Footer() {
         <a href={"https://x.com/vgsevenn/"} target="_blank">
           <BrandIconX width={16} height={16} />
         </a>
-        <a href={"https://github.com/thevgseven"} target="_blank">
+        <a href={"https://github.com/vgseven"} target="_blank">
           <GitHubLogoIcon height={16} width={16} />
         </a>
         <a href={"https://linkedin.com/in/vgseven"} target="_blank">

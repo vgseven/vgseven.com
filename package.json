@@ -1,6 +1,6 @@
 {
   "name": "vgseven",
-  "version": "3.2.3",
+  "version": "3.2.4",
   "private": true,
   "scripts": {
     "dev": "next dev --turbo",
@@ -24,9 +24,9 @@
     "@vercel/speed-insights": "^1.0.9",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.0",
-    "dotenv": "^16.4.1",
+    "dotenv": "^16.4.4",
     "drizzle-orm": "^0.29.3",
-    "framer-motion": "^11.0.3",
+    "framer-motion": "^11.0.5",
     "geist": "^1.2.2",
     "next": "14.1.0",
     "next-themes": "^0.2.1",
@@ -47,7 +47,7 @@
     "drizzle-kit": "^0.20.14",
     "eslint": "^8.56.0",
     "eslint-config-next": "14.1.0",
-    "husky": "^9.0.10",
+    "husky": "^9.0.11",
     "postcss": "^8.4.35",
     "tailwindcss": "^3.4.1",
     "typescript": "^5.3.3"
