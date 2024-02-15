@@ -29,7 +29,7 @@ export default function SubscribeUpdatesForm() {
   });
 
   const onSubmit = async (
-    values: z.infer<typeof SubscribeUpdatesFormSchema>
+    values: z.infer<typeof SubscribeUpdatesFormSchema>,
   ) => {
     console.log(values);
 

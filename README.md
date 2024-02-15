@@ -1,6 +1,7 @@
 ### Obsessed with AI, Quantum Computing, Space, Psychology and Philosophy and Entrepreneurship..
 
 #### Stack
+
 - **Starter**: [Radium-Nextjs-Template](https://github.com/silver-company/radium/tree/main/templates/radium-nextjs-template)
 - **Framework**: [Next.js](https://nextjs.org/)
 - **Database**: [Vercel Postgres](https://vercel.com/docs/storage/vercel-postgres)
@@ -20,5 +21,3 @@
 1. You are free to use this code as inspiration.
 2. Please do not copy it directly.
 3. Crediting the author is appreciated.
-
-

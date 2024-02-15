@@ -1,0 +1,9 @@
+.husky
+.vscode
+.next
+.vercel
+.env
+
+node_modules
+build
+drizzle

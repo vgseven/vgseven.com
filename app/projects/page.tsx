@@ -8,6 +8,7 @@ import {
   ForkedProjectCards,
   SacredProjectCards,
 } from "@/lib/content/projects";
+import { Badge } from "@/ui/primitives/badge";
 
 export const metadata: Metadata = {
   title: "Projects",
@@ -26,8 +27,8 @@ export default function ProjectHome() {
             SACRED TIMELINE PROJECTS
           </Label>
           <Label className={"dark:text-zinc-400 text-zinc-800 mb-2 leading-5"}>
-            The Sacred Timeline, the projects that are currently active, and In
-            regular Development.
+            The Sacred Timeline, the projects that are currently{" "}
+            <Badge>Live Stage</Badge>
           </Label>
           {SacredProjectCards.map((project) => (
             <ProjectCard key={project.title} {...project} />
@@ -42,8 +43,10 @@ export default function ProjectHome() {
             BRANCHED TIMELINE PROJECTS
           </Label>
           <Label className={"dark:text-zinc-400 text-zinc-800 mb-2 leading-5"}>
-            The Branched Timeline, the projects that are currently upcoming and
-            need more research and extensive work.
+            The Branched Timeline, the projects that are currently in one of the{" "}
+            <Badge>In-Development Stage</Badge> <Badge>Alpha Stage</Badge>
+            <Badge>Beta Stage</Badge> <Badge>Preview Stage</Badge>
+            <Badge>Live Stage</Badge>
           </Label>
           {BranchedProjectCards.map((project) => (
             <SkeletonCard key={project.title} {...project} />
@@ -58,7 +61,7 @@ export default function ProjectHome() {
             FORKED TIMELINE PROJECTS
           </Label>
           <Label className={"dark:text-zinc-400 text-zinc-800 mb-2 leading-5"}>
-            The Forked Timeline, the projects that are developed in-developement
+            The Forked Timeline, the projects that are developed In-Developement
             of Sacred Projects.
           </Label>
           {ForkedProjectCards.map((project) => (

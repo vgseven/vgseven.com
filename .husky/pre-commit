@@ -1,1 +1,1 @@
-pnpm run dev:final
+pnpm run build:prepare
