@@ -24,12 +24,13 @@ export const metadata: Metadata = {
     siteName: "VGSEVEN",
     images: [
       {
-        url: "https://eo4grnhr9puxdgdq.public.blob.vercel-storage.com/vgseven-company/vgseven-og.svg",
+        url: "https://eo4grnhr9puxdgdq.public.blob.vercel-storage.com/vgseven-company-og/vgseven-company-og.svg",
         width: 800,
         height: 600,
+        alt: "VGSEVEN",
       },
       {
-        url: "https://eo4grnhr9puxdgdq.public.blob.vercel-storage.com/vgseven-company/vgseven-og.svg",
+        url: "https://eo4grnhr9puxdgdq.public.blob.vercel-storage.com/vgseven-company-og/vgseven-company-og.svg",
         width: 1800,
         height: 1600,
         alt: "VGSEVEN",
@@ -44,7 +45,7 @@ export const metadata: Metadata = {
     description:
       "Obsessed with AI, Quantum Computing, Space, Psychology and Philosophy and Entrepreneurship.",
     images: [
-      "https://eo4grnhr9puxdgdq.public.blob.vercel-storage.com/vgseven-company/vgseven-og.svg",
+      "https://eo4grnhr9puxdgdq.public.blob.vercel-storage.com/vgseven-company-og/vgseven-company-og.svg",
     ],
   },
   metadataBase: new URL("https://vgseven.com"),
