@@ -42,7 +42,7 @@ export default function ProjectHome() {
           >
             BRANCHED TIMELINE PROJECTS
           </Label>
-          <Label className={"dark:text-zinc-400 text-zinc-800 mb-2 leading-5"}>
+          <Label className={"dark:text-zinc-400 text-zinc-800 mb-2 leading-7"}>
             The Branched Timeline, the projects that are currently in one of the{" "}
             <Badge>In-Development Stage</Badge> <Badge>Alpha Stage</Badge>
             <Badge>Beta Stage</Badge> <Badge>Preview Stage</Badge>

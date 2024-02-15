@@ -85,3 +85,8 @@
   transition: all 0.3s;
   animation: spin 3s ease-in-out infinite;
 }
+
+
+* {
+    scrollbar-width: none; 
+}

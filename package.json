@@ -1,6 +1,6 @@
 {
   "name": "vgseven",
-  "version": "3.3.0",
+  "version": "3.3.1",
   "private": true,
   "scripts": {
     "dev": "next dev --turbo",
@@ -8,7 +8,7 @@
     "db:generate": "drizzle-kit generate:pg --config=drizzle.config.ts",
     "db:push": "drizzle-kit push:pg --config=drizzle.config.ts",
     "ui:add": "pnpm dlx shadcn-ui@latest add",
-    "build:prepare": "pnpm exec prettier --write \"**/*.{ts,tsx,md,js,json}\" && next build && next lint"
+    "build:prepare": "pnpm exec prettier --write \"**/*.{ts,tsx,md,js,json}\" && next lint && next build"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.3.4",

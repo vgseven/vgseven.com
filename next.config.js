@@ -6,7 +6,7 @@ const nextConfig = {
         protocol: "https",
         hostname: "eo4grnhr9puxdgdq.public.blob.vercel-storage.com",
         port: "",
-        pathname: "/**",
+        pathname: "/vgseven-company/**",
       },
     ],
   },
@@ -14,4 +14,4 @@ const nextConfig = {
 
 module.exports = nextConfig;
 
-// https://eo4grnhr9puxdgdq.public.blob.vercel-storage.com/vgseven-company/vgseven.jpg
+// https://eo4grnhr9puxdgdq.public.blob.vercel-storage.com/vgseven-company/vgseven-og.svg
