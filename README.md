@@ -4,7 +4,7 @@
 
 - **Starter**: [Radium-Nextjs-Template](https://github.com/silver-company/radium/tree/main/templates/radium-nextjs-template)
 - **Framework**: [Next.js](https://nextjs.org/)
-- **Database**: [Vercel Postgres](https://vercel.com/docs/storage/vercel-postgres)
+- **Database**: [Neon Database](https://neon.tech/)
 - **Deployment**: [Vercel](https://vercel.com)
 - **Styling**: [Tailwind CSS](https://tailwindcss.com) and [Radix-UI](https://radix-ui.com/) and [Shadcn-UI](https://ui.shadcn.com)
 - **Analytics**: [Vercel Analytics](https://vercel.com/analytics)
