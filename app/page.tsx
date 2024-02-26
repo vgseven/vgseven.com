@@ -2,10 +2,11 @@ import { Canvas } from "@/ui/components/canvas";
 import { Button } from "@/ui/primitives/button";
 import Link from "next/link";
 import { ArrowRightIcon } from "@radix-ui/react-icons";
+import { BackgroundGradientAnimation } from "@/ui/components/bg-gradient";
 
 export default function Home() {
   return (
-    <main>
+    <BackgroundGradientAnimation>
       <h1
         className={
           "fixed top-72 max-sm:top-56 left-1/2 -translate-x-1/2 -translate-y-1/2 font-bold text-9xl max-sm:text-7xl text-center text-white font-patriot"
@@ -42,7 +43,7 @@ export default function Home() {
           />
         </Button>
       </Link>
-      <Canvas />
-    </main>
+      {/* <Canvas /> */}
+    </BackgroundGradientAnimation>
   );
 }
