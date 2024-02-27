@@ -8,7 +8,6 @@ import {
   ForkedProjectCards,
   SacredProjectCards,
 } from "@/lib/content/projects";
-import { Badge } from "@/ui/primitives/badge";
 
 export const metadata: Metadata = {
   title: "Projects",
@@ -27,8 +26,7 @@ export default function ProjectHome() {
             SACRED TIMELINE PROJECTS
           </Label>
           <Label className={"dark:text-zinc-400 text-zinc-800 mb-2 leading-5"}>
-            The Sacred Timeline, the projects that are currently{" "}
-            <Badge>Live Stage</Badge>
+            The Sacred Timeline, the projects that are currently Live Stage.
           </Label>
           {SacredProjectCards.map((project) => (
             <ProjectCard key={project.title} {...project} />
@@ -37,16 +35,15 @@ export default function ProjectHome() {
         <div className={"my-2 flex flex-col"}>
           <Label
             className={
-              "text-3xl font-bold tracking-tighter sm:text-3xl xl:text-4xl bg-clip-text text-transparent my-4 bg-gradient-to-tl from-zinc-900 dark:via-gray-100 via-zinc-400 to-zinc-900"
+              "text-3xl font-bold tracking-tighter sm:text-3xl xl:text-4xl bg-clip-text text-transparent my-4 bg-gradient-to-r from-purple-500 to-purple-900"
             }
           >
             BRANCHED TIMELINE PROJECTS
           </Label>
           <Label className={"dark:text-zinc-400 text-zinc-800 mb-2 leading-7"}>
-            The Branched Timeline, the projects that are currently in one of the{" "}
-            <Badge>In-Development Stage</Badge> <Badge>Alpha Stage</Badge>
-            <Badge>Beta Stage</Badge> <Badge>Preview Stage</Badge>
-            <Badge>Live Stage</Badge>
+            The Branched Timeline, the projects that are currently in one of the
+            In-Development Stage, Alpha Stage, Beta Stage, Preview Stage, Live
+            Stage..
           </Label>
           {BranchedProjectCards.map((project) => (
             <SkeletonCard key={project.title} {...project} />
@@ -55,7 +52,7 @@ export default function ProjectHome() {
         <div className={"my-2 flex flex-col"}>
           <Label
             className={
-              "text-3xl font-bold tracking-tighter sm:text-3xl xl:text-4xl bg-clip-text text-transparent my-4 bg-gradient-to-tl from-zinc-900 dark:via-gray-100 via-zinc-400 to-zinc-900"
+              "text-3xl font-bold tracking-tighter sm:text-3xl xl:text-4xl bg-clip-text text-transparent my-4 bg-gradient-to-r from-red-500 to-orange-500"
             }
           >
             FORKED TIMELINE PROJECTS
@@ -65,7 +62,7 @@ export default function ProjectHome() {
             of Sacred Projects.
           </Label>
           {ForkedProjectCards.map((project) => (
-            <SkeletonCard key={project.title} {...project} />
+            <ProjectCard key={project.title} {...project} />
           ))}
         </div>
       </div>

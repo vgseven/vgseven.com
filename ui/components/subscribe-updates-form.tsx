@@ -118,7 +118,12 @@ export default function SubscribeUpdatesForm() {
                   </FormItem>
                 )}
               />
-              <Button className={"rounded-full"} onClick={spinnerHandler}>
+              <Button
+                className={
+                  "rounded-full bg-gradient-to-r from-purple-500 to-purple-900"
+                }
+                onClick={spinnerHandler}
+              >
                 {spin ? "Subscribing..." : "Subscribe"}
               </Button>
             </form>

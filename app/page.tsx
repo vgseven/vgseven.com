@@ -1,4 +1,3 @@
-import { Canvas } from "@/ui/components/canvas";
 import { Button } from "@/ui/primitives/button";
 import Link from "next/link";
 import { ArrowRightIcon } from "@radix-ui/react-icons";
@@ -6,27 +5,29 @@ import { BackgroundGradientAnimation } from "@/ui/components/bg-gradient";
 
 export default function Home() {
   return (
-    <BackgroundGradientAnimation>
-      <h1
-        className={
-          "fixed top-72 max-sm:top-56 left-1/2 -translate-x-1/2 -translate-y-1/2 font-bold text-9xl max-sm:text-7xl text-center text-white font-patriot"
-        }
-      >
-        <div className="relative tracking-normal">
-          <span>THE</span>
-        </div>
-        <div className="relative tracking-tighter">
-          <span>VGSEVEN</span>
-        </div>
-      </h1>
-      <h1
-        className={
-          "fixed top-3/4 max-sm:top-96 mt-4 max-sm:mt-0 left-1/2 -translate-x-1/2 -translate-y-1/2 text-lg text-center text-white"
-        }
-      >
-        Obsessed with AI, Quantum Computing, Space, Psychology and Philosophy
-        and Entrepreneurship..
-      </h1>
+    <>
+      <BackgroundGradientAnimation>
+        <h1
+          className={
+            "fixed top-72 max-sm:top-56 left-1/2 -translate-x-1/2 -translate-y-1/2 font-bold text-9xl max-sm:text-7xl text-center dark:text-white text-black font-patriot"
+          }
+        >
+          <div className="relative tracking-normal">
+            <span>THE</span>
+          </div>
+          <div className="relative tracking-tighter">
+            <span>VGSEVEN</span>
+          </div>
+        </h1>
+        <h1
+          className={
+            "fixed top-3/4 max-sm:top-96 mt-4 max-sm:mt-0 left-1/2 -translate-x-1/2 -translate-y-1/2 text-lg text-center dark:text-white text-black"
+          }
+        >
+          Obsessed with AI, Quantum Computing, Space, Psychology and Philosophy
+          and Entrepreneurship..
+        </h1>
+      </BackgroundGradientAnimation>
       <Link href={"/projects"}>
         <Button
           className={
@@ -43,7 +44,6 @@ export default function Home() {
           />
         </Button>
       </Link>
-      {/* <Canvas /> */}
-    </BackgroundGradientAnimation>
+    </>
   );
 }

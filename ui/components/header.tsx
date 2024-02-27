@@ -4,7 +4,7 @@ import Link from "next/link";
 import { useState } from "react";
 import { useScroll, motion, useMotionValueEvent } from "framer-motion";
 import { Button } from "@/ui/primitives/button";
-import vgseven from "../../public/favicon.png";
+import vgseven from "@/public/favicon.png";
 import Image from "next/image";
 import { ChevronUpIcon, ChevronDownIcon } from "@radix-ui/react-icons";
 import { BrandIconX } from "@/ui/icons/brand-icon-x";

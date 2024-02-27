@@ -15,7 +15,7 @@ export default function SubscribePage() {
         <div className={"my-2 flex flex-col justify-start items-center"}>
           <Label
             className={
-              "text-5xl max-md:text-4xl max-sm:text-3xl font-semibold tracking-tighter bg-clip-text text-transparent my-4 bg-gradient-to-tl from-zinc-900 dark:via-gray-100 via-zinc-400 to-zinc-900"
+              "text-5xl max-md:text-4xl max-sm:text-3xl font-semibold tracking-tighter bg-clip-text text-transparent my-4 bg-gradient-to-r from-purple-500 to-purple-900"
             }
           >
             SUBSCRIBE VGSEVEN UPDATES

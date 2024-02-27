@@ -9,8 +9,8 @@ dependencies:
     specifier: ^3.3.4
     version: 3.3.4(react-hook-form@7.50.1)
   '@neondatabase/serverless':
-    specifier: ^0.8.1
-    version: 0.8.1
+    specifier: ^0.9.0
+    version: 0.9.0
   '@radix-ui/react-icons':
     specifier: ^1.3.0
     version: 1.3.0(react@18.2.0)
@@ -40,7 +40,7 @@ dependencies:
     version: 16.4.5
   drizzle-orm:
     specifier: ^0.29.4
-    version: 0.29.4(@neondatabase/serverless@0.8.1)(@types/react@18.2.60)(@vercel/postgres@0.7.2)(react@18.2.0)
+    version: 0.29.4(@neondatabase/serverless@0.9.0)(@types/react@18.2.60)(@vercel/postgres@0.7.2)(react@18.2.0)
   framer-motion:
     specifier: ^11.0.6
     version: 11.0.6(react-dom@18.2.0)(react@18.2.0)
@@ -872,8 +872,8 @@ packages:
       '@types/pg': 8.6.6
     dev: false
 
-  /@neondatabase/serverless@0.8.1:
-    resolution: {integrity: sha512-nxZfTLbGqvDrw0W9WnQxzoPn4KC6SLjkvK4grdf6eWVMQSc24X+8udz9inZWOGu8f0O3wJAq586fCZ32r22lwg==}
+  /@neondatabase/serverless@0.9.0:
+    resolution: {integrity: sha512-mmJnUAzlzvxNSZuuhI6kgJjH+JgFdBMYUWxihtq/nj0Tjt+Y5UU3W+SvRFoucnd5NObYkuLYQzk+zV5DGFKGJg==}
     dependencies:
       '@types/pg': 8.6.6
     dev: false
@@ -1771,7 +1771,7 @@ packages:
       - supports-color
     dev: true
 
-  /drizzle-orm@0.29.4(@neondatabase/serverless@0.8.1)(@types/react@18.2.60)(@vercel/postgres@0.7.2)(react@18.2.0):
+  /drizzle-orm@0.29.4(@neondatabase/serverless@0.9.0)(@types/react@18.2.60)(@vercel/postgres@0.7.2)(react@18.2.0):
     resolution: {integrity: sha512-ZnSM8TAxFhzH7p1s3+w3pRE/eKaOeNkH9SKitm717pubDVVcV2I0BCDBPGKV+pe02+wMfw37ntlTcCyo2rA3IA==}
     peerDependencies:
       '@aws-sdk/client-rds-data': '>=3'
@@ -1842,7 +1842,7 @@ packages:
       sqlite3:
         optional: true
     dependencies:
-      '@neondatabase/serverless': 0.8.1
+      '@neondatabase/serverless': 0.9.0
       '@types/react': 18.2.60
       '@vercel/postgres': 0.7.2
       react: 18.2.0
