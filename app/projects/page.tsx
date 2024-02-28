@@ -20,7 +20,7 @@ export default function ProjectHome() {
         <div className={"my-2 flex flex-col"}>
           <Label
             className={
-              "text-3xl font-bold tracking-tighter sm:text-3xl xl:text-4xl bg-clip-text text-transparent my-4 bg-gradient-to-tl from-zinc-900 dark:via-gray-100 via-zinc-400 to-zinc-900"
+              "text-3xl font-bold tracking-tighter sm:text-3xl xl:text-4xl my-4"
             }
           >
             SACRED TIMELINE PROJECTS
@@ -35,7 +35,7 @@ export default function ProjectHome() {
         <div className={"my-2 flex flex-col"}>
           <Label
             className={
-              "text-3xl font-bold tracking-tighter sm:text-3xl xl:text-4xl bg-clip-text text-transparent my-4 bg-gradient-to-r from-purple-500 to-purple-900"
+              "text-3xl font-bold tracking-tighter sm:text-3xl xl:text-4xl my-4"
             }
           >
             BRANCHED TIMELINE PROJECTS
@@ -52,7 +52,7 @@ export default function ProjectHome() {
         <div className={"my-2 flex flex-col"}>
           <Label
             className={
-              "text-3xl font-bold tracking-tighter sm:text-3xl xl:text-4xl bg-clip-text text-transparent my-4 bg-gradient-to-r from-red-500 to-orange-500"
+              "text-3xl font-bold tracking-tighter sm:text-3xl xl:text-4xl my-4"
             }
           >
             FORKED TIMELINE PROJECTS

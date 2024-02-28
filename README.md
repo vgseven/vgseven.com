@@ -1,8 +1,8 @@
-### Obsessed with AI, Quantum Computing, Space, Psychology and Philosophy and Entrepreneurship..
+### Obsessed with AI, Quantum Computing, Space, Psychology and Philosophy and Entrepreneurship.. Chief Meme Officer of Radium
 
 #### Stack
 
-- **Starter**: [Radium-Nextjs-Template](https://github.com/silver-company/radium/tree/main/templates/radium-nextjs-template)
+- **Starter**: [Radium Nextjs-Template](https://github.com/silver-company/radium/tree/main/templates/nextjs-template)
 - **Framework**: [Next.js](https://nextjs.org/)
 - **Database**: [Neon Database](https://neon.tech/)
 - **Deployment**: [Vercel](https://vercel.com)
@@ -14,7 +14,7 @@
 
 #### Using
 
-- Consider the repo as inspiration for you personal blog or project, do not use it directly. Instead I recommend the Template [Radium-Nextjs-Template](https://github.com/silver-company/radium/tree/main/templates/radium-nextjs-template) to use as starter template.
+- Consider the repo as inspiration for you personal blog or project, do not use it directly. Instead I recommend the Template [Radium Nextjs-Template](https://github.com/silver-company/radium/tree/main/templates/nextjs-template) to use as starter template.
 
 #### License
 

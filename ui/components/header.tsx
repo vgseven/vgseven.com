@@ -28,7 +28,7 @@ export function Header() {
 
   return (
     <motion.nav
-      className={`z-50 fixed inset-0 top-4 w-[95%] sm:w-[90%] mx-auto bg-primary font-medium flex max-sm:justify-between gap-4 px-3 max-w-7xl items-center rounded-full h-14 p-5 overflow-hidden text-black`}
+      className={`z-50 fixed inset-0 top-4 w-[95%] sm:w-[90%] mx-auto font-medium flex max-sm:justify-between gap-4 px-3 max-w-7xl items-center rounded-full h-14 p-5 overflow-hidden backdrop-blur-md bg-opacity-10 bg-zinc-700`}
       variants={{
         long: { maxWidth: 950 },
         short: { maxWidth: 280 },
@@ -66,7 +66,7 @@ export function Header() {
       </Link>
 
       <motion.ul
-        className={`w-full dark:text-black text-white ${
+        className={`w-full dark:text-white text-black ${
           showNav
             ? "[--display-from:none] [--display-to:flex]"
             : "max-sm:[--display-from:none] sm:[--display-to:flex]"
@@ -91,28 +91,28 @@ export function Header() {
       >
         <li
           className={
-            "rounded-2xl text-base font-medium hover:bg-white dark:hover:bg-black hover:text-black dark:hover:text-white text-white dark:text-black px-4 py-[0.35rem]"
+            "rounded-2xl text-base font-medium hover:bg-white hover:text-black px-4 py-[0.35rem]"
           }
         >
           <Link href={"/"}>Home</Link>
         </li>
         <li
           className={
-            "rounded-2xl text-base font-medium hover:bg-white dark:hover:bg-black hover:text-black dark:hover:text-white text-white dark:text-black px-4 py-[0.35rem]"
+            "rounded-2xl text-base font-medium hover:bg-white hover:text-black px-4 py-[0.35rem]"
           }
         >
           <Link href={"/projects"}>Projects</Link>
         </li>
         <li
           className={
-            "rounded-2xl text-base font-medium hover:bg-white dark:hover:bg-black hover:text-black dark:hover:text-white text-white dark:text-black px-4 py-[0.35rem]"
+            "rounded-2xl text-base font-medium hover:bg-white hover:text-black px-4 py-[0.35rem]"
           }
         >
           <Link href={"/subscribe"}>Subscribe</Link>
         </li>
         <li>
           <a href={"https://x.com/vgsevenn/"} target={"_blank"}>
-            <Button variant={"secondary"} className={"rounded-2xl"}>
+            <Button variant={"default"} className={"rounded-2xl"}>
               Find More Updates
               <BrandIconX height={16} width={16} className={"ml-2 mt-0"} />
             </Button>

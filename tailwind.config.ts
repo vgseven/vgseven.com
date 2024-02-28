@@ -1,3 +1,5 @@
+// tailwind-config
+
 import type { Config } from "tailwindcss";
 
 const config = {
@@ -14,8 +16,7 @@ const config = {
     },
     extend: {
       fontFamily: {
-        sans: ["var(--font-geist-sans)"],
-        patriot: ["var(--fontPatriot)"],
+        mono: ["var(--font-geist-mono)"],
       },
       colors: {
         border: "hsl(var(--border))",

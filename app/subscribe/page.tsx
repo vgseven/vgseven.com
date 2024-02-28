@@ -15,18 +15,18 @@ export default function SubscribePage() {
         <div className={"my-2 flex flex-col justify-start items-center"}>
           <Label
             className={
-              "text-5xl max-md:text-4xl max-sm:text-3xl font-semibold tracking-tighter bg-clip-text text-transparent my-4 bg-gradient-to-r from-purple-500 to-purple-900"
+              "text-5xl max-md:text-4xl max-sm:text-3xl font-semibold tracking-tighter"
             }
           >
             SUBSCRIBE VGSEVEN UPDATES
           </Label>
           <Label
             className={
-              "dark:text-zinc-400 text-zinc-800 mb-2 leading-5 text-sm text-center"
+              "dark:text-zinc-400 text-zinc-800 my-4 leading-5 text-sm text-center"
             }
           >
-            Subscibe to VGSEVEN Updates to recieve every new updates directly in
-            your mailbox.
+            Subscibe to <b>VGSEVEN UPDATES</b> to recieve every new updates
+            directly in your mailbox.
           </Label>
           <SubscribeUpdatesForm />
         </div>

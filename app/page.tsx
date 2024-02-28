@@ -2,36 +2,33 @@ import { Button } from "@/ui/primitives/button";
 import Link from "next/link";
 import { ArrowRightIcon } from "@radix-ui/react-icons";
 import { BackgroundGradientAnimation } from "@/ui/components/bg-gradient";
+import { Label } from "@/ui/primitives/label";
 
 export default function Home() {
   return (
-    <>
+    <main>
       <BackgroundGradientAnimation>
-        <h1
+        <section
           className={
-            "fixed top-72 max-sm:top-56 left-1/2 -translate-x-1/2 -translate-y-1/2 font-bold text-9xl max-sm:text-7xl text-center dark:text-white text-black font-patriot"
+            "flex flex-col justify-center items-center top-2/4 absolute left-1/2 transform -translate-x-1/2 -translate-y-1/2"
           }
         >
-          <div className="relative tracking-normal">
-            <span>THE</span>
-          </div>
-          <div className="relative tracking-tighter">
-            <span>VGSEVEN</span>
-          </div>
-        </h1>
-        <h1
-          className={
-            "fixed top-3/4 max-sm:top-96 mt-4 max-sm:mt-0 left-1/2 -translate-x-1/2 -translate-y-1/2 text-lg text-center dark:text-white text-black"
-          }
-        >
-          Obsessed with AI, Quantum Computing, Space, Psychology and Philosophy
-          and Entrepreneurship..
-        </h1>
+          <Label className={"text-9xl max-sm:text-7xl font-bold text-center"}>
+            THE
+          </Label>
+          <Label className={"text-9xl max-sm:text-7xl font-bold text-center"}>
+            VGSEVEN
+          </Label>
+          <p className={"text-center my-4"}>
+            Obsessed with AI, Quantum Computing, Space, Psychology and
+            Philosophy and Entrepreneurship. Chief Meme Officer of Radium
+          </p>
+        </section>
       </BackgroundGradientAnimation>
       <Link href={"/projects"}>
         <Button
           className={
-            "fixed mt-24 max-sm:mt-6 top-3/4 left-1/2 -translate-x-1/2 -translate-y-1/2 text-base rounded-full py-6 px-8"
+            "fixed mt-16 top-3/4 left-1/2 -translate-x-1/2 -translate-y-1/2 text-base rounded-full py-6 px-8"
           }
         >
           Explore Projects
@@ -39,11 +36,11 @@ export default function Home() {
             height={30}
             width={30}
             className={
-              "rounded-full ml-4 bg-black text-white p-2 hover:animate-pulse"
+              "rounded-full ml-4 dark:bg-black bg-white dark:text-white text-black p-2"
             }
           />
         </Button>
       </Link>
-    </>
+    </main>
   );
 }

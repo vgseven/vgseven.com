@@ -6,20 +6,19 @@ import { Header } from "@/ui/components/header";
 import { Analytics } from "@vercel/analytics/react";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 import { Toaster } from "@/ui/primitives/sonner";
-import { GeistSans } from "geist/font/sans";
-import { PatriotFont } from "@/lib/fonts";
+import { GeistMono } from "geist/font/mono";
 
 export const metadata: Metadata = {
   title: "VGSEVEN",
   description:
-    "Obsessed with AI, Quantum Computing, Space, Psychology and Philosophy and Entrepreneurship.",
+    "Obsessed with AI, Quantum Computing, Space, Psychology and Philosophy and Entrepreneurship. Chief Meme Officer of Radium...",
   icons: {
     icon: "/favicon.png",
   },
   openGraph: {
     title: "VGSEVEN",
     description:
-      "Obsessed with AI, Quantum Computing, Space, Psychology and Philosophy and Entrepreneurship.",
+      "Obsessed with AI, Quantum Computing, Space, Psychology and Philosophy and Entrepreneurship. Chief Meme Officer of Radium...",
     url: "https://vgseven.com",
     siteName: "VGSEVEN",
     images: [
@@ -43,7 +42,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "VGSEVEN",
     description:
-      "Obsessed with AI, Quantum Computing, Space, Psychology and Philosophy and Entrepreneurship.",
+      "Obsessed with AI, Quantum Computing, Space, Psychology and Philosophy and Entrepreneurship. Chief Meme Officer of Radium...",
     images: [
       "https://eo4grnhr9puxdgdq.public.blob.vercel-storage.com/vgseven-company-og/vgseven-company-og.svg",
     ],
@@ -61,10 +60,10 @@ export default function RootLayout({ children }: { children: ReactNode }) {
   return (
     <html
       lang="en"
-      className={`${GeistSans.variable} ${PatriotFont.variable}`}
+      className={`${GeistMono.variable}`}
       suppressHydrationWarning
     >
-      <body className={"font-sans"}>
+      <body className={"font-mono"}>
         <ThemeProvider
           attribute="class"
           defaultTheme="system"
