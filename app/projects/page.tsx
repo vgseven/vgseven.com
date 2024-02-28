@@ -16,7 +16,7 @@ export const metadata: Metadata = {
 export default function ProjectHome() {
   return (
     <>
-      <div className={"mt-28 mx-auto max-w-5xl max-[1100px]:mx-6"}>
+      <div className={"mt-28 mx-auto max-w-5xl max-[1100px]:mx-4"}>
         <div className={"my-2 flex flex-col"}>
           <Label
             className={
@@ -40,7 +40,7 @@ export default function ProjectHome() {
           >
             BRANCHED TIMELINE PROJECTS
           </Label>
-          <Label className={"dark:text-zinc-400 text-zinc-800 mb-2 leading-7"}>
+          <Label className={"dark:text-zinc-400 text-zinc-800 mb-2 leading-5"}>
             The Branched Timeline, the projects that are currently in one of the
             In-Development Stage, Alpha Stage, Beta Stage, Preview Stage, Live
             Stage..

@@ -32,7 +32,9 @@ export default function ProjectCard(props: ProjectCardProps) {
           {props.description}
         </CardDescription>
         <CardDescription className={"flex flex-row gap-2 mt-3"}>
-          <Badge className={"rounded-2xl"}>{props.stage}</Badge>
+          <Badge className={"rounded-2xl max-sm:text-[12px]"}>
+            {props.stage}
+          </Badge>
           <Badge className={"rounded-3xl"} variant={"secondary"}>
             {props.date}
           </Badge>
@@ -41,20 +43,28 @@ export default function ProjectCard(props: ProjectCardProps) {
           </Badge>
         </CardDescription>
       </CardHeader>
-      <CardContent>{props.summary}</CardContent>
+      <CardContent className={"max-sm:text-[12px]"}>
+        {props.summary}
+      </CardContent>
       <CardFooter className={"flex flex-row gap-2 max-[510px]:flex-wrap"}>
         <a href={props.official} target={"_blank"}>
-          <Button className={"rounded-3xl"}>
+          <Button className={"rounded-3xl max-sm:text-[12px]"}>
             Official <ArrowTopRightIcon className={"ml-2"} />
           </Button>
         </a>
         <a href={props.knowMore} target={"_blank"}>
-          <Button className={"rounded-3xl"} variant={"secondary"}>
+          <Button
+            className={"rounded-3xl max-sm:text-[12px]"}
+            variant={"secondary"}
+          >
             Know More <ArrowTopRightIcon className={"ml-2"} />
           </Button>
         </a>
         <a href={props.findUpdates} target={"_blank"}>
-          <Button className={"rounded-3xl"} variant={"outline"}>
+          <Button
+            className={"rounded-3xl max-sm:text-[12px]"}
+            variant={"outline"}
+          >
             Find Updates
             <BrandIconX height={15} width={15} className={"ml-2"} />
           </Button>

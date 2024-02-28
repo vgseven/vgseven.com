@@ -19,11 +19,19 @@ export default function SkeletonCard(props: ProjectCardProps) {
           {props.description}
         </CardDescription>
         <CardDescription className="flex flex-row gap-2 mt-3">
-          <Badge className={"rounded-3xl"}>{props.stage}</Badge>
-          <Badge className={"rounded-3xl"} variant={"secondary"}>
+          <Badge className={"rounded-3xl max-sm:text-[12px]"}>
+            {props.stage}
+          </Badge>
+          <Badge
+            className={"rounded-3xl max-sm:text-[12px]"}
+            variant={"secondary"}
+          >
             {props.date}
           </Badge>
-          <Badge className={"rounded-3xl"} variant={"outline"}>
+          <Badge
+            className={"rounded-3xl max-sm:text-[12px]"}
+            variant={"outline"}
+          >
             {props.timeline}
           </Badge>
         </CardDescription>
