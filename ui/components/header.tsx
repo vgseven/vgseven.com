@@ -40,7 +40,7 @@ export function Header() {
           transition: { delay: 0, duration: 0.3 },
         },
         showNav: {
-          height: 280,
+          height: 340,
           borderRadius: 22,
           alignItems: "start",
           transition: { delay: 0 },
