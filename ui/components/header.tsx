@@ -111,6 +111,13 @@ export function Header() {
           <Link href={"/subscribe"}>Subscribe</Link>
         </li>
         <li>
+          <a href={"https://silver.vgseven.com/"} target={"_blank"}>
+            <Button variant={"outline"} className={"rounded-2xl"}>
+              Silver Company
+            </Button>
+          </a>
+        </li>
+        <li>
           <a href={"https://x.com/vgsevenn/"} target={"_blank"}>
             <Button variant={"default"} className={"rounded-2xl"}>
               Find More Updates
