@@ -19,7 +19,7 @@ export const SacredProjectCards: ProjectCardProps[] = [
 
 export const BranchedProjectCards: ProjectCardProps[] = [
   {
-    title: "Silver Cloud",
+    title: "Crystal",
     description: "The Next Generation Object Storage Services..",
     stage: "In-Development",
     date: "Upcoming",
@@ -29,6 +29,13 @@ export const BranchedProjectCards: ProjectCardProps[] = [
     title: "Silvi",
     description: "The Personal Assistant..",
     stage: "In-Development",
+    date: "Upcoming",
+    timeline: "Branched",
+  },
+  {
+    title: "Einfi",
+    description: "Everything of Everything Platform..",
+    stage: "Pre-Development",
     date: "Upcoming",
     timeline: "Branched",
   },
