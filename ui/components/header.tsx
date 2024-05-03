@@ -108,7 +108,7 @@ export function Header() {
             "rounded-2xl text-base font-medium hover:bg-white hover:text-black px-4 py-[0.35rem]"
           }
         >
-          <Link href={"/subscribe"}>Subscribe</Link>
+          <Link href={"/updates"}>Updates</Link>
         </li>
         <li>
           <a href={"https://silver.vgseven.com/"} target={"_blank"}>

@@ -1,6 +1,5 @@
 # prettierignore files
 
-.husky
 .vscode
 .next
 .vercel

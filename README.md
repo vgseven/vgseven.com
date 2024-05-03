@@ -1,20 +1,19 @@
-### Obsessed with AI, Quantum Computing, Space, Psychology and Philosophy and Entrepreneurship.. Chief Meme Officer of Radium
+### VGSEVEN: Chief Meme Officer of Silvi.
 
 #### Stack
 
-- **Starter**: [Radium Nextjs-Template](https://github.com/silver-company/radium/tree/main/templates/nextjs-template)
+- **Starter**: [Radium Nextjs-Template](https://github.com/silver-company/radium/tree/main/templates/nextjs)
 - **Framework**: [Next.js](https://nextjs.org/)
-- **Database**: [Neon Database](https://neon.tech/)
+- **Environment**: [Bun](https://bun.sh/)
 - **Deployment**: [Vercel](https://vercel.com)
 - **Styling**: [Tailwind CSS](https://tailwindcss.com) and [Radix-UI](https://radix-ui.com/) and [Shadcn-UI](https://ui.shadcn.com)
 - **Analytics**: [Vercel Analytics](https://vercel.com/analytics)
 - **Speed Insights**: [Vercel Speed Insights](https://vercel.com/docs/speed-insights)
-- **ORM**: [Drizzle-ORM](https://orm.drizzle.team)
 - **Animation**: [Framer Motion](https://framer.com/motion)
 
 #### Using
 
-- Consider the repo as inspiration for you personal blog or project, do not use it directly. Instead I recommend the Template [Radium Nextjs-Template](https://github.com/silver-company/radium/tree/main/templates/nextjs-template) to use as starter template.
+- Consider the repo as inspiration for you personal blog or project, do not use it directly. Instead I recommend the Template [Radium Nextjs-Template](https://github.com/silver-company/radium/tree/main/templates/nextjs) to use as starter template.
 
 #### License
 

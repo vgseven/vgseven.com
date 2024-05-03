@@ -5,8 +5,12 @@ import { ThemeProvider } from "@/lib/functions/theme-provider";
 import { Header } from "@/ui/components/header";
 import { Analytics } from "@vercel/analytics/react";
 import { SpeedInsights } from "@vercel/speed-insights/next";
-import { Toaster } from "@/ui/primitives/sonner";
-import { GeistMono } from "geist/font/mono";
+import {
+  GeistMonoFont,
+  GeistSansFont,
+  SFMonoFont,
+  SFProTextFont,
+} from "@/lib/fonts";
 
 export const metadata: Metadata = {
   title: "VGSEVEN",
@@ -60,10 +64,10 @@ export default function RootLayout({ children }: { children: ReactNode }) {
   return (
     <html
       lang="en"
-      className={`${GeistMono.variable}`}
+      className={`${GeistMonoFont.variable} ${GeistSansFont.variable} ${SFMonoFont.variable} ${SFProTextFont.variable}`}
       suppressHydrationWarning
     >
-      <body className={"font-mono"}>
+      <body className={"font-sfSans"}>
         <ThemeProvider
           attribute="class"
           defaultTheme="system"
@@ -72,7 +76,6 @@ export default function RootLayout({ children }: { children: ReactNode }) {
         >
           <Header />
           {children}
-          <Toaster />
           <SpeedInsights />
           <Analytics />
         </ThemeProvider>
