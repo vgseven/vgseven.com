@@ -39,6 +39,20 @@ export const BranchedProjectCards: ProjectCardProps[] = [
     date: "Upcoming",
     timeline: "Branched",
   },
+  {
+    title: "Prison",
+    description: "The Complete Authentication System..",
+    stage: "In-Development",
+    date: "Upcoming",
+    timeline: "Branched",
+  },
+  {
+    title: "Capital",
+    description: "The Personal Finance Assistant..",
+    stage: "In-Development",
+    date: "Upcoming",
+    timeline: "Branched",
+  },
 ];
 
 export const ForkedProjectCards: ProjectCardProps[] = [

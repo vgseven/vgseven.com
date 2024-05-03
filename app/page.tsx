@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <main>
       <BackgroundGradientAnimation>
-        <section
+        <div
           className={
             "flex flex-col justify-center items-center top-2/4 absolute left-1/2 transform -translate-x-1/2 -translate-y-1/2"
           }
@@ -19,11 +19,8 @@ export default function Home() {
           <Label className={"text-9xl max-sm:text-7xl font-bold text-center"}>
             VGSEVEN
           </Label>
-          <p className={"text-center my-4"}>
-            Obsessed with AI, Quantum Computing, Space, Psychology and
-            Philosophy and Entrepreneurship. Chief Meme Officer of Radium
-          </p>
-        </section>
+          <p className={"text-center my-4"}>Chief Meme Officer of Silvi..</p>
+        </div>
       </BackgroundGradientAnimation>
       <Link href={"/projects"}>
         <Button
