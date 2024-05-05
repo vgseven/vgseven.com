@@ -3,10 +3,10 @@ import { ProjectCardProps } from "@/lib/interfaces/project-card-props";
 export const Projects: ProjectCardProps[] = [
   {
     profile:
-      "https://eo4grnhr9puxdgdq.public.blob.vercel-storage.com/vgseven-company/radium-favicon.png",
+      "https://dlaiwpar81okkqcb.public.blob.vercel-storage.com/vgseven-company/radium-favicon.png",
     title: "Radium",
     description: "Empowering Developers to Rapidly Ship Projects.",
-    stage: "Alpha",
+    stage: "Development",
     date: "7.6.2024",
     summary:
       "Radium, the single platform designed to empower developers, whether they are beginners or professionals. Radium offers a comprehensive suite of tools and services crafted to streamline the development process, ensuring a swift and efficient delivery of projects.",
@@ -15,7 +15,7 @@ export const Projects: ProjectCardProps[] = [
   },
   {
     profile:
-      "https://eo4grnhr9puxdgdq.public.blob.vercel-storage.com/vgseven-company/silver-favicon.png",
+      "https://dlaiwpar81okkqcb.public.blob.vercel-storage.com/vgseven-company/silvi-favicon.png",
     title: "Silvi",
     description: "The Personal Assistant.",
     stage: "Development",
@@ -27,7 +27,7 @@ export const Projects: ProjectCardProps[] = [
   },
   {
     profile:
-      "https://eo4grnhr9puxdgdq.public.blob.vercel-storage.com/vgseven-company/silver-favicon.png",
+      "https://dlaiwpar81okkqcb.public.blob.vercel-storage.com/vgseven-company/prison-favicon.png",
     title: "Prison",
     description: "The Next Gen Authentication System.",
     stage: "Development",
@@ -39,7 +39,7 @@ export const Projects: ProjectCardProps[] = [
   },
   {
     profile:
-      "https://eo4grnhr9puxdgdq.public.blob.vercel-storage.com/vgseven-company/silver-favicon.png",
+      "https://dlaiwpar81okkqcb.public.blob.vercel-storage.com/vgseven-company/capital-favicon.png",
     title: "Capital",
     description: "The Personal Finance Assistant.",
     stage: "Development",
@@ -62,7 +62,7 @@ export const BranchedProjects: ProjectCardProps[] = [
     findUpdates: "https://x.com/vgsevenn",
     official: "https://github.com/vgseven/parser",
     profile:
-      "https://eo4grnhr9puxdgdq.public.blob.vercel-storage.com/vgseven-company/silver-favicon.png",
+      "https://dlaiwpar81okkqcb.public.blob.vercel-storage.com/vgseven-company/vgseven-company-favicon.png",
   },
   {
     title: "Writer",
@@ -74,7 +74,7 @@ export const BranchedProjects: ProjectCardProps[] = [
     findUpdates: "https://x.com/vgsevenn",
     official: "https://github.com/vgseven/writer",
     profile:
-      "https://eo4grnhr9puxdgdq.public.blob.vercel-storage.com/vgseven-company/silver-favicon.png",
+      "https://dlaiwpar81okkqcb.public.blob.vercel-storage.com/vgseven-company/vgseven-company-favicon.png",
   },
   {
     title: "Edith",
@@ -86,6 +86,6 @@ export const BranchedProjects: ProjectCardProps[] = [
     findUpdates: "https://x.com/vgsevenn",
     official: "https://github.com/vgseven/edith",
     profile:
-      "https://eo4grnhr9puxdgdq.public.blob.vercel-storage.com/vgseven-company/silver-favicon.png",
+      "https://dlaiwpar81okkqcb.public.blob.vercel-storage.com/vgseven-company/vgseven-company-favicon.png",
   },
 ];

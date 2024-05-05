@@ -10,25 +10,25 @@ import { GeistMonoFont, GeistSansFont } from "@/lib/fonts";
 export const metadata: Metadata = {
   title: "VGSEVEN",
   description:
-    "Obsessed with AI, Quantum Computing, Space, Psychology and Philosophy and Entrepreneurship. Chief Meme Officer of Radium...",
+    "Obsessed with AI, Quantum Computing, Space, Psychology and Philosophy and Entrepreneurship. Chief Meme Officer of Silvi...",
   icons: {
     icon: "/favicon.png",
   },
   openGraph: {
     title: "VGSEVEN",
     description:
-      "Obsessed with AI, Quantum Computing, Space, Psychology and Philosophy and Entrepreneurship. Chief Meme Officer of Radium...",
+      "Obsessed with AI, Quantum Computing, Space, Psychology and Philosophy and Entrepreneurship. Chief Meme Officer of Silvi...",
     url: "https://vgseven.com",
     siteName: "VGSEVEN",
     images: [
       {
-        url: "https://eo4grnhr9puxdgdq.public.blob.vercel-storage.com/vgseven-company/vgseven-company.png",
+        url: "https://dlaiwpar81okkqcb.public.blob.vercel-storage.com/vgseven-company/make-things-happen.png",
         width: 800,
         height: 600,
         alt: "VGSEVEN",
       },
       {
-        url: "https://eo4grnhr9puxdgdq.public.blob.vercel-storage.com/vgseven-company/vgseven-company.png",
+        url: "https://dlaiwpar81okkqcb.public.blob.vercel-storage.com/vgseven-company/make-things-happen.png",
         width: 1800,
         height: 1600,
         alt: "VGSEVEN",
@@ -41,9 +41,9 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "VGSEVEN",
     description:
-      "Obsessed with AI, Quantum Computing, Space, Psychology and Philosophy and Entrepreneurship. Chief Meme Officer of Radium...",
+      "Obsessed with AI, Quantum Computing, Space, Psychology and Philosophy and Entrepreneurship. Chief Meme Officer of Silvi...",
     images: [
-      "https://eo4grnhr9puxdgdq.public.blob.vercel-storage.com/vgseven-company/vgseven-company.png",
+      "https://dlaiwpar81okkqcb.public.blob.vercel-storage.com/vgseven-company/make-things-happen.png",
     ],
   },
   metadataBase: new URL("https://vgseven.com"),
