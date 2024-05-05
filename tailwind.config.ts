@@ -16,8 +16,6 @@ const config = {
       fontFamily: {
         geistSans: ["var(--font-geist)"],
         geistMono: ["var(--font-geist-mono)"],
-        sfSans: ["var(--font-sfprotext)"],
-        sfMono: ["var(--font-sfmono)"],
       },
       colors: {
         border: "hsl(var(--border))",

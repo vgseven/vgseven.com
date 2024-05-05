@@ -13,13 +13,20 @@ export default function Home() {
             "flex flex-col justify-center items-center top-2/4 absolute left-1/2 transform -translate-x-1/2 -translate-y-1/2"
           }
         >
-          <Label className={"text-9xl max-sm:text-7xl font-bold text-center"}>
-            THE
-          </Label>
-          <Label className={"text-9xl max-sm:text-7xl font-bold text-center"}>
+          <Label
+            className={
+              "text-9xl max-sm:text-7xl font-bold font-geistSans text-center"
+            }
+          >
             VGSEVEN
           </Label>
-          <p className={"text-center my-4"}>Chief Meme Officer of Silvi..</p>
+          <Label
+            className={
+              "text-2xl tracking-tighter mt-4 max-sm:text-xl font-geistMono text-center"
+            }
+          >
+            Cheif Meme Officer of Silvi.
+          </Label>
         </div>
       </BackgroundGradientAnimation>
       <Link href={"/projects"}>

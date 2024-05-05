@@ -91,35 +91,28 @@ export function Header() {
       >
         <li
           className={
-            "rounded-2xl text-base font-medium hover:bg-white hover:text-black px-4 py-[0.35rem]"
+            "rounded-2xl text-base tracking-wide hover:bg-white hover:text-black px-4 py-[0.35rem]"
           }
         >
           <Link href={"/"}>Home</Link>
         </li>
         <li
           className={
-            "rounded-2xl text-base font-medium hover:bg-white hover:text-black px-4 py-[0.35rem]"
+            "rounded-2xl text-base tracking-wide hover:bg-white hover:text-black px-4 py-[0.35rem]"
           }
         >
           <Link href={"/projects"}>Projects</Link>
         </li>
-        <li
-          className={
-            "rounded-2xl text-base font-medium hover:bg-white hover:text-black px-4 py-[0.35rem]"
-          }
-        >
-          <Link href={"/updates"}>Updates</Link>
-        </li>
         <li>
           <a href={"https://silver.vgseven.com/"} target={"_blank"}>
-            <Button variant={"outline"} className={"rounded-2xl"}>
+            <Button variant={"outline"} className={"rounded-2xl tracking-wide"}>
               Silver Company
             </Button>
           </a>
         </li>
         <li>
           <a href={"https://x.com/vgsevenn/"} target={"_blank"}>
-            <Button variant={"default"} className={"rounded-2xl"}>
+            <Button variant={"default"} className={"rounded-2xl tracking-wide"}>
               Find More Updates
               <BrandIconX height={16} width={16} className={"ml-2 mt-0"} />
             </Button>
@@ -143,7 +136,10 @@ export function Header() {
         animate={hidden ? "visible" : "hidden"}
       >
         <Link href={"/"}>
-          <Button variant={"secondary"} className="w-full rounded-2xl">
+          <Button
+            variant={"secondary"}
+            className={"w-full rounded-2xl tracking-widest"}
+          >
             VGSEVEN
           </Button>
         </Link>
