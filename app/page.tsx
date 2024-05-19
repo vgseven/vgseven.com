@@ -1,8 +1,8 @@
-import { Button } from "@/ui/primitives/button";
-import Link from "next/link";
-import { ArrowRightIcon } from "@radix-ui/react-icons";
 import { BackgroundGradientAnimation } from "@/ui/components/bg-gradient";
+import { Button } from "@/ui/primitives/button";
 import { Label } from "@/ui/primitives/label";
+import { ArrowRightIcon } from "@radix-ui/react-icons";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -10,19 +10,19 @@ export default function Home() {
       <BackgroundGradientAnimation>
         <div
           className={
-            "flex flex-col justify-center items-center top-2/4 absolute left-1/2 transform -translate-x-1/2 -translate-y-1/2"
+            "absolute left-1/2 top-2/4 flex -translate-x-1/2 -translate-y-1/2 transform flex-col items-center justify-center"
           }
         >
           <Label
             className={
-              "text-9xl max-sm:text-7xl font-bold font-geistSans text-center"
+              "text-center font-geistSans text-9xl font-bold max-sm:text-7xl"
             }
           >
             VGSEVEN
           </Label>
           <Label
             className={
-              "text-2xl tracking-tighter mt-4 max-sm:text-xl font-geistMono text-center"
+              "mt-4 text-center font-geistMono text-2xl tracking-tighter max-sm:text-xl"
             }
           >
             Cheif Meme Officer of Silvi.
@@ -32,7 +32,7 @@ export default function Home() {
       <Link href={"/projects"}>
         <Button
           className={
-            "fixed mt-16 top-3/4 left-1/2 -translate-x-1/2 -translate-y-1/2 text-base rounded-full py-6 px-8"
+            "fixed left-1/2 top-3/4 mt-16 -translate-x-1/2 -translate-y-1/2 rounded-full px-8 py-6 text-base"
           }
         >
           Explore Projects
@@ -40,7 +40,7 @@ export default function Home() {
             height={30}
             width={30}
             className={
-              "rounded-full ml-4 dark:bg-black bg-white dark:text-white text-black p-2"
+              "ml-4 rounded-full bg-white p-2 text-black dark:bg-black dark:text-white"
             }
           />
         </Button>

@@ -1,5 +1,9 @@
 import { cn } from "@/lib/utils";
-import { IconProps } from "@/lib/interfaces/icons";
+interface IconProps {
+  className?: string;
+  width: number;
+  height: number;
+}
 
 export function BrandIconX({ height, width, className }: IconProps) {
   return (

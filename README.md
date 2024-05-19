@@ -1,4 +1,4 @@
-### VGSEVEN: Chief Meme Officer of Silvi.
+# VGSEVEN
 
 #### Stack
 

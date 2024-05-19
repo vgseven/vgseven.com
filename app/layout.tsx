@@ -1,11 +1,11 @@
-import type { Metadata } from "next";
-import "@/styles/root-layout.css";
-import React, { ReactNode } from "react";
+import { GeistMonoFont, GeistSansFont } from "@/lib/fonts";
 import { ThemeProvider } from "@/lib/functions/theme-provider";
+import "@/styles/root-layout.css";
 import { Header } from "@/ui/components/header";
 import { Analytics } from "@vercel/analytics/react";
 import { SpeedInsights } from "@vercel/speed-insights/next";
-import { GeistMonoFont, GeistSansFont } from "@/lib/fonts";
+import type { Metadata } from "next";
+import { ReactNode } from "react";
 
 export const metadata: Metadata = {
   title: "VGSEVEN",
@@ -53,7 +53,12 @@ export const metadata: Metadata = {
       "en-US": "/en-US",
     },
   },
+  other: {
+    "google-adsense-account": "ca-pub-4155181137197417",
+  },
 };
+
+// <meta name="google-adsense-account" content="ca-pub-4155181137197417">
 
 export default function RootLayout({ children }: { children: ReactNode }) {
   return (

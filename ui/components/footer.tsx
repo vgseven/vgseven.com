@@ -9,57 +9,84 @@ import {
   SunIcon,
 } from "@radix-ui/react-icons";
 import { useTheme } from "next-themes";
+import Image from "next/image";
+import Link from "next/link";
 
 export function Footer() {
   const { setTheme } = useTheme();
   return (
-    <footer
-      className={
-        "flex justify-center items-center flex-col my-6 border-t-2 border-dashed border-zinc-800 pt-6"
-      }
-    >
-      <div
+    <footer className={"my-6 flex flex-col items-center justify-center pt-6"}>
+      <Label
         className={
-          "flex flex-row gap-6 mb-3 justify-center items-center dark:text-zinc-400 text-black"
+          "bg-gradient-to-tl from-black via-zinc-500 to-zinc-200 bg-clip-text text-[14rem] tracking-tighter text-transparent dark:from-white dark:via-zinc-300 dark:to-zinc-700 max-lg:text-[12rem] max-md:text-[10rem] max-sm:text-[5rem]"
         }
       >
-        <a href={"https://x.com/vgsevenn/"} target="_blank">
+        VGSEVEN
+      </Label>
+      <div
+        className={
+          "mb-3 flex flex-row items-center justify-center gap-6 text-black dark:text-zinc-400"
+        }
+      >
+        <Link href={"https://linkedin.com/in/vgseven"} target="_blank">
+          <Image
+            height={25}
+            width={25}
+            src={
+              "https://odouepjkxheu5esn.public.blob.vercel-storage.com/silver-company/silver-white-favicon.png"
+            }
+            alt={"silver-company"}
+          />
+        </Link>
+        <Link href={"https://x.com/vgsevenn/"} target="_blank">
           <BrandIconX
-            width={16}
-            height={16}
-            className={"dark:hover:text-white"}
+            width={25}
+            height={25}
+            className={
+              "rounded-full bg-white p-1 text-black hover:bg-black hover:text-white"
+            }
           />
-        </a>
-        <a href={"https://github.com/vgseven"} target="_blank">
+        </Link>
+        <Link href={"https://github.com/vgseven"} target="_blank">
           <GitHubLogoIcon
-            height={16}
-            width={16}
-            className={"dark:hover:text-white"}
+            width={25}
+            height={25}
+            className={
+              "rounded-full bg-white p-1 text-black hover:bg-black hover:text-white"
+            }
           />
-        </a>
-        <a href={"https://linkedin.com/in/vgseven"} target="_blank">
+        </Link>
+        <Link href={"https://linkedin.com/in/vgseven"} target="_blank">
           <LinkedInLogoIcon
-            height={16}
-            width={16}
-            className={"dark:hover:text-white"}
+            width={25}
+            height={25}
+            className={
+              "rounded-full bg-white p-1 text-black hover:bg-black hover:text-white"
+            }
           />
-        </a>
+        </Link>
         <MoonIcon
           onClick={() => setTheme("dark")}
-          width={16}
-          height={16}
-          className={"cursor-pointer dark:hover:text-white"}
+          width={30}
+          height={30}
+          className={
+            "rounded-full bg-white p-2 text-black hover:cursor-pointer hover:bg-black hover:text-white"
+          }
         />
 
         <SunIcon
           onClick={() => setTheme("light")}
-          width={16}
-          height={16}
-          className={"cursor-pointer dark:hover:text-white"}
+          width={30}
+          height={30}
+          className={
+            "rounded-full bg-white p-2 text-black hover:cursor-pointer hover:bg-black hover:text-white"
+          }
         />
       </div>
       <Label
-        className={"tracking-tighter dark:text-zinc-400 text-black font-mono"}
+        className={
+          "font-mono text-base tracking-tighter text-black dark:text-zinc-400"
+        }
       >
         VGSEVEN &copy; {new Date().getFullYear()}
       </Label>

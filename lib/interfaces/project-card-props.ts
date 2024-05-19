@@ -10,9 +10,10 @@ export type ProjectCardProps = {
     | "Beta"
     | "Preview"
     | "Production";
-  date: string;
+  launchDate: string;
   summary: string;
   official: string;
   findUpdates: string;
   profile: string | StaticImport;
+  newUpdate: string;
 };

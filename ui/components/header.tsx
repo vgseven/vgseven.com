@@ -1,13 +1,13 @@
 "use client";
 
+import vgseven from "@/public/favicon.png";
+import { BrandIconX } from "@/ui/icons/brand-icon-x";
+import { Button } from "@/ui/primitives/button";
+import { ChevronDownIcon, ChevronUpIcon } from "@radix-ui/react-icons";
+import { motion, useMotionValueEvent, useScroll } from "framer-motion";
+import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
-import { useScroll, motion, useMotionValueEvent } from "framer-motion";
-import { Button } from "@/ui/primitives/button";
-import vgseven from "@/public/favicon.png";
-import Image from "next/image";
-import { ChevronUpIcon, ChevronDownIcon } from "@radix-ui/react-icons";
-import { BrandIconX } from "@/ui/icons/brand-icon-x";
 
 export function Header() {
   const [showNav, setShowNav] = useState<boolean>(false);
@@ -28,7 +28,7 @@ export function Header() {
 
   return (
     <motion.nav
-      className={`z-50 fixed inset-0 top-4 w-[95%] sm:w-[90%] mx-auto font-medium flex max-sm:justify-between gap-4 px-3 max-w-7xl items-center rounded-full h-14 p-5 overflow-hidden backdrop-blur-md bg-opacity-10 bg-zinc-700`}
+      className={`fixed inset-0 top-4 z-50 mx-auto flex h-14 w-[95%] max-w-7xl items-center gap-4 overflow-hidden rounded-full bg-zinc-700 bg-opacity-10 p-5 px-3 font-medium backdrop-blur-md max-sm:justify-between sm:w-[90%]`}
       variants={{
         long: { maxWidth: 950 },
         short: { maxWidth: 280 },
@@ -40,7 +40,7 @@ export function Header() {
           transition: { delay: 0, duration: 0.3 },
         },
         showNav: {
-          height: 340,
+          height: 300,
           borderRadius: 22,
           alignItems: "start",
           transition: { delay: 0 },
@@ -66,11 +66,11 @@ export function Header() {
       </Link>
 
       <motion.ul
-        className={`w-full dark:text-white text-black ${
+        className={`w-full text-black dark:text-white ${
           showNav
             ? "[--display-from:none] [--display-to:flex]"
             : "max-sm:[--display-from:none] sm:[--display-to:flex]"
-        }  [--opacity-from:0.1] [--opacity-to:1] flex-col sm:flex-row items-center justify-center gap-5 max-sm:gap-5 max-sm:pt-10`}
+        }  flex-col items-center justify-center gap-5 [--opacity-from:0.1] [--opacity-to:1] max-sm:gap-5 max-sm:pt-10 sm:flex-row`}
         variants={{
           hidden: {
             display: "var(--display-from, none)",
@@ -91,14 +91,14 @@ export function Header() {
       >
         <li
           className={
-            "rounded-2xl text-base tracking-wide hover:bg-white hover:text-black px-4 py-[0.35rem]"
+            "rounded-2xl px-4 py-[0.35rem] text-base tracking-wide hover:bg-white hover:text-black"
           }
         >
           <Link href={"/"}>Home</Link>
         </li>
         <li
           className={
-            "rounded-2xl text-base tracking-wide hover:bg-white hover:text-black px-4 py-[0.35rem]"
+            "rounded-2xl px-4 py-[0.35rem] text-base tracking-wide hover:bg-white hover:text-black"
           }
         >
           <Link href={"/projects"}>Projects</Link>
@@ -121,7 +121,7 @@ export function Header() {
       </motion.ul>
 
       <motion.div
-        className="w-full [--display-from:none][--display-to:inline-block] "
+        className="[--display-from:none][--display-to:inline-block] w-full "
         variants={{
           hidden: {
             display: "var(--display-from, none)",
@@ -148,7 +148,7 @@ export function Header() {
       <Button
         size={"icon"}
         variant={"secondary"}
-        className="rounded-full min-w-[40px] sm:hidden"
+        className="min-w-[40px] rounded-full sm:hidden"
         onClick={() => {
           setHidden(false);
           setShowNav((prev) => !prev);
