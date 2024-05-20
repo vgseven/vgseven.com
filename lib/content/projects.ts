@@ -7,7 +7,7 @@ export const Projects: ProjectCardProps[] = [
     title: "Titanium",
     description: "Titanium, Redefining the Security with Modern Architecture.",
     stage: "Development",
-    launchDate: "27.05.24",
+    launchDate: "07.06.24",
     summary:
       "Titanium is a next-generation password manager platform designed to provide redefined security with ease of use. By leveraging Argon2 for password hashing and AES for data encryption, Titanium offers the most secure password management service you can trust blindly.",
     official: "https://titanium.vgseven.com/",
@@ -18,9 +18,9 @@ export const Projects: ProjectCardProps[] = [
     profile:
       "https://odouepjkxheu5esn.public.blob.vercel-storage.com/radium/radium-favicon.png",
     title: "Radium",
-    description: "Empowering Developers to Rapidly Ship Projects.",
+    description: "Radium, Empowering Developers to Rapidly Ship Projects.",
     stage: "Development",
-    launchDate: "17.6.24",
+    launchDate: "17.06.24",
     summary:
       "Introducing Radium – the ultimate platform for developers, whether you're just starting out or a pro. Radium gives you everything you need to make coding easier and faster. It's like having all your tools in one place, from writing code to managing projects. With Radium, you can tackle any project with confidence and get things done in no time. Say hello to Radium and make coding a breeze!",
     official: "https://radium.vgseven.com/",
@@ -33,7 +33,7 @@ export const Projects: ProjectCardProps[] = [
     title: "Silvi",
     description: "The Personal Assistant.",
     stage: "Development",
-    launchDate: "7.7.24",
+    launchDate: "07.07.24",
     summary:
       "Introducing Silvi - your ultimate personal assistant. Whether you need help with tasks, information, updates, or simply want to perform any simple every day task with your digital goods.. Say goodbye to juggling between different assistants – Silvi is here to simplify your life...",
     official: "https://silvi.vgseven.com/",

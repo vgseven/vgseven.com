@@ -1,6 +1,7 @@
 import { GeistMonoFont, GeistSansFont } from "@/lib/fonts";
 import { ThemeProvider } from "@/lib/functions/theme-provider";
 import "@/styles/root-layout.css";
+import { Footer } from "@/ui/components/footer";
 import { Header } from "@/ui/components/header";
 import { Analytics } from "@vercel/analytics/react";
 import { SpeedInsights } from "@vercel/speed-insights/next";
@@ -78,6 +79,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
           {children}
           <SpeedInsights />
           <Analytics />
+          <Footer />
         </ThemeProvider>
       </body>
     </html>

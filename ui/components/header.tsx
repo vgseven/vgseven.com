@@ -1,161 +1,19 @@
-"use client";
-
-import vgseven from "@/public/favicon.png";
-import { BrandIconX } from "@/ui/icons/brand-icon-x";
-import { Button } from "@/ui/primitives/button";
-import { ChevronDownIcon, ChevronUpIcon } from "@radix-ui/react-icons";
-import { motion, useMotionValueEvent, useScroll } from "framer-motion";
-import Image from "next/image";
-import Link from "next/link";
-import { useState } from "react";
+import { Label } from "@/ui/primitives/label";
+import { RocketIcon } from "@radix-ui/react-icons";
 
 export function Header() {
-  const [showNav, setShowNav] = useState<boolean>(false);
-  const [hidden, setHidden] = useState(false);
-
-  const { scrollY } = useScroll();
-
-  useMotionValueEvent(scrollY, "change", (latest) => {
-    const previous: number = scrollY.getPrevious() as number;
-
-    if (latest > previous && latest > 150) {
-      setHidden(true);
-      setShowNav(false);
-    } else {
-      setHidden(false);
-    }
-  });
-
   return (
-    <motion.nav
-      className={`fixed inset-0 top-4 z-50 mx-auto flex h-14 w-[95%] max-w-7xl items-center gap-4 overflow-hidden rounded-full bg-zinc-700 bg-opacity-10 p-5 px-3 font-medium backdrop-blur-md max-sm:justify-between sm:w-[90%]`}
-      variants={{
-        long: { maxWidth: 950 },
-        short: { maxWidth: 280 },
-        hideNav: {
-          height: 56,
-          borderRadius: 50,
-
-          alignItems: "center",
-          transition: { delay: 0, duration: 0.3 },
-        },
-        showNav: {
-          height: 300,
-          borderRadius: 22,
-          alignItems: "start",
-          transition: { delay: 0 },
-        },
-      }}
-      initial={"short"}
-      animate={[hidden ? "short" : "long", showNav ? "showNav" : "hideNav"]}
-      transition={{
-        duration: 0.6,
-        type: "spring",
-        stiffness: 80,
-        damping: 14,
-      }}
-    >
-      <Link href="/">
-        <Image
-          src={vgseven}
-          alt="logo"
-          width={44}
-          height={44}
-          className={"rounded-full"}
-        />
-      </Link>
-
-      <motion.ul
-        className={`w-full text-black dark:text-white ${
-          showNav
-            ? "[--display-from:none] [--display-to:flex]"
-            : "max-sm:[--display-from:none] sm:[--display-to:flex]"
-        }  flex-col items-center justify-center gap-5 [--opacity-from:0.1] [--opacity-to:1] max-sm:gap-5 max-sm:pt-10 sm:flex-row`}
-        variants={{
-          hidden: {
-            display: "var(--display-from, none)",
-            opacity: "var(--opacity-from, 1)",
-            transition: { duration: 0.1, delay: 0 },
-          },
-          visible: {
-            display: "var(--display-to, none)",
-            opacity: "var(--opacity-to, 1)",
-            transition: { duration: 0.6, delay: 0.2 },
-          },
-        }}
-        initial={"hidden"}
-        animate={[
-          hidden && !showNav ? "hidden" : "visible",
-          showNav ? "visible" : "",
-        ]}
-      >
-        <li
-          className={
-            "rounded-2xl px-4 py-[0.35rem] text-base tracking-wide hover:bg-white hover:text-black"
-          }
-        >
-          <Link href={"/"}>Home</Link>
-        </li>
-        <li
-          className={
-            "rounded-2xl px-4 py-[0.35rem] text-base tracking-wide hover:bg-white hover:text-black"
-          }
-        >
-          <Link href={"/projects"}>Projects</Link>
-        </li>
-        <li>
-          <a href={"https://silver.vgseven.com/"} target={"_blank"}>
-            <Button variant={"outline"} className={"rounded-2xl tracking-wide"}>
-              Silver Company
-            </Button>
-          </a>
-        </li>
-        <li>
-          <a href={"https://x.com/vgsevenn/"} target={"_blank"}>
-            <Button variant={"default"} className={"rounded-2xl tracking-wide"}>
-              Find More Updates
-              <BrandIconX height={16} width={16} className={"ml-2 mt-0"} />
-            </Button>
-          </a>
-        </li>
-      </motion.ul>
-
-      <motion.div
-        className="[--display-from:none][--display-to:inline-block] w-full "
-        variants={{
-          hidden: {
-            display: "var(--display-from, none)",
-            transition: { delay: 0, duration: 0.3 },
-          },
-          visible: {
-            display: "var(--display-to)",
-            transition: { delay: 0.2, duration: 0.3 },
-          },
-        }}
-        initial="hidden"
-        animate={hidden ? "visible" : "hidden"}
-      >
-        <Link href={"/"}>
-          <Button
-            variant={"secondary"}
-            className={"w-full rounded-2xl tracking-widest"}
-          >
-            VGSEVEN
-          </Button>
-        </Link>
-      </motion.div>
-
-      <Button
-        size={"icon"}
-        variant={"secondary"}
-        className="min-w-[40px] rounded-full sm:hidden"
-        onClick={() => {
-          setHidden(false);
-          setShowNav((prev) => !prev);
-        }}
-      >
-        {showNav ? <ChevronUpIcon /> : <ChevronDownIcon />}
-      </Button>
-    </motion.nav>
+    <header className="mt-12 flex items-center justify-center">
+      <div className="fixed flex gap-4 rounded-full bg-zinc-800 px-6 py-2 text-white dark:bg-zinc-50 dark:text-black max-sm:max-w-[22rem]">
+        <Label className="flex items-center justify-center gap-4 font-bold tracking-widest">
+          VGSEVEN <RocketIcon />
+        </Label>
+        <div className="overflow-hidden whitespace-nowrap">
+          <div className="flex animate-marquee items-center gap-2 max-sm:text-sm">
+            Titanium is too close to reach you..
+          </div>
+        </div>
+      </div>
+    </header>
   );
 }
