@@ -28,12 +28,12 @@ export function Footer() {
           "mb-3 flex flex-row items-center justify-center gap-6 text-black dark:text-zinc-400"
         }
       >
-        <Link href={"https://linkedin.com/in/vgseven"} target="_blank">
+        <Link href={"https://silver.vgseven.com"} target="_blank">
           <Image
             height={25}
             width={25}
             src={
-              "https://odouepjkxheu5esn.public.blob.vercel-storage.com/silver-company/silver-white-favicon.png"
+              "https://odouepjkxheu5esn.public.blob.vercel-storage.com/silver/silver-white-favicon.png"
             }
             alt={"silver-company"}
           />

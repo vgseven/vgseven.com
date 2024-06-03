@@ -10,26 +10,24 @@ import { ReactNode } from "react";
 
 export const metadata: Metadata = {
   title: "VGSEVEN",
-  description:
-    "Obsessed with AI, Quantum Computing, Space, Psychology and Philosophy and Entrepreneurship. Chief Meme Officer of Silvi...",
+  description: "Make Happen.",
   icons: {
     icon: "/favicon.png",
   },
   openGraph: {
     title: "VGSEVEN",
-    description:
-      "Obsessed with AI, Quantum Computing, Space, Psychology and Philosophy and Entrepreneurship. Chief Meme Officer of Silvi...",
+    description: "Make Happen.",
     url: "https://vgseven.com",
     siteName: "VGSEVEN",
     images: [
       {
-        url: "https://dlaiwpar81okkqcb.public.blob.vercel-storage.com/vgseven-company/make-things-happen.png",
+        url: "https://odouepjkxheu5esn.public.blob.vercel-storage.com/silver/make-happen.jpg",
         width: 800,
         height: 600,
         alt: "VGSEVEN",
       },
       {
-        url: "https://dlaiwpar81okkqcb.public.blob.vercel-storage.com/vgseven-company/make-things-happen.png",
+        url: "https://odouepjkxheu5esn.public.blob.vercel-storage.com/silver/make-happen.jpg",
         width: 1800,
         height: 1600,
         alt: "VGSEVEN",
@@ -41,10 +39,9 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "VGSEVEN",
-    description:
-      "Obsessed with AI, Quantum Computing, Space, Psychology and Philosophy and Entrepreneurship. Chief Meme Officer of Silvi...",
+    description: "Make Happen.",
     images: [
-      "https://dlaiwpar81okkqcb.public.blob.vercel-storage.com/vgseven-company/make-things-happen.png",
+      "https://odouepjkxheu5esn.public.blob.vercel-storage.com/silver/make-happen.jpg",
     ],
   },
   metadataBase: new URL("https://vgseven.com"),

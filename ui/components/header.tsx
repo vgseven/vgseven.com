@@ -10,7 +10,7 @@ export function Header() {
         </Label>
         <div className="overflow-hidden whitespace-nowrap">
           <div className="flex animate-marquee items-center gap-2 max-sm:text-sm">
-            Titanium is too close to reach you..
+            Working on Personal Assistant, Say Silvi..
           </div>
         </div>
       </div>
