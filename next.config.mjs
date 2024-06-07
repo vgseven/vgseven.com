@@ -21,7 +21,6 @@ const nextConfig = {
 
 export default nextConfig;
 
-// https://odouepjkxheu5esn.public.blob.vercel-storage.com/silver/silver-white-favicon.png
-// https://odouepjkxheu5esn.public.blob.vercel-storage.com/silver/make-happen.jpg
-
-// https://dlaiwpar81okkqcb.public.blob.vercel-storage.com/vgseven-company/vgseven-white-favicon.png
+// https://odouepjkxheu5esn.public.blob.vercel-storage.com/silvercompany/make-happen.jpg
+// https://odouepjkxheu5esn.public.blob.vercel-storage.com/silvercompany/silver-favicon.png
+// https://dlaiwpar81okkqcb.public.blob.vercel-storage.com/vgseven-company/v-favicon.png

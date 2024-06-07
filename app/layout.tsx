@@ -21,13 +21,13 @@ export const metadata: Metadata = {
     siteName: "VGSEVEN",
     images: [
       {
-        url: "https://odouepjkxheu5esn.public.blob.vercel-storage.com/silver/make-happen.jpg",
+        url: "https://odouepjkxheu5esn.public.blob.vercel-storage.com/silvercompany/make-happen.jpg",
         width: 800,
         height: 600,
         alt: "VGSEVEN",
       },
       {
-        url: "https://odouepjkxheu5esn.public.blob.vercel-storage.com/silver/make-happen.jpg",
+        url: "https://odouepjkxheu5esn.public.blob.vercel-storage.com/silvercompany/make-happen.jpg",
         width: 1800,
         height: 1600,
         alt: "VGSEVEN",
@@ -41,7 +41,7 @@ export const metadata: Metadata = {
     title: "VGSEVEN",
     description: "Make Happen.",
     images: [
-      "https://odouepjkxheu5esn.public.blob.vercel-storage.com/silver/make-happen.jpg",
+      "https://odouepjkxheu5esn.public.blob.vercel-storage.com/silvercompany/make-happen.jpg",
     ],
   },
   metadataBase: new URL("https://vgseven.com"),
