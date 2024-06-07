@@ -31,7 +31,7 @@ export const Projects: ProjectCardProps[] = [
     profile:
       "https://odouepjkxheu5esn.public.blob.vercel-storage.com/silvercompany/silver-favicon.png",
     title: "Substance",
-    description: "Substance, Offering the libs to speed developements.",
+    description: "Substance, Offering the libs to speed developments.",
     stage: "Development",
     launchDate: "17.06.24",
     summary:
@@ -39,7 +39,7 @@ export const Projects: ProjectCardProps[] = [
     official: "https://github.com/vgseven/substance/",
     findUpdates: "https://x.com/vgsevenn",
     newUpdate:
-      "@substance/pwa - Build Progressive Web Apps easily and with zero-config, Shiping Soon..",
+      "@substance/pwa - Build Progressive Web Apps easily and with zero-config, Shipping Soon..",
   },
   {
     profile:
