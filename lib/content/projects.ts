@@ -9,37 +9,10 @@ export const Projects: ProjectCardProps[] = [
     stage: "Beta",
     launchDate: "7.06.24",
     summary:
-      "Introducing Radium – the ultimate platform for developers, whether you're just starting out or a pro. Radium gives you everything you need to make coding easier and faster. It's like having all your tools in one place, from writing code to managing projects. With Radium, you can tackle any project with confidence and get things done in no time. Say hello to Radium and make coding a breeze!",
-    official: "https://github.com/vgseven/radium/",
-    findUpdates: "https://x.com/vgsevenn",
-    newUpdate: "Radium, Working on something too special!",
-  },
-  {
-    profile:
-      "https://odouepjkxheu5esn.public.blob.vercel-storage.com/silvercompany/karen-favicon.png",
-    title: "Karen",
-    description: "Karen, The Modern User Experience.",
-    stage: "Development",
-    launchDate: "17.06.24",
-    summary:
-      "Karen, We Design User Experience. An versatile design library designed to simplify the creation of visually stunning and highly functional user interfaces to in-rich User Experience. Karen offers a comprehensive set of customizable components that seamlessly integrate into any project. ",
-    official: "https://github.com/vgseven/karen/",
-    findUpdates: "https://x.com/vgsevenn",
-    newUpdate: "We have designed Radium, Karen, Silvi and Silver..",
-  },
-  {
-    profile:
-      "https://odouepjkxheu5esn.public.blob.vercel-storage.com/silvercompany/substance-favicon.png",
-    title: "Substance",
-    description: "Substance, Offering the libs to speed developments.",
-    stage: "Development",
-    launchDate: "17.06.24",
-    summary:
-      "Substance is a collection of lightweight, highly efficient libraries designed to accelerate the development process of any projects. By offering a suite of modular and easily integrable tools, Substance helps developers streamline their workflows, reduce repetitive tasks, and enhance productivity. ",
-    official: "https://github.com/vgseven/substance/",
-    findUpdates: "https://x.com/vgsevenn",
-    newUpdate:
-      "@substance/pwa - Build Progressive Web Apps easily and with zero-config, Shipping Soon..",
+      "Introducing Radium – the ultimate platform for developers, whether you're just starting out or a pro. Radium gives you everything you need to make coding easier and faster. Say hello to Radium and make coding a breeze!",
+    official: "https://radium.vgseven.com/",
+    findUpdates: "https://github.com/silver-radium/",
+    newUpdate: "Radium, Working on User Experience Library..",
   },
   {
     profile:
