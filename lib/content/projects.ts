@@ -3,7 +3,7 @@ import { ProjectCardProps } from "@/lib/interfaces/project-card-props";
 export const Projects: ProjectCardProps[] = [
   {
     profile:
-      "https://odouepjkxheu5esn.public.blob.vercel-storage.com/silvercompany/silver-favicon.png",
+      "https://odouepjkxheu5esn.public.blob.vercel-storage.com/silvercompany/radium-favicon.png",
     title: "Radium",
     description: "Radium, Empowering Developers to Rapidly Ship Projects.",
     stage: "Beta",
@@ -16,7 +16,7 @@ export const Projects: ProjectCardProps[] = [
   },
   {
     profile:
-      "https://odouepjkxheu5esn.public.blob.vercel-storage.com/silvercompany/silver-favicon.png",
+      "https://odouepjkxheu5esn.public.blob.vercel-storage.com/silvercompany/karen-favicon.png",
     title: "Karen",
     description: "Karen, The Modern User Experience.",
     stage: "Development",
@@ -29,7 +29,7 @@ export const Projects: ProjectCardProps[] = [
   },
   {
     profile:
-      "https://odouepjkxheu5esn.public.blob.vercel-storage.com/silvercompany/silver-favicon.png",
+      "https://odouepjkxheu5esn.public.blob.vercel-storage.com/silvercompany/substance-favicon.png",
     title: "Substance",
     description: "Substance, Offering the libs to speed developments.",
     stage: "Development",
@@ -43,7 +43,7 @@ export const Projects: ProjectCardProps[] = [
   },
   {
     profile:
-      "https://odouepjkxheu5esn.public.blob.vercel-storage.com/silvercompany/silver-favicon.png",
+      "https://odouepjkxheu5esn.public.blob.vercel-storage.com/silvercompany/silvi-favicon.png",
     title: "Silvi",
     description: "The Personal Assistant.",
     stage: "Development",
@@ -72,7 +72,7 @@ export const Projects: ProjectCardProps[] = [
 export const labsevenProjects: ProjectCardProps[] = [
   {
     profile:
-      "https://dlaiwpar81okkqcb.public.blob.vercel-storage.com/vgseven-company/v-favicon.png",
+      "https://0nlwrfimbgvcynro.public.blob.vercel-storage.com/labseven/titanium-favicon.png",
     title: "Titanium",
     description: "Titanium, Redefining the Security with Modern Architecture.",
     stage: "Alpha",
@@ -85,7 +85,7 @@ export const labsevenProjects: ProjectCardProps[] = [
   },
   {
     profile:
-      "https://dlaiwpar81okkqcb.public.blob.vercel-storage.com/vgseven-company/v-favicon.png",
+      "https://0nlwrfimbgvcynro.public.blob.vercel-storage.com/labseven/capital-favicon.png",
     title: "Capital",
     description: "Capital, The Personal Finance Assistant.",
     stage: "Development",
@@ -98,7 +98,7 @@ export const labsevenProjects: ProjectCardProps[] = [
   },
   {
     profile:
-      "https://dlaiwpar81okkqcb.public.blob.vercel-storage.com/vgseven-company/v-favicon.png",
+      "https://0nlwrfimbgvcynro.public.blob.vercel-storage.com/labseven/liquid-favicon.png",
     title: "Liquid",
     description: "Content Management Ecosystem.",
     stage: "Research",
