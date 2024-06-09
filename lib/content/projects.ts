@@ -34,8 +34,7 @@ export const Projects: ProjectCardProps[] = [
     description: "Make Happen.",
     stage: "Development",
     launchDate: "07.07.24",
-    summary:
-      "Silver Company - Make Happen. Parent of Radium, Karen and Silvi and more are upcoming.. Silver Company will feature Foundational LLM and AI Hardware soon. (ai/acc)",
+    summary: "Silver Company - Make Happen... We Own the Radium and Silvi...",
     official: "https://silver.vgseven.com/",
     findUpdates: "https://x.com/SilverCompanyHQ",
     newUpdate: "Silvi have sister, Einfi..",
