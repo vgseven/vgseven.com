@@ -33,10 +33,9 @@ export function Footer() {
             height={28}
             width={28}
             src={
-              "https://odouepjkxheu5esn.public.blob.vercel-storage.com/silvercompany/silver-favicon.png"
+              "https://odouepjkxheu5esn.public.blob.vercel-storage.com/silvercompany/silver-white-favicon-4zdpqmlPhdE6ctpA3GP1DopxLzVOI6.png"
             }
             alt={"silver-company"}
-            className={"rounded-full bg-white p-[2px]"}
           />
         </Link>
         <Link href={"https://x.com/vgsevenn/"} target="_blank">
