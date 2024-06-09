@@ -27,16 +27,4 @@ export const Projects: ProjectCardProps[] = [
     findUpdates: "https://x.com/vgsevenn",
     newUpdate: "Make Jarvis Happen.",
   },
-  {
-    profile:
-      "https://odouepjkxheu5esn.public.blob.vercel-storage.com/silvercompany/silver-favicon.png",
-    title: "Silver",
-    description: "Make Happen.",
-    stage: "Development",
-    launchDate: "07.07.24",
-    summary: "Silver Company - Make Happen... We Own the Radium and Silvi...",
-    official: "https://silver.vgseven.com/",
-    findUpdates: "https://x.com/SilverCompanyHQ",
-    newUpdate: "Silvi have sister, Einfi..",
-  },
 ];
