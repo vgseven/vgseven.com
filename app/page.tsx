@@ -1,4 +1,4 @@
-import { Projects } from "@/lib/content/projects";
+import { Projects } from "@/content/projects";
 import ProjectCard from "@/ui/components/project-card";
 
 export default function Home() {

@@ -1,5 +1,5 @@
 import { GeistMonoFont, GeistSansFont } from "@/lib/fonts";
-import { ThemeProvider } from "@/lib/functions/theme-provider";
+import { ThemeProvider } from "@/lib/providers/theme-provider";
 import "@/styles/root-layout.css";
 import { Footer } from "@/ui/components/footer";
 import { Header } from "@/ui/components/header";
