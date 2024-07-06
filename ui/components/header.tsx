@@ -9,9 +9,7 @@ export function Header() {
           VGSEVEN <RocketIcon />
         </Label>
         <div className="overflow-hidden whitespace-nowrap">
-          <div className="flex animate-marquee items-center gap-2 max-sm:text-sm">
-            Working on Personal Assistant, Say Silvi..
-          </div>
+          <div className="flex animate-marquee items-center gap-2 max-sm:text-sm">Working on Personal Assistant, Say Silvi..</div>
         </div>
       </div>
     </header>

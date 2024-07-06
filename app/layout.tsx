@@ -6,7 +6,7 @@ import { Header } from "@/ui/components/header";
 import { Analytics } from "@vercel/analytics/react";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 import type { Metadata } from "next";
-import { ReactNode } from "react";
+import type { ReactNode } from "react";
 
 export const metadata: Metadata = {
   title: "VGSEVEN",
@@ -40,9 +40,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "VGSEVEN",
     description: "Make Happen.",
-    images: [
-      "https://odouepjkxheu5esn.public.blob.vercel-storage.com/silvercompany/make-happen.jpg",
-    ],
+    images: ["https://odouepjkxheu5esn.public.blob.vercel-storage.com/silvercompany/make-happen.jpg"],
   },
   metadataBase: new URL("https://vgseven.com"),
   alternates: {
@@ -60,18 +58,9 @@ export const metadata: Metadata = {
 
 export default function RootLayout({ children }: { children: ReactNode }) {
   return (
-    <html
-      lang="en"
-      className={`${GeistMonoFont.variable} ${GeistSansFont.variable}`}
-      suppressHydrationWarning
-    >
+    <html lang="en" className={`${GeistMonoFont.variable} ${GeistSansFont.variable}`} suppressHydrationWarning>
       <body className={"font-geistMono"}>
-        <ThemeProvider
-          attribute="class"
-          defaultTheme="system"
-          enableSystem
-          disableTransitionOnChange
-        >
+        <ThemeProvider attribute="class" defaultTheme="system" enableSystem disableTransitionOnChange>
           <Header />
           {children}
           <SpeedInsights />

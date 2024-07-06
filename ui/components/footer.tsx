@@ -2,12 +2,7 @@
 
 import { BrandIconX } from "@/ui/icons/brand-icon-x";
 import { Label } from "@/ui/primitives/label";
-import {
-  GitHubLogoIcon,
-  LinkedInLogoIcon,
-  MoonIcon,
-  SunIcon,
-} from "@radix-ui/react-icons";
+import { GitHubLogoIcon, LinkedInLogoIcon, MoonIcon, SunIcon } from "@radix-ui/react-icons";
 import { useTheme } from "next-themes";
 import Image from "next/image";
 import Link from "next/link";
@@ -23,73 +18,24 @@ export function Footer() {
       >
         VGSEVEN
       </Label>
-      <div
-        className={
-          "mb-3 flex flex-row items-center justify-center gap-6 text-black dark:text-zinc-400"
-        }
-      >
+      <div className={"mb-3 flex flex-row items-center justify-center gap-6 text-black dark:text-zinc-400"}>
         <Link href={"https://silver.vgseven.com"} target="_blank">
-          <Image
-            height={28}
-            width={28}
-            src={
-              "https://odouepjkxheu5esn.public.blob.vercel-storage.com/silvercompany/silver-white-favicon-4zdpqmlPhdE6ctpA3GP1DopxLzVOI6.png"
-            }
-            alt={"silver-company"}
-          />
+          <Image height={28} width={28} src={"https://odouepjkxheu5esn.public.blob.vercel-storage.com/silvercompany/silver-white-favicon-4zdpqmlPhdE6ctpA3GP1DopxLzVOI6.png"} alt={"silver-company"} />
         </Link>
         <Link href={"https://x.com/vgsevenn/"} target="_blank">
-          <BrandIconX
-            width={25}
-            height={25}
-            className={
-              "rounded-full bg-white p-1 text-black hover:bg-black hover:text-white"
-            }
-          />
+          <BrandIconX width={25} height={25} className={"rounded-full bg-white p-1 text-black hover:bg-black hover:text-white"} />
         </Link>
         <Link href={"https://github.com/vgseven"} target="_blank">
-          <GitHubLogoIcon
-            width={25}
-            height={25}
-            className={
-              "rounded-full bg-white p-1 text-black hover:bg-black hover:text-white"
-            }
-          />
+          <GitHubLogoIcon width={25} height={25} className={"rounded-full bg-white p-1 text-black hover:bg-black hover:text-white"} />
         </Link>
         <Link href={"https://linkedin.com/in/vgseven"} target="_blank">
-          <LinkedInLogoIcon
-            width={25}
-            height={25}
-            className={
-              "rounded-full bg-white p-1 text-black hover:bg-black hover:text-white"
-            }
-          />
+          <LinkedInLogoIcon width={25} height={25} className={"rounded-full bg-white p-1 text-black hover:bg-black hover:text-white"} />
         </Link>
-        <MoonIcon
-          onClick={() => setTheme("dark")}
-          width={30}
-          height={30}
-          className={
-            "rounded-full bg-white p-2 text-black hover:cursor-pointer hover:bg-black hover:text-white"
-          }
-        />
+        <MoonIcon onClick={() => setTheme("dark")} width={30} height={30} className={"rounded-full bg-white p-2 text-black hover:cursor-pointer hover:bg-black hover:text-white"} />
 
-        <SunIcon
-          onClick={() => setTheme("light")}
-          width={30}
-          height={30}
-          className={
-            "rounded-full bg-white p-2 text-black hover:cursor-pointer hover:bg-black hover:text-white"
-          }
-        />
+        <SunIcon onClick={() => setTheme("light")} width={30} height={30} className={"rounded-full bg-white p-2 text-black hover:cursor-pointer hover:bg-black hover:text-white"} />
       </div>
-      <Label
-        className={
-          "font-mono text-base tracking-tighter text-black dark:text-zinc-400"
-        }
-      >
-        VGSEVEN &copy; {new Date().getFullYear()}
-      </Label>
+      <Label className={"font-mono text-base tracking-tighter text-black dark:text-zinc-400"}>VGSEVEN &copy; {new Date().getFullYear()}</Label>
     </footer>
   );
 }

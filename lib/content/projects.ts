@@ -1,9 +1,8 @@
-import { ProjectCardProps } from "@/lib/interfaces/project-card-props";
+import type { ProjectCardProps } from "@/lib/interfaces/project-card-props";
 
 export const Projects: ProjectCardProps[] = [
   {
-    profile:
-      "https://odouepjkxheu5esn.public.blob.vercel-storage.com/silvercompany/radium-favicon.png",
+    profile: "https://odouepjkxheu5esn.public.blob.vercel-storage.com/silvercompany/radium-favicon.png",
     title: "Radium",
     description: "Radium, Empowering Developers to Rapidly Ship Projects.",
     stage: "Beta",
@@ -15,8 +14,7 @@ export const Projects: ProjectCardProps[] = [
     newUpdate: "Radium, Working on User Experience Library..",
   },
   {
-    profile:
-      "https://odouepjkxheu5esn.public.blob.vercel-storage.com/silvercompany/silvi-favicon.png",
+    profile: "https://odouepjkxheu5esn.public.blob.vercel-storage.com/silvercompany/silvi-favicon.png",
     title: "Silvi",
     description: "The Personal Assistant.",
     stage: "Development",
