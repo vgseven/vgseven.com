@@ -2,7 +2,7 @@ import type { ProjectCardProps } from "@/lib/interfaces/project-card-props";
 import { Badge } from "@/ui/primitives/badge";
 import { Button } from "@/ui/primitives/button";
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/ui/primitives/card";
-import { ArrowTopRightIcon, RocketIcon } from "@radix-ui/react-icons";
+import { ArrowTopRightIcon } from "@radix-ui/react-icons";
 import type { StaticImport } from "next/dist/shared/lib/get-img-props";
 import Image from "next/image";
 import Link from "next/link";
@@ -38,8 +38,7 @@ export default function ProjectCard(props: ProjectCardProps) {
       </CardFooter>
       <CardFooter>
         <Badge className={"px-4 py-2"} variant={"default"}>
-          <RocketIcon className={"mr-2"} />
-          {props.newUpdate}
+          Update: {props.newUpdate}
         </Badge>
       </CardFooter>
     </Card>
