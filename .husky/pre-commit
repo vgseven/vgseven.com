@@ -1,1 +1,4 @@
-bun run build:prepare
+bun i
+bun run format
+bun run lint
+bun run build
