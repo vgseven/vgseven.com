@@ -36,28 +36,4 @@ export const Projects: ProjectCardProps[] = [
     findUpdates: "https://x.com/vgsevenn",
     newUpdate: "Researching on API Deployment and Storage Services Platform.",
   },
-  {
-    profile: "https://dlaiwpar81okkqcb.public.blob.vercel-storage.com/vgseven-company/v-favicon.png",
-    title: "Titanium",
-    description: "Redefining Security.",
-    stage: "Research",
-    launchDate: "Upcoming",
-    summary:
-      "Titanium - The next-generation password manager platform designed to provide redefined security with ease of use. By leveraging Argon2 for password hashing and AES for data encryption, Titanium offers the most secure password management service you can trust blindly.",
-    official: "https://titanium.vgseven.com/",
-    findUpdates: "https://x.com/vgsevenn",
-    newUpdate: "Beta Launch Soon..",
-  },
-  {
-    profile: "https://dlaiwpar81okkqcb.public.blob.vercel-storage.com/vgseven-company/v-favicon.png",
-    title: "Capital",
-    description: "The Personal Finance Assistant.",
-    stage: "Research",
-    launchDate: "Upcoming",
-    summary:
-      "Capital - The Personal Finance Assistant, We aim to make finance an reality. Capital is a next-gen finance assistant that aims to simplify your financial life. With Capital, you can easily manage your finances, track your expenses, and get insights into your financial health. Our mission is to empower you to take control of your finances and live a more fulfilling life..",
-    official: "https://capital.vgseven.com/",
-    findUpdates: "https://x.com/vgsevenn",
-    newUpdate: "Beta Launch Soon..",
-  },
 ];
