@@ -1,4 +1,4 @@
-import { GeistMonoFont, GeistSansFont } from "@/lib/fonts";
+import { fonts } from "@/lib/fonts";
 import { ThemeProvider } from "@/lib/providers/theme-provider";
 import "@/styles/root-layout.css";
 import { Footer } from "@/ui/components/footer";
@@ -58,7 +58,7 @@ export const metadata: Metadata = {
 
 export default function RootLayout({ children }: { children: ReactNode }) {
   return (
-    <html lang="en" className={`${GeistMonoFont.variable} ${GeistSansFont.variable}`} suppressHydrationWarning>
+    <html lang="en" className={`${fonts.GeistMono.variable} ${fonts.GeistSans.variable}`} suppressHydrationWarning>
       <body className={"font-geistMono"}>
         <ThemeProvider attribute="class" defaultTheme="system" enableSystem disableTransitionOnChange>
           <Header />
