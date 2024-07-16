@@ -2,7 +2,8 @@ import type { ProjectCardProps } from "@/lib/interfaces/project-card-props";
 
 export const Projects: ProjectCardProps[] = [
   {
-    profile: "https://odouepjkxheu5esn.public.blob.vercel-storage.com/silvercompany/radium-favicon.png",
+    profile:
+      "https://odouepjkxheu5esn.public.blob.vercel-storage.com/silvercompany/radium-favicon.png",
     title: "Radium",
     description: "Radium, Empowering Developers to Rapidly Ship Projects.",
     stage: "Production",
@@ -14,7 +15,8 @@ export const Projects: ProjectCardProps[] = [
     newUpdate: "Working on Init AI, Just describe your project.",
   },
   {
-    profile: "https://odouepjkxheu5esn.public.blob.vercel-storage.com/silvercompany/silvi-favicon.png",
+    profile:
+      "https://odouepjkxheu5esn.public.blob.vercel-storage.com/silvercompany/silvi-favicon.png",
     title: "Silvi",
     description: "The Personal Assistant.",
     stage: "Development",
@@ -26,12 +28,14 @@ export const Projects: ProjectCardProps[] = [
     newUpdate: "Currently working to Make Jarvis Happen.",
   },
   {
-    profile: "https://dlaiwpar81okkqcb.public.blob.vercel-storage.com/vgseven-company/v-favicon.png",
+    profile:
+      "https://dlaiwpar81okkqcb.public.blob.vercel-storage.com/vgseven-company/v-favicon.png",
     title: "Crystal",
     description: "The Next Gen Cloud Platform.",
     stage: "Research",
     launchDate: "Upcoming",
-    summary: "Crystal - The Next Gen Cloud Platform, The Current Cloud Platform Sucks too much we need an modern and next gen services to scale and manage our cloud..",
+    summary:
+      "Crystal - The Next Gen Cloud Platform, The Current Cloud Platform Sucks too much we need an modern and next gen services to scale and manage our cloud..",
     official: "https://crystal.vgseven.com/",
     findUpdates: "https://x.com/vgsevenn",
     newUpdate: "Researching on API Deployment and Storage Services Platform.",

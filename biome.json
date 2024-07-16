@@ -5,9 +5,20 @@
     "formatWithErrors": false,
     "indentStyle": "space",
     "indentWidth": 2,
-    "lineWidth": 220,
+    "lineWidth": 80,
+    "lineEnding": "lf",
     "attributePosition": "auto",
-    "ignore": [".vscode", ".next", ".vercel", ".env", ".changeset", ".husky", "node_modules", "build", "drizzle", ".turbo", "dist"]
+    "ignore": [
+      ".vscode",
+      ".next",
+      ".vercel",
+      ".env",
+      ".changeset",
+      ".husky",
+      "node_modules",
+      "build",
+      "dist"
+    ]
   },
   "organizeImports": {
     "enabled": true
@@ -20,7 +31,17 @@
         "noUnusedVariables": "warn"
       }
     },
-    "ignore": [".vscode", ".next", ".vercel", ".env", ".changeset", ".husky", "node_modules", "build", "drizzle", ".turbo", "dist"]
+    "ignore": [
+      ".vscode",
+      ".next",
+      ".vercel",
+      ".env",
+      ".changeset",
+      ".husky",
+      "node_modules",
+      "build",
+      "dist"
+    ]
   },
   "javascript": {
     "formatter": {

@@ -40,7 +40,9 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "VGSEVEN",
     description: "Make Happen.",
-    images: ["https://odouepjkxheu5esn.public.blob.vercel-storage.com/silvercompany/make-happen.jpg"],
+    images: [
+      "https://odouepjkxheu5esn.public.blob.vercel-storage.com/silvercompany/make-happen.jpg",
+    ],
   },
   metadataBase: new URL("https://vgseven.com"),
   alternates: {
@@ -58,9 +60,18 @@ export const metadata: Metadata = {
 
 export default function RootLayout({ children }: { children: ReactNode }) {
   return (
-    <html lang="en" className={`${fonts.GeistMono.variable} ${fonts.GeistSans.variable}`} suppressHydrationWarning>
+    <html
+      lang="en"
+      className={`${fonts.GeistMono.variable} ${fonts.GeistSans.variable}`}
+      suppressHydrationWarning
+    >
       <body className={"font-geistMono"}>
-        <ThemeProvider attribute="class" defaultTheme="system" enableSystem disableTransitionOnChange>
+        <ThemeProvider
+          attribute="class"
+          defaultTheme="system"
+          enableSystem
+          disableTransitionOnChange
+        >
           <Header />
           {children}
           <SpeedInsights />
