@@ -1,5 +1,11 @@
 # vgseven
 
+## 4.1.2
+
+### Patch Changes
+
+- core: tabs section added with labseven projects
+
 ## 4.1.1
 
 ### Patch Changes

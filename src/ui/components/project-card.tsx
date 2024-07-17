@@ -20,7 +20,7 @@ export default function ProjectCard(props: ProjectCardProps) {
       <CardHeader>
         <div className={"flex flex-row gap-2"}>
           <Image
-            className={"rounded-full"}
+            className={"rounded-full border border-ring"}
             src={props.profile as StaticImport}
             width={42}
             height={42}

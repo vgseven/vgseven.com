@@ -1,6 +1,6 @@
 import type { ProjectCardProps } from "@/lib/interfaces/project-card-props";
 
-export const Projects: ProjectCardProps[] = [
+export const vgsevenProjects: ProjectCardProps[] = [
   {
     profile:
       "https://odouepjkxheu5esn.public.blob.vercel-storage.com/silvercompany/radium-favicon.png",
@@ -39,5 +39,47 @@ export const Projects: ProjectCardProps[] = [
     official: "https://crystal.vgseven.com/",
     findUpdates: "https://x.com/vgsevenn",
     newUpdate: "Researching on API Deployment and Storage Services Platform.",
+  },
+];
+
+export const labsevenProjects: ProjectCardProps[] = [
+  {
+    profile:
+      "https://dlaiwpar81okkqcb.public.blob.vercel-storage.com/vgseven-company/v-favicon.png",
+    title: "Titanium",
+    description: "Redefining Security.",
+    stage: "Development",
+    launchDate: "Upcoming",
+    summary:
+      "Titanium - Redefining Security, Titanium is a security platform - Offers Titanium Vault, Titanium Authority and Titanium Drive..",
+    official: "https://labseven.vgseven.com/titanium",
+    findUpdates: "https://x.com/vgsevenn",
+    newUpdate: "Working on Argon2 Library.",
+  },
+  {
+    profile:
+      "https://dlaiwpar81okkqcb.public.blob.vercel-storage.com/vgseven-company/v-favicon.png",
+    title: "Capital",
+    description: "Personal Finance Assistant.",
+    stage: "Research",
+    launchDate: "Upcoming",
+    summary:
+      "Capital - Personal Finance Assistant. Capital is a financial assistant that helps you manage your Expenses, Debt, Incomings and Payings..",
+    official: "https://labseven.vgseven.com/capital",
+    findUpdates: "https://x.com/vgsevenn",
+    newUpdate: "MVP will be in Alpha soon..",
+  },
+  {
+    profile:
+      "https://dlaiwpar81okkqcb.public.blob.vercel-storage.com/vgseven-company/v-favicon.png",
+    title: "Liquid",
+    description: "Content Management Ecosystem.",
+    stage: "Research",
+    launchDate: "Upcoming",
+    summary:
+      "Liquid - The Next Generation Content Management Ecosystem, Liquid starting with Liquidlayer and Liquidbase - the two core components of Liquid.",
+    official: "https://labseven.vgseven.com/liquid",
+    findUpdates: "https://x.com/vgsevenn",
+    newUpdate: "Starting with MDX.",
   },
 ];

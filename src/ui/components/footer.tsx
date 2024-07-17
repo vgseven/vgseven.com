@@ -18,7 +18,7 @@ export function Footer() {
     <footer className={"my-6 flex flex-col items-center justify-center pt-6"}>
       <Label
         className={
-          "bg-gradient-to-tl from-black via-zinc-500 to-zinc-200 bg-clip-text text-[14rem] tracking-tighter text-transparent dark:from-white dark:via-zinc-300 dark:to-zinc-700 max-lg:text-[12rem] max-md:text-[10rem] max-sm:text-[5rem]"
+          "bg-gradient-to-tr from-black to-zinc-300 bg-clip-text text-[14rem] tracking-tighter text-transparent dark:from-white dark:to-zinc-700 max-lg:text-[12rem] max-md:text-[10rem] max-sm:text-[5rem]"
         }
       >
         VGSEVEN
@@ -30,8 +30,11 @@ export function Footer() {
       >
         <Link href={"https://silver.vgseven.com"} target="_blank">
           <Image
-            height={28}
-            width={28}
+            width={32}
+            height={32}
+            className={
+              "rounded-full border border-ring dark:border-white border-black"
+            }
             src={
               "https://odouepjkxheu5esn.public.blob.vercel-storage.com/silvercompany/silver-white-favicon-4zdpqmlPhdE6ctpA3GP1DopxLzVOI6.png"
             }
@@ -40,53 +43,41 @@ export function Footer() {
         </Link>
         <Link href={"https://x.com/vgsevenn/"} target="_blank">
           <BrandIconX
-            width={25}
-            height={25}
-            className={
-              "rounded-full bg-white p-1 text-black hover:bg-black hover:text-white"
-            }
+            width={32}
+            height={32}
+            className={"rounded-full p-2 border border-ring"}
           />
         </Link>
         <Link href={"https://github.com/vgseven"} target="_blank">
           <GitHubLogoIcon
-            width={25}
-            height={25}
-            className={
-              "rounded-full bg-white p-1 text-black hover:bg-black hover:text-white"
-            }
+            width={32}
+            height={32}
+            className={"rounded-full p-2 border border-ring"}
           />
         </Link>
         <Link href={"https://linkedin.com/in/vgseven"} target="_blank">
           <LinkedInLogoIcon
-            width={25}
-            height={25}
-            className={
-              "rounded-full bg-white p-1 text-black hover:bg-black hover:text-white"
-            }
+            width={32}
+            height={32}
+            className={"rounded-full p-2 border border-ring"}
           />
         </Link>
         <MoonIcon
           onClick={() => setTheme("dark")}
-          width={30}
-          height={30}
-          className={
-            "rounded-full bg-white p-2 text-black hover:cursor-pointer hover:bg-black hover:text-white"
-          }
+          width={32}
+          height={32}
+          className={"rounded-full p-2 border border-ring hover:cursor-pointer"}
         />
 
         <SunIcon
           onClick={() => setTheme("light")}
-          width={30}
-          height={30}
-          className={
-            "rounded-full bg-white p-2 text-black hover:cursor-pointer hover:bg-black hover:text-white"
-          }
+          width={32}
+          height={32}
+          className={"rounded-full p-2 border border-ring hover:cursor-pointer"}
         />
       </div>
       <Label
-        className={
-          "font-mono text-base tracking-tighter text-black dark:text-zinc-400"
-        }
+        className={"text-base tracking-widest text-black dark:text-zinc-300"}
       >
         VGSEVEN &copy; {new Date().getFullYear()}
       </Label>
