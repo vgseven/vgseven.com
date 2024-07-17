@@ -14,7 +14,7 @@ import type { StaticImport } from "next/dist/shared/lib/get-img-props";
 import Image from "next/image";
 import Link from "next/link";
 
-export default function ProjectCard(props: ProjectCardProps) {
+export function ProjectCard(props: ProjectCardProps) {
   return (
     <Card className={"my-4 rounded-3xl p-2"}>
       <CardHeader>

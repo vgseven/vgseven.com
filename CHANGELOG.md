@@ -1,5 +1,11 @@
 # vgseven
 
+## 4.1.3
+
+### Patch Changes
+
+- chore: tabs section issues fixed
+
 ## 4.1.2
 
 ### Patch Changes
