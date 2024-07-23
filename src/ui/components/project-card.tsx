@@ -16,11 +16,10 @@ import Link from "next/link";
 
 export function ProjectCard(props: ProjectCardProps) {
   return (
-    <Card className={"my-4 rounded-3xl p-2"}>
+    <Card className={"my-4 rounded-xl p-2"}>
       <CardHeader>
         <div className={"flex flex-row gap-2"}>
           <Image
-            className={"rounded-full border border-ring"}
             src={props.profile as StaticImport}
             width={42}
             height={42}
@@ -32,10 +31,10 @@ export function ProjectCard(props: ProjectCardProps) {
           {props.description}
         </CardDescription>
         <CardDescription className={"mt-3 flex flex-row gap-2"}>
-          <Badge className={"rounded-2xl max-sm:text-[12px]"}>
+          <Badge className={"rounded-md max-sm:text-[12px] pt-1"}>
             {props.stage}
           </Badge>
-          <Badge className={"rounded-3xl"} variant={"secondary"}>
+          <Badge className={"rounded-md pt-1"} variant={"secondary"}>
             {props.launchDate}
           </Badge>
         </CardDescription>
@@ -45,13 +44,13 @@ export function ProjectCard(props: ProjectCardProps) {
       </CardContent>
       <CardFooter className={"flex flex-row gap-2 max-[510px]:flex-wrap"}>
         <Link href={props.official} target={"_blank"}>
-          <Button className={"rounded-3xl max-sm:text-[12px]"}>
+          <Button className={"rounded-lg max-sm:text-[12px]"}>
             Official <ArrowTopRightIcon className={"ml-2"} />
           </Button>
         </Link>
         <Link href={props.findUpdates} target={"_blank"}>
           <Button
-            className={"rounded-3xl max-sm:text-[12px]"}
+            className={"rounded-lg max-sm:text-[12px]"}
             variant={"outline"}
           >
             Find Updates <ArrowTopRightIcon className={"ml-2"} />
@@ -59,7 +58,7 @@ export function ProjectCard(props: ProjectCardProps) {
         </Link>
       </CardFooter>
       <CardFooter>
-        <Badge className={"px-4 py-2"} variant={"default"}>
+        <Badge className={"px-4 py-2 rounded-lg"} variant={"secondary"}>
           Update: {props.newUpdate}
         </Badge>
       </CardFooter>

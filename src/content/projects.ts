@@ -9,7 +9,7 @@ export const vgsevenProjects: ProjectCardProps[] = [
     stage: "Production",
     launchDate: "7.07.24",
     summary:
-      "Introducing Radium – the ultimate platform for developers, whether you're just starting out or a pro. Radium gives you everything you need to make coding easier and faster. Say hello to Radium and make coding a breeze! Radium offers Init, Starter and Templates to kick off your project at speed of light..",
+      "Introducing Radium – the ultimate platform for developers, whether you're just starting out or a pro. Radium gives you everything you need to make coding easier and faster. Say hello to Radium and make coding a breeze! Radium offers Init and Templates to kick off your project at speed of light..",
     official: "https://radium.vgseven.com/",
     findUpdates: "https://github.com/silver-radium/",
     newUpdate: "Working on Init AI, Just describe your project.",
@@ -39,6 +39,19 @@ export const vgsevenProjects: ProjectCardProps[] = [
     official: "https://crystal.vgseven.com/",
     findUpdates: "https://x.com/vgsevenn",
     newUpdate: "Researching on API Deployment and Storage Services Platform.",
+  },
+  {
+    profile:
+      "https://dlaiwpar81okkqcb.public.blob.vercel-storage.com/vgseven-company/v-favicon.png",
+    title: "Einfi",
+    description: "The Information Platform.",
+    stage: "Research",
+    launchDate: "Upcoming",
+    summary:
+      "Einfi - The Next Gen Information Platform, The Current Information Platform Sucks too much we need an modern and trustworthy platform to scale our knowledge..",
+    official: "https://einfi.vgseven.com/",
+    findUpdates: "https://x.com/vgsevenn",
+    newUpdate: "Reviewing on Knowledge Current Platform.",
   },
 ];
 

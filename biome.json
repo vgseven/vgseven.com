@@ -29,6 +29,24 @@
       "recommended": true,
       "correctness": {
         "noUnusedVariables": "warn"
+      },
+      "style": {
+        "recommended": true
+      },
+      "complexity": {
+        "recommended": true
+      },
+      "performance": {
+        "recommended": true
+      },
+      "suspicious": {
+        "recommended": true
+      },
+      "a11y": {
+        "recommended": true
+      },
+      "security": {
+        "recommended": true
       }
     },
     "ignore": [

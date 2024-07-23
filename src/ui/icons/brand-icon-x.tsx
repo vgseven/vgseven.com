@@ -9,7 +9,6 @@ export function BrandIconX({ height, width, className }: IconProps) {
   return (
     <svg
       aria-label="Brand Icon X"
-      aria-labelledby="brand-icon-x"
       xmlns="http://www.w3.org/2000/svg"
       className={cn("icon icon-tabler icon-tabler-brand-x", className)}
       width={width}
