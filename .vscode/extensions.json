@@ -1,8 +1,6 @@
 {
     "recommendations": [
         "biomejs.biome",
-        "vscode.css-language-features",
         "redhat.vscode-yaml",
-        "vscode.json-language-features"
     ]
 }

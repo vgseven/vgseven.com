@@ -73,5 +73,15 @@
       "quoteStyle": "double",
       "attributePosition": "auto"
     }
+  },
+  "json": {
+    "formatter": {
+      "enabled": true
+    }
+  },
+  "css": {
+    "formatter": {
+      "enabled": true
+    }
   }
 }

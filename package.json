@@ -7,9 +7,9 @@
     "build": "next build",
     "lint": "biome lint --write .",
     "format": "biome format --write .",
-    "ui:add": "bunx shadcn-ui@latest add",
+    "ui:add": "pnpm dlx shadcn-ui@latest add",
     "prepare": "husky",
-    "build:prepare": "bun run lint && bun run format && bun run build"
+    "build:prepare": "pnpm run lint && pnpm run format && pnpm run build"
   },
   "dependencies": {
     "@radix-ui/react-icons": "^1.3.0",
@@ -20,7 +20,7 @@
     "@vercel/speed-insights": "^1.0.12",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.1",
-    "framer-motion": "^11.3.12",
+    "framer-motion": "^11.3.19",
     "geist": "^1.3.1",
     "next": "^14.2.5",
     "next-themes": "^0.3.0",
@@ -36,9 +36,9 @@
     "@types/react": "^18.3.3",
     "@types/react-dom": "^18.3.0",
     "autoprefixer": "^10.4.19",
-    "husky": "^9.1.1",
-    "postcss": "^8.4.39",
-    "tailwindcss": "^3.4.6",
+    "husky": "^9.1.3",
+    "postcss": "^8.4.40",
+    "tailwindcss": "^3.4.7",
     "typescript": "^5.5.4"
   }
 }
