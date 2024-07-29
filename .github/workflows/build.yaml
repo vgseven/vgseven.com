@@ -27,5 +27,14 @@ jobs:
       - name: Install dependencies
         run: pnpm install
 
-      - name: Run build
-        run: pnpm run build:prepare
+      - name: Run Type-Check
+        run: pnpm run type-check
+
+      - name: Run Lint
+        run: pnpm run lint
+
+      - name: Run Format
+        run: pnpm run format
+
+      - name: Run Build
+        run: pnpm run build
