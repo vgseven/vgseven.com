@@ -5,107 +5,73 @@ export const vgsevenProjects: ProjectCardProps[] = [
     profile:
       "https://odouepjkxheu5esn.public.blob.vercel-storage.com/silvercompany/radium-favicon.png",
     title: "Radium",
-    description: "Radium, Empowering Developers to Rapidly Ship Projects.",
     stage: "Production",
     launchDate: "7.07.24",
     summary:
-      "Introducing Radium – the ultimate platform for developers, whether you're just starting out or a pro. Radium gives you everything you need to make coding easier and faster. Say hello to Radium and make coding a breeze! Radium offers Init and Templates to kick off your project at speed of light..",
+      "Radium - Rapidly Ship Projects, the ultimate platform for developers, whether you're just starting out or a professional - Radium gives you everything you need to get started quickly and easily. With Radium you have Radium CLI, Radium Templates, Radium Stacks and Radium Starters to kick off your project at speed of light...",
     official: "https://radium.vgseven.com/",
-    findUpdates: "https://github.com/silver-radium/",
-    newUpdate: "Working on Init AI, Just describe your project.",
+    findUpdates: "https://github.com/radiumlabs/",
+    newUpdate:
+      "Working on Radium Describe, An AI powered project initializer - Just describe your project.",
   },
   {
     profile:
-      "https://odouepjkxheu5esn.public.blob.vercel-storage.com/silvercompany/silver-white-favicon-4zdpqmlPhdE6ctpA3GP1DopxLzVOI6.png",
+      "https://odouepjkxheu5esn.public.blob.vercel-storage.com/silvercompany/substance-favicon.png",
+    title: "Substance",
+    stage: "Production",
+    launchDate: "27.07.24",
+    summary:
+      "Substance - Empowering Developers, the platform for developers to scale there vison with empowering of substances we need to build a better tools and services. Substance comes with Substance Lab, Substance Lab aims to test every new canary release of dev tools and services before they are released to the public and so many substances are on the way...",
+    official: "https://substance.vgseven.com/",
+    findUpdates: "https://x.com/vgsevenn",
+    newUpdate: "Testing the JavaScript Signals and Bundlers..",
+  },
+  {
+    profile:
+      "https://odouepjkxheu5esn.public.blob.vercel-storage.com/silvercompany/silver-white-fill-favicon.png",
     title: "Silvi",
-    description: "The Personal Assistant.",
     stage: "Development",
     launchDate: "Upcoming",
     summary:
-      "Silvi - The Personal Assistant, We aims to make jarvis an reality. An next-gen personal assistant, inspired by the advanced capabilities of fictional AIs Marvel's Jarvis. Designed to enhance productivity and streamline daily tasks, Silvi leverages cutting-edge AI technology to provide a seamless, intuitive personal assistance..",
+      "Silvi - The Personal Assistant, Silvi aims to become the real jarvis. An next-gen personal assistant, inspired by the advanced capabilities of fictional Marvel's Jarvis. Not just with voice, but also with chat you have too much power to control your life with Silvi. Silvi leverages fiction to become the next generation personal assistance you used never before..",
     official: "https://silvi.vgseven.com/",
     findUpdates: "https://x.com/vgsevenn",
-    newUpdate: "Currently working to Make Jarvis Happen.",
+    newUpdate: "Currently working MVP version of Silvi, Stay tuned.",
   },
-  {
-    profile:
-      "https://dlaiwpar81okkqcb.public.blob.vercel-storage.com/vgseven-company/v-favicon.png",
-    title: "Crystal",
-    description: "The Next Gen Cloud Platform.",
-    stage: "Research",
-    launchDate: "Upcoming",
-    summary:
-      "Crystal - The Next Gen Cloud Platform, The Current Cloud Platform Sucks too much we need an modern and next gen services to scale and manage our cloud..",
-    official: "https://crystal.vgseven.com/",
-    findUpdates: "https://x.com/vgsevenn",
-    newUpdate: "Researching on API Deployment and Storage Services Platform.",
-  },
-  {
-    profile:
-      "https://dlaiwpar81okkqcb.public.blob.vercel-storage.com/vgseven-company/v-favicon.png",
-    title: "Einfi",
-    description: "The Information Platform.",
-    stage: "Research",
-    launchDate: "Upcoming",
-    summary:
-      "Einfi - The Next Gen Information Platform, The Current Information Platform Sucks too much we need an modern and trustworthy platform to scale our knowledge..",
-    official: "https://einfi.vgseven.com/",
-    findUpdates: "https://x.com/vgsevenn",
-    newUpdate: "Reviewing on Knowledge Current Platform.",
-  },
-  {
-    profile:
-      "https://dlaiwpar81okkqcb.public.blob.vercel-storage.com/vgseven-company/v-favicon.png",
-    title: "Substance",
-    description: "Empowering Developers.",
-    stage: "Research",
-    launchDate: "Upcoming",
-    summary:
-      "Einfi - The Next Gen Information Platform, The Current Information Platform Sucks too much we need an modern and trustworthy platform to scale our knowledge..",
-    official: "https://einfi.vgseven.com/",
-    findUpdates: "https://x.com/vgsevenn",
-    newUpdate: "Reviewing on Knowledge Current Platform.",
-  },
-];
-
-export const labsevenProjects: ProjectCardProps[] = [
   {
     profile:
       "https://dlaiwpar81okkqcb.public.blob.vercel-storage.com/vgseven-company/v-favicon.png",
     title: "Titanium",
-    description: "Redefining Security.",
     stage: "Development",
     launchDate: "Upcoming",
     summary:
-      "Titanium - Redefining Security, Titanium is a security platform - Offers Titanium Vault, Titanium Authority and Titanium Drive..",
-    official: "https://labseven.vgseven.com/titanium",
+      "Titanium - Redefining Security, Titanium is a security platform - Offers Titanium Vault, Titanium Authority and Titanium Drive. Titanium Vault is a secure vault that stores your secrets and credentials. Titanium Authority is development lib to build secure applications and Titanium Drive is a cloud storage platform that allows you to store and share your files securely..",
+    official: "https://titanium.vgseven.com/",
     findUpdates: "https://x.com/vgsevenn",
-    newUpdate: "Working on Argon2 Library.",
+    newUpdate: "Working on Argon2 Library - Titanium Authority.",
   },
   {
     profile:
       "https://dlaiwpar81okkqcb.public.blob.vercel-storage.com/vgseven-company/v-favicon.png",
     title: "Capital",
-    description: "Personal Finance Assistant.",
-    stage: "Research",
+    stage: "Development",
     launchDate: "Upcoming",
     summary:
-      "Capital - Personal Finance Assistant. Capital is a financial assistant that helps you manage your Expenses, Debt, Incomings and Payings..",
-    official: "https://labseven.vgseven.com/capital",
+      "Capital - Personal Finance Assistant, the financial assistant that helps you manage your Expenses, Debt, Incomings and Payings in a better way - in single place - in secure way. We all need an assistant to manage our finances - so we can spend that perfectly and Capital is the perfect solution for you..",
+    official: "https://labseven.vgseven.com/",
     findUpdates: "https://x.com/vgsevenn",
     newUpdate: "MVP will be in Alpha soon..",
   },
   {
     profile:
       "https://dlaiwpar81okkqcb.public.blob.vercel-storage.com/vgseven-company/v-favicon.png",
-    title: "Liquid",
-    description: "Content Management Ecosystem.",
+    title: "Crystal",
     stage: "Research",
     launchDate: "Upcoming",
     summary:
-      "Liquid - The Next Generation Content Management Ecosystem, Liquid starting with Liquidlayer and Liquidbase - the two core components of Liquid.",
-    official: "https://labseven.vgseven.com/liquid",
+      "Crystal - The Next Gen Cloud Platform, The Current Cloud Platform Sucks too much we need an modern and next gen services to scale and manage our cloud infrastructure - Crystal is the modern apporach to cloud infrastructure...",
+    official: "https://crystal.vgseven.com/",
     findUpdates: "https://x.com/vgsevenn",
-    newUpdate: "Starting with MDX.",
+    newUpdate: "Researching on API Deployment and Storage Services Platform.",
   },
 ];
