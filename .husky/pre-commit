@@ -1,3 +1,4 @@
+pnpm run type-check
 pnpm run format
 pnpm run lint
 pnpm run build

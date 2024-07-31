@@ -11,8 +11,8 @@ import {
 } from "@/ui/primitives/card";
 import { ArrowTopRightIcon } from "@radix-ui/react-icons";
 import type { StaticImport } from "next/dist/shared/lib/get-img-props";
-import Image from "next/image";
-import Link from "next/link";
+import { default as Image } from "next/image";
+import { default as Link } from "next/link";
 
 export function ProjectCard(props: ProjectCardProps) {
   return (

@@ -1,5 +1,3 @@
-"use client";
-
 import { vgsevenProjects, labsevenProjects } from "@/content/projects";
 import { ProjectCard } from "@/ui/components/project-card";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/ui/primitives/tabs";

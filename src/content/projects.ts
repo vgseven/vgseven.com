@@ -53,6 +53,19 @@ export const vgsevenProjects: ProjectCardProps[] = [
     findUpdates: "https://x.com/vgsevenn",
     newUpdate: "Reviewing on Knowledge Current Platform.",
   },
+  {
+    profile:
+      "https://dlaiwpar81okkqcb.public.blob.vercel-storage.com/vgseven-company/v-favicon.png",
+    title: "Substance",
+    description: "Empowering Developers.",
+    stage: "Research",
+    launchDate: "Upcoming",
+    summary:
+      "Einfi - The Next Gen Information Platform, The Current Information Platform Sucks too much we need an modern and trustworthy platform to scale our knowledge..",
+    official: "https://einfi.vgseven.com/",
+    findUpdates: "https://x.com/vgsevenn",
+    newUpdate: "Reviewing on Knowledge Current Platform.",
+  },
 ];
 
 export const labsevenProjects: ProjectCardProps[] = [
