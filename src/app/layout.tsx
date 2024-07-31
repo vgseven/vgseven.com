@@ -2,7 +2,6 @@ import { fonts } from "@/lib/fonts";
 import { ThemeProvider } from "@/lib/providers/theme-provider";
 import "@/styles/root-layout.css";
 import { Footer } from "@/ui/components/footer";
-import { Header } from "@/ui/components/header";
 import { Analytics } from "@vercel/analytics/react";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 import type { Metadata } from "next";
@@ -62,17 +61,16 @@ export default function RootLayout({ children }: { children: ReactNode }) {
   return (
     <html
       lang="en"
-      className={`${fonts.GeistMono.variable} ${fonts.GeistSans.variable}`}
+      className={`${fonts.GeistMono.variable} ${fonts.GeistSans.variable} font-geistMono`}
       suppressHydrationWarning
     >
-      <body className={"font-geistMono"}>
+      <body>
         <ThemeProvider
           attribute="class"
           defaultTheme="system"
           enableSystem
           disableTransitionOnChange
         >
-          <Header />
           {children}
           <SpeedInsights />
           <Analytics />
