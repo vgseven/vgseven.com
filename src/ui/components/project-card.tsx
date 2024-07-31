@@ -27,9 +27,6 @@ export function ProjectCard(props: ProjectCardProps) {
           />
           <CardTitle className={"ml-2 mt-1"}>{props.title}</CardTitle>
         </div>
-        <CardDescription className={"mt-4"}>
-          {props.description}
-        </CardDescription>
         <CardDescription className={"mt-3 flex flex-row gap-2"}>
           <Badge className={"rounded-md max-sm:text-[12px] pt-1"}>
             {props.stage}

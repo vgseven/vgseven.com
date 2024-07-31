@@ -36,7 +36,7 @@ export function Footer() {
               "rounded-full border border-ring dark:border-white border-black"
             }
             src={
-              "https://odouepjkxheu5esn.public.blob.vercel-storage.com/silvercompany/silver-white-favicon-4zdpqmlPhdE6ctpA3GP1DopxLzVOI6.png"
+              "https://odouepjkxheu5esn.public.blob.vercel-storage.com/silvercompany/silver-white-fill-favicon.png"
             }
             alt={"silver-company"}
           />
