@@ -32,9 +32,7 @@ export function Footer() {
           <Image
             width={32}
             height={32}
-            className={
-              "rounded-full border border-ring dark:border-white border-black"
-            }
+            className={"rounded-full"}
             src={
               "https://odouepjkxheu5esn.public.blob.vercel-storage.com/silvercompany/silver-white-fill-favicon.png"
             }
@@ -45,39 +43,51 @@ export function Footer() {
           <BrandIconX
             width={32}
             height={32}
-            className={"rounded-full p-2 border border-ring"}
+            className={
+              "rounded-full p-2 border border-ring dark:hover:text-white"
+            }
           />
         </Link>
         <Link href={"https://github.com/vgseven"} target="_blank">
           <GitHubLogoIcon
             width={32}
             height={32}
-            className={"rounded-full p-2 border border-ring"}
+            className={
+              "rounded-full p-2 border border-ring dark:hover:text-white"
+            }
           />
         </Link>
         <Link href={"https://linkedin.com/in/vgseven"} target="_blank">
           <LinkedInLogoIcon
             width={32}
             height={32}
-            className={"rounded-full p-2 border border-ring"}
+            className={
+              "rounded-full p-2 border border-ring dark:hover:text-white"
+            }
           />
         </Link>
         <MoonIcon
           onClick={() => setTheme("dark")}
           width={32}
           height={32}
-          className={"rounded-full p-2 border border-ring hover:cursor-pointer"}
+          className={
+            "rounded-full p-2 border border-ring hover:cursor-pointer dark:hover:text-white"
+          }
         />
 
         <SunIcon
           onClick={() => setTheme("light")}
           width={32}
           height={32}
-          className={"rounded-full p-2 border border-ring hover:cursor-pointer"}
+          className={
+            "rounded-full p-2 border border-ring hover:cursor-pointer dark:hover:text-white"
+          }
         />
       </div>
       <Label
-        className={"text-base tracking-widest text-black dark:text-zinc-300"}
+        className={
+          "text-base tracking-widest text-black dark:text-zinc-300 dark:hover:text-white"
+        }
       >
         VGSEVEN &copy; {new Date().getFullYear()}
       </Label>

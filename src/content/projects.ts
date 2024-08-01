@@ -65,6 +65,18 @@ export const vgsevenProjects: ProjectCardProps[] = [
   {
     profile:
       "https://dlaiwpar81okkqcb.public.blob.vercel-storage.com/vgseven-company/v-favicon.png",
+    title: "Liquid",
+    stage: "Development",
+    launchDate: "Upcoming",
+    summary:
+      "Liquid - The Next Generation Content Ecosystem, We found Contentlayer is not maintained properly and existing providers sucks - so we're rewriting it from scratch with much improvements and new features...",
+    official: "https://liquid.vgseven.com/",
+    findUpdates: "https://x.com/vgsevenn",
+    newUpdate: "Rewriting Contentlayer Codebase..",
+  },
+  {
+    profile:
+      "https://dlaiwpar81okkqcb.public.blob.vercel-storage.com/vgseven-company/v-favicon.png",
     title: "Crystal",
     stage: "Research",
     launchDate: "Upcoming",
