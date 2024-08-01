@@ -18,4 +18,4 @@ I use TypeScript alot and Currently learning Rust and Zig..
 
 ## Contact
 
-Feel free to reach out to me on [X](https://www.x.com/vgsevenn) or [Mail](mailto:contact@vgseven.com).
+Feel free to reach out to via dm on [X](https://www.x.com/vgsevenn) or `contact@vgseven.com`.
