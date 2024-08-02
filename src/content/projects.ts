@@ -38,4 +38,52 @@ export const vgsevenProjects: ProjectCardProps[] = [
     findUpdates: "https://x.com/vgsevenn",
     newUpdate: "Currently working MVP version of Silvi, Stay tuned.",
   },
+  {
+    profile:
+      "https://dlaiwpar81okkqcb.public.blob.vercel-storage.com/vgseven-company/v-favicon.png",
+    title: "Titanium",
+    stage: "Development",
+    launchDate: "Upcoming",
+    summary:
+      "Titanium - Redefining Security, Titanium is a security platform - Offers Titanium Vault, Titanium Authority and Titanium Drive. Titanium Vault is a secure vault that stores your secrets and credentials. Titanium Authority is development lib to build secure applications and Titanium Drive is a cloud storage platform that allows you to store and share your files securely..",
+    official: "https://titanium.vgseven.com/",
+    findUpdates: "https://x.com/vgsevenn",
+    newUpdate: "Working on Argon2 Library - Titanium Authority.",
+  },
+  {
+    profile:
+      "https://dlaiwpar81okkqcb.public.blob.vercel-storage.com/vgseven-company/v-favicon.png",
+    title: "Capital",
+    stage: "Development",
+    launchDate: "Upcoming",
+    summary:
+      "Capital - Personal Finance Assistant, the financial assistant that helps you manage your Expenses, Debt, Incomings and Payings in a better way - in single place - in secure way. We all need an assistant to manage our finances - so we can spend that perfectly and Capital is the perfect solution for you..",
+    official: "https://labseven.vgseven.com/",
+    findUpdates: "https://x.com/vgsevenn",
+    newUpdate: "MVP will be in Alpha soon..",
+  },
+  {
+    profile:
+      "https://dlaiwpar81okkqcb.public.blob.vercel-storage.com/vgseven-company/v-favicon.png",
+    title: "Liquid",
+    stage: "Development",
+    launchDate: "Upcoming",
+    summary:
+      "Liquid - The Next Generation Content Ecosystem, We found Contentlayer is not maintained properly and existing providers sucks - so we're rewriting it from scratch with much improvements and new features...",
+    official: "https://liquid.vgseven.com/",
+    findUpdates: "https://x.com/vgsevenn",
+    newUpdate: "Rewriting Contentlayer Codebase..",
+  },
+  {
+    profile:
+      "https://dlaiwpar81okkqcb.public.blob.vercel-storage.com/vgseven-company/v-favicon.png",
+    title: "Crystal",
+    stage: "Research",
+    launchDate: "Upcoming",
+    summary:
+      "Crystal - The Next Gen Cloud Platform, The Current Cloud Platform Sucks too much we need an modern and next gen services to scale and manage our cloud infrastructure - Crystal is the modern apporach to cloud infrastructure...",
+    official: "https://crystal.vgseven.com/",
+    findUpdates: "https://x.com/vgsevenn",
+    newUpdate: "Researching on API Deployment and Storage Services Platform.",
+  },
 ];

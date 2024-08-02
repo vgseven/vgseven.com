@@ -17,6 +17,7 @@ export default function Home() {
         <TabsList>
           <TabsTrigger value="projects">VGSEVEN</TabsTrigger>
           <TabsTrigger value="labseven">LABSEVEN</TabsTrigger>
+          <TabsTrigger value="enriching">ENRICHING</TabsTrigger>
           <TabsTrigger value="updates">UPDATES</TabsTrigger>
           <TabsTrigger value="about">ABOUT</TabsTrigger>
         </TabsList>
@@ -52,6 +53,20 @@ export default function Home() {
                 </Link>{" "}
                 and for updates.
               </p>
+            </CardContent>
+          </Card>
+        </TabsContent>
+        <TabsContent value="enriching">
+          <Card className={"my-6 rounded-xl p-2"}>
+            <CardHeader>
+              <CardTitle className={"text-xl"}>Enriching Projects</CardTitle>
+            </CardHeader>
+            <CardContent>
+              Currently, I am working on understanding the Supabase and Dub
+              codebases. I want to migrate Supabase to a pnpm workspace and
+              package manager, integrating Biome for formatting and linting. And
+              updating Dub to use Biome additionally adding the Geist font and
+              implementing a dark theme to the Dub codebase.
             </CardContent>
           </Card>
         </TabsContent>
