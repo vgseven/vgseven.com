@@ -93,8 +93,8 @@ export default function Home() {
                 <b className={"text-white"}>X</b>
               </Link>{" "}
               and mail at{" "}
-              <Link href={"mailto:contact@vgseven.com"} target={"_blank"}>
-                <b className={"text-white"}>contact@vgseven.com</b>
+              <Link href={"mailto:ivaibhavgosavi@gmail.com"} target={"_blank"}>
+                <b className={"text-white"}>ivaibhavgosavi@gmail.com</b>
               </Link>{" "}
             </CardContent>
           </Card>
