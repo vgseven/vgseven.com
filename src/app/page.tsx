@@ -8,14 +8,14 @@ import {
   CardTitle,
 } from "@/ui/primitives/card";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/ui/primitives/tabs";
-import { default as Link } from "next/link";
+import Link from "next/link";
 
 export default function Home() {
   return (
     <div className={"mx-20 mt-16 flex flex-col max-sm:mx-4"}>
       <Tabs defaultValue="projects">
         <TabsList>
-          <TabsTrigger value="projects">PROJECTS</TabsTrigger>
+          <TabsTrigger value="projects">VGSEVEN</TabsTrigger>
           <TabsTrigger value="labseven">LABSEVEN</TabsTrigger>
           <TabsTrigger value="updates">UPDATES</TabsTrigger>
           <TabsTrigger value="about">ABOUT</TabsTrigger>
