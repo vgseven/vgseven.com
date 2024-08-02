@@ -1,6 +1,6 @@
 # VGSEVEN
 
-Hey there! I'm Vaibhav Gosavi, Full Stack Web Developer migrating to AI and System Development. I'm currently working on a project Silvi - The Personal Assistant, [Radium](https://github.com/radiumlabs) - AI powered project initialization tool and Titanium, Capital, Liquid and [Substance](https://github.com/silversubstance). For more project details, visit [vgseven.com](https://vgseven.com).
+Hey there! I'm Vaibhav Gosavi, Full Stack Web Developer migrating to AI and System Development. I'm currently working on a project Silvi - The Personal Assistant, [Radium](https://github.com/radiumlabs) - AI powered project initialization tool and [Substance](https://github.com/silversubstance). For more project details, visit [vgseven.com](https://vgseven.com).
 
 ## About Development
 
@@ -18,4 +18,4 @@ I use TypeScript alot and Currently learning Rust and Zig..
 
 ## Contact
 
-Feel free to reach out to via dm on [X](https://www.x.com/vgsevenn) or `contact@vgseven.com`.
+Feel free to reach out to via dm on [X](https://www.x.com/vgsevenn) or `ivaibhav@gmail.com`.
