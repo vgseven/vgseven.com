@@ -7,6 +7,7 @@ import {
   CardHeader,
   CardTitle,
 } from "@/ui/primitives/card";
+import { Label } from "@/ui/primitives/label";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/ui/primitives/tabs";
 import Link from "next/link";
 
@@ -30,29 +31,8 @@ export default function Home() {
         </TabsContent>
         <TabsContent value="labseven">
           <Card className={"my-6 rounded-xl p-2"}>
-            <CardHeader>
-              <CardTitle>Project Social Media</CardTitle>
-              <CardDescription className={"mt-4"}>
-                I don't have any performant name for this project yet but I'm
-                working on it, The First step we have is Persona. Project
-                Persona is something intresting and I'm working on it..
-              </CardDescription>
-            </CardHeader>
             <CardContent>
-              <p>
-                <b className={"text-white"}>Persona</b>, The First Internet
-                Presence. Persona is something on which you'll able to create
-                your public persona and highlight all your special things at
-                one. Such as social links, writings, projects, achievements,
-                etc.
-              </p>
-              <p>
-                Currently Persona is in research phase, stay tuned here and on{" "}
-                <Link href={"https://x.com/vgsevenn"} target={"_blank"}>
-                  <b className={"text-white"}>X</b>
-                </Link>{" "}
-                and for updates.
-              </p>
+              <Label>Work in Progress</Label>
             </CardContent>
           </Card>
         </TabsContent>
@@ -72,21 +52,7 @@ export default function Home() {
         </TabsContent>
         <TabsContent value="updates">
           <Card className={"my-6 rounded-xl p-2"}>
-            <CardHeader>
-              <CardTitle className={"text-xl"}>
-                Project Titanium, Liquid and Capital is moved from labseven to
-                VGSEVEN Projects.
-              </CardTitle>
-              <CardDescription className={"mt-4"}>
-                Titanium, Liquid and Capital is moved from labseven to VGSEVEN,
-                Titanium is security platform, Liquid is Content Ecosystem and
-                Capital is Personal Finance Assistant.
-              </CardDescription>
-            </CardHeader>
-            <CardContent>
-              Titanium, Liquid and Capital is currently in development phase and
-              will be released soon.
-            </CardContent>
+            <CardContent>No new updates yet.</CardContent>
           </Card>
         </TabsContent>
         <TabsContent value="about">
