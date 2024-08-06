@@ -19,7 +19,6 @@ export default function Home() {
           <TabsTrigger value="projects">VGSEVEN</TabsTrigger>
           <TabsTrigger value="labseven">LABSEVEN</TabsTrigger>
           <TabsTrigger value="enriching">ENRICHING</TabsTrigger>
-          <TabsTrigger value="updates">UPDATES</TabsTrigger>
           <TabsTrigger value="about">ABOUT</TabsTrigger>
         </TabsList>
         <TabsContent value="projects">
@@ -32,7 +31,10 @@ export default function Home() {
         <TabsContent value="labseven">
           <Card className={"my-6 rounded-xl p-2"}>
             <CardContent>
-              <Label>Work in Progress</Label>
+              <Label>
+                Working/Researching on AI powered Writer and First Internet
+                Presence Project..
+              </Label>
             </CardContent>
           </Card>
         </TabsContent>
@@ -60,8 +62,9 @@ export default function Home() {
             <CardHeader>
               <CardTitle>About Me</CardTitle>
               <CardDescription className={"mt-4"}>
-                Hey hi, I'm Vaibhav Gosavi, I'm a Developer and currently
-                working on Silvi. I like to build things and learn new things.
+                Hey, I'm Vaibhav Gosavi, An Full Stack Web, AI and Python
+                Developer, Migrating to System Development - currently working
+                on Silvi - The Personal Assistant.
               </CardDescription>
             </CardHeader>
             <CardContent>
@@ -73,7 +76,7 @@ export default function Home() {
               <Link href={"https://x.com/vgsevenn"} target={"_blank"}>
                 <b className={"text-white"}>X</b>
               </Link>{" "}
-              and mail at{" "}
+              or mail at{" "}
               <Link href={"mailto:ivaibhavgosavi@gmail.com"} target={"_blank"}>
                 <b className={"text-white"}>ivaibhavgosavi@gmail.com</b>
               </Link>{" "}
