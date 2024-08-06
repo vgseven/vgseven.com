@@ -31,17 +31,15 @@ export default function Home() {
         </GradientText>
       </div>
       <div className={"z-10 text-center max-w-[56rem] my-4 font-medium"}>
-        <div className={"text-[14px] max-md:text-[13px] font-bold"}>
-          Hello World, I'm Vaibhav Gosavi (@vgseven) - Creator of{" "}
-          <Highlight>Radium</Highlight> - Make Ship Happen,{" "}
-          <Highlight>Substance</Highlight> - Make Development Happen and
-          Upcoming Personal Assistant - Say <Highlight>Silvi</Highlight> - Make
-          Jarvis Happen.
+        <div className={"text-[14px] max-md:text-[11px] font-bold"}>
+          Hello World, I'm Vaibhav Gosavi (@vgseven), Creator of{" "}
+          <Highlight>Radium</Highlight>, Make Ship Happen,{" "}
+          <Highlight>Substance</Highlight>, Make Development Happen and Upcoming
+          Personal Assistant - Say <Highlight>Silvi</Highlight>,Make Jarvis
+          Happen.
         </div>
         <div
-          className={
-            "flex flex-row items-center justify-center gap-6 my-4 max-md:flex-col max-md:gap-2"
-          }
+          className={"flex flex-wrap items-center justify-center gap-2 my-4"}
         >
           <Link href={"https://silver.vgseven.com/radium"} target="_blank">
             <Button variant={"secondary"}>
@@ -54,7 +52,7 @@ export default function Home() {
                 height={20}
                 className={"mr-2"}
               />{" "}
-              Know More About Radium
+              Radium
               <ArrowTopRightIcon className={"ml-2"} />
             </Button>
           </Link>
@@ -69,7 +67,7 @@ export default function Home() {
                 height={20}
                 className={"mr-2"}
               />{" "}
-              Know More About Substance
+              Substance
               <ArrowTopRightIcon className={"ml-2"} />
             </Button>
           </Link>
@@ -84,7 +82,7 @@ export default function Home() {
                 height={20}
                 className={"mr-2"}
               />{" "}
-              Know More About Silvi
+              Silvi
               <ArrowTopRightIcon className={"ml-2"} />
             </Button>
           </Link>
