@@ -1,6 +1,6 @@
 # VGSEVEN
 
-Hey there! I'm Vaibhav Gosavi, Full Stack Web Developer migrating to AI and System Development. I'm currently working on a [Radium](https://github.com/radiumlabs) - AI powered project initialization tool and [Substance](https://github.com/silversubstance). For more project details, visit [vgseven.com](https://vgseven.com).
+Hey there! I'm Vaibhav Gosavi, Full Stack Web Developer migrating to AI and System Development. I'm currently working on a [Radium](https://radium.vgseven.com) - AI powered project initialization tool and [Substance](https://substance.vgseven.com) and [Silvi](https://silvi.vgseven.com) - The Personal Assistant and [Titanium](https://titanium.vgseven.com) - Redefined Security. For more project details, visit [vgseven.com](https://vgseven.com).
 
 ## About Development
 

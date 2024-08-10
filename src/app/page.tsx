@@ -1,9 +1,10 @@
-import { BackgroundGrid } from "@/ui/components/bg-square";
+import { BackgroundGrid } from "@/ui/components/bg-grids";
 import { BrandIconX } from "@/ui/icons/brand-icon-x";
 import { Button } from "@/ui/primitives/button";
 import { GradientText } from "@/ui/primitives/gradient-text";
 import { Highlight } from "@/ui/primitives/highlight";
 import { Label } from "@/ui/primitives/label";
+import { Paragraph } from "@/ui/primitives/paragraph";
 import {
   ArrowTopRightIcon,
   EnvelopeOpenIcon,
@@ -21,27 +22,37 @@ export default function Home() {
       }
     >
       <BackgroundGrid className={"z-0"} />
-      <div className={"text-center"}>
+      <div
+        className={
+          "flex flex-row gap-6 max-sm:flex-col justify-center items-center max-sm:gap-0"
+        }
+      >
         <GradientText
           className={
             "text-[6rem] max-lg:text-[5rem] max-md:text-[4rem] max-sm:text-[3rem]"
           }
         >
-          VAIBHAV GOSAVI
+          VAIBHAV
+        </GradientText>
+        <GradientText
+          className={
+            "text-[6rem] max-lg:text-[5rem] max-md:text-[4rem] max-sm:text-[3rem]"
+          }
+        >
+          GOSAVI
         </GradientText>
       </div>
       <div className={"z-10 text-center max-w-[56rem] my-4 font-medium"}>
-        <div className={"text-[14px] max-md:text-[11px] font-bold"}>
+        <Paragraph className={"text-[14px] max-md:text-[11px] font-bold"}>
           Hello World, I'm Vaibhav Gosavi (@vgseven), Creator of{" "}
-          <Highlight>Radium</Highlight>, Make Ship Happen,{" "}
-          <Highlight>Substance</Highlight>, Make Development Happen and Upcoming
-          Personal Assistant - Say <Highlight>Silvi</Highlight>,Make Jarvis
-          Happen.
-        </div>
+          <Highlight>Radium</Highlight>, <Highlight>Substance</Highlight>, and
+          Upcoming Personal Assistant <Highlight>Silvi</Highlight> and{" "}
+          <Highlight>Titanium</Highlight>.
+        </Paragraph>
         <div
           className={"flex flex-wrap items-center justify-center gap-2 my-4"}
         >
-          <Link href={"https://silver.vgseven.com/radium"} target="_blank">
+          <Link href={"https://radium.vgseven.com"} target="_blank">
             <Button variant={"secondary"}>
               <Image
                 src={
@@ -56,7 +67,7 @@ export default function Home() {
               <ArrowTopRightIcon className={"ml-2"} />
             </Button>
           </Link>
-          <Link href={"https://silver.vgseven.com/substance"} target="_blank">
+          <Link href={"https://substance.vgseven.com"} target="_blank">
             <Button variant={"secondary"}>
               <Image
                 src={
@@ -71,7 +82,7 @@ export default function Home() {
               <ArrowTopRightIcon className={"ml-2"} />
             </Button>
           </Link>
-          <Link href={"https://silver.vgseven.com/silvi"} target="_blank">
+          <Link href={"https://silvi.vgseven.com"} target="_blank">
             <Button>
               <Image
                 src={
@@ -83,6 +94,21 @@ export default function Home() {
                 className={"mr-2"}
               />{" "}
               Silvi
+              <ArrowTopRightIcon className={"ml-2"} />
+            </Button>
+          </Link>
+          <Link href={"https://titanium.vgseven.com"} target="_blank">
+            <Button>
+              <Image
+                src={
+                  "https://odouepjkxheu5esn.public.blob.vercel-storage.com/silvercompany/titanium-favicon.png"
+                }
+                alt="silver"
+                width={20}
+                height={20}
+                className={"mr-2"}
+              />{" "}
+              Titanium
               <ArrowTopRightIcon className={"ml-2"} />
             </Button>
           </Link>

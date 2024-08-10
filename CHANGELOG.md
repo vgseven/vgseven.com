@@ -1,5 +1,11 @@
 # vgseven
 
+## 4.1.1
+
+### Patch Changes
+
+- core: project update
+
 ## 4.1.0
 
 ### Minor Changes
