@@ -14,7 +14,7 @@ export const GradientText = React.forwardRef<HTMLDivElement, GradientTextProps>(
           <Label
             key={char + Math.random()}
             className={cn(
-              "bg-gradient-to-tl from-black via-black/90 to-zinc-400 bg-clip-text text-transparent",
+              "bg-gradient-to-tl from-black via-black/90 to-zinc-400 bg-clip-text text-transparent font-semibold m-0 p-0",
               className
             )}
           >

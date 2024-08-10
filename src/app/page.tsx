@@ -42,7 +42,7 @@ export default function Home() {
           GOSAVI
         </GradientText>
       </div>
-      <div className={"z-10 text-center max-w-[56rem] my-4 font-medium"}>
+      <div className={"z-10 text-center max-w-[42rem] my-4 font-medium"}>
         <Paragraph className={"text-[14px] max-md:text-[11px] font-bold"}>
           Hello World, I'm Vaibhav Gosavi (@vgseven), Creator of{" "}
           <Highlight>Radium</Highlight>, <Highlight>Substance</Highlight>, and
@@ -50,7 +50,7 @@ export default function Home() {
           <Highlight>Titanium</Highlight>.
         </Paragraph>
         <div
-          className={"flex flex-wrap items-center justify-center gap-2 my-4"}
+          className={"flex flex-wrap items-center justify-center gap-2 mt-10"}
         >
           <Link href={"https://radium.vgseven.com"} target="_blank">
             <Button variant={"secondary"}>
@@ -116,17 +116,6 @@ export default function Home() {
       </div>
       <div className={"flex flex-col items-center justify-center my-4"}>
         <div className={"flex flex-row items-center justify-center gap-6"}>
-          <Link href={"https://silver.vgseven.com"} target="_blank">
-            <Image
-              width={28}
-              height={28}
-              className={"rounded-full mix-blend-multiply"}
-              src={
-                "https://odouepjkxheu5esn.public.blob.vercel-storage.com/silvercompany/silver-white-fill-favicon.png"
-              }
-              alt={"silver-company"}
-            />
-          </Link>
           <Link href={"https://x.com/vgsevenn/"} target="_blank">
             <BrandIconX width={16} height={16} />
           </Link>

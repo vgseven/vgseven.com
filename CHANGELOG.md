@@ -1,5 +1,11 @@
 # vgseven
 
+## 4.1.2
+
+### Patch Changes
+
+- core: ui issues fixed
+
 ## 4.1.1
 
 ### Patch Changes
