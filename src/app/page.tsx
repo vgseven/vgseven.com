@@ -82,21 +82,6 @@ export default function Home() {
               <ArrowTopRightIcon className={"ml-2"} />
             </Button>
           </Link>
-          <Link href={"https://silvi.vgseven.com"} target="_blank">
-            <Button>
-              <Image
-                src={
-                  "https://odouepjkxheu5esn.public.blob.vercel-storage.com/silvercompany/silver-white-fill-favicon.png"
-                }
-                alt="silver"
-                width={20}
-                height={20}
-                className={"mr-2"}
-              />{" "}
-              Silvi
-              <ArrowTopRightIcon className={"ml-2"} />
-            </Button>
-          </Link>
           <Link href={"https://titanium.vgseven.com"} target="_blank">
             <Button>
               <Image
@@ -109,6 +94,21 @@ export default function Home() {
                 className={"mr-2"}
               />{" "}
               Titanium
+              <ArrowTopRightIcon className={"ml-2"} />
+            </Button>
+          </Link>
+          <Link href={"https://silvi.vgseven.com"} target="_blank">
+            <Button>
+              <Image
+                src={
+                  "https://odouepjkxheu5esn.public.blob.vercel-storage.com/silvercompany/silver-white-fill-favicon.png"
+                }
+                alt="silver"
+                width={20}
+                height={20}
+                className={"mr-2"}
+              />{" "}
+              Silvi
               <ArrowTopRightIcon className={"ml-2"} />
             </Button>
           </Link>
