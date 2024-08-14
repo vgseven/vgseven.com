@@ -46,8 +46,7 @@ export default function Home() {
         <Paragraph className={"text-[14px] max-md:text-[11px] font-bold"}>
           Hello World, I'm Vaibhav Gosavi (@vgseven), Creator of{" "}
           <Highlight>Radium</Highlight>, <Highlight>Substance</Highlight>, and
-          Upcoming Personal Assistant <Highlight>Silvi</Highlight> and{" "}
-          <Highlight>Titanium</Highlight>.
+          Upcoming Personal Assistant <Highlight>Silvi</Highlight>.
         </Paragraph>
         <div
           className={"flex flex-wrap items-center justify-center gap-2 mt-10"}
@@ -79,21 +78,6 @@ export default function Home() {
                 className={"mr-2"}
               />{" "}
               Substance
-              <ArrowTopRightIcon className={"ml-2"} />
-            </Button>
-          </Link>
-          <Link href={"https://titanium.vgseven.com"} target="_blank">
-            <Button>
-              <Image
-                src={
-                  "https://odouepjkxheu5esn.public.blob.vercel-storage.com/silvercompany/titanium-favicon.png"
-                }
-                alt="silver"
-                width={20}
-                height={20}
-                className={"mr-2"}
-              />{" "}
-              Titanium
               <ArrowTopRightIcon className={"ml-2"} />
             </Button>
           </Link>
