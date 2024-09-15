@@ -1,21 +1,19 @@
 # VGSEVEN
 
-Hey there! I'm Vaibhav Gosavi, Full Stack Web Developer migrating to AI and System Development. I'm currently working on a [Radium](https://radium.vgseven.com) - AI powered project initialization tool and [Substance](https://substance.vgseven.com) and [Silvi](https://silvi.vgseven.com) - The Personal Assistant. For more project details, visit [vgseven.com](https://vgseven.com).
+Hey there! I'm Vaibhav Gosavi, Full Stack Web Developer migrating to AI and System Development. I'm currently working on a [Elementary](https://elementary.vgseven.com) to Empower Developers and [Radium](https://radium.vgseven.com) to Rapidly Ship Projects.
 
 ## About Development
 
-I use TypeScript alot and Currently learning Rust and Zig..
+I use TypeScript alot and Currently learning Python, Rust and Zig..
 
-## Recent Projects
+### Recent Projects
 
-1. [Next Essential](https://github.com/radiumlabs/next-essential) - Next Essential, An Essential Template to build an modern next.js application with all the essentials included.
+1. [Next Essential](https://github.com/labelementary/next-essential) - Next Essential, An Essential Template to build an modern next.js application with all the essentials included.
 
-2. [React Essential](https://github.com/radiumlabs/react-essential) - React Essential, An Essential Template to build an modern react.js application with all the essentials included.
+2. [React Essential](https://github.com/labelementary/react-essential) - React Essential, An Essential Template to build an modern react.js application with all the essentials included.
 
-3. [Package Essential](https://github.com/radiumlabs/package-essential) - Package Essential, An Essential Starter Template for Development of TypeScript Based Packages.
+3. [Package Essential](https://github.com/labelementary/package-essential) - Package Essential, An Essential Starter Template for Development of TypeScript Based Packages.
 
-4. [Substance Lab](https://github.com/substancelabs) - Substance Lab, The Lab to test everything and help community to make that performant. Currently testing Rsnext, JavaScript Bundlers and JavaScript Signal Proposals.
+#### Contact
 
-## Contact
-
-Feel free to reach out to via dm on [X](https://www.x.com/vgsevenn) or `ivaibhavgosavi@gmail.com`.
+Feel free to reach out to via dm on [X](https://www.x.com/vgsevenn)..

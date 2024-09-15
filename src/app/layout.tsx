@@ -59,7 +59,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
   return (
     <html
       lang="en"
-      className={`${fonts.GeistMono.variable} ${fonts.GeistSans.variable} font-geistMono`}
+      className={`${fonts.GeistMono.variable}${fonts.GeistSans.variable} font-geistMono`}
     >
       <body>
         {children}

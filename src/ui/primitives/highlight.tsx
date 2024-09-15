@@ -9,7 +9,7 @@ export const Highlight = React.forwardRef<HTMLDivElement, HighlightProps>(
       <div
         ref={ref}
         className={cn(
-          "inline-flex border-b-2 cursor-pointer border-zinc-800",
+          "inline-flex cursor-pointer border-zinc-800 border-b-2",
           className
         )}
         {...props}

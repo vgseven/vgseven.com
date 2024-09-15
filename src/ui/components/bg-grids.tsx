@@ -10,7 +10,7 @@ export const BackgroundGrid = React.forwardRef<
   <div
     ref={ref}
     className={cn(
-      "pointer-events-none absolute inset-0 left-0 top-0 flex h-full w-full bg-repeat bg-grid-pattern bg-[length:25px]",
+      "pointer-events-none absolute inset-0 top-0 left-0 flex h-full w-full bg-[length:25px] bg-grid-pattern bg-repeat",
       className
     )}
     style={{

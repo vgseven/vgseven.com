@@ -1,31 +1,7 @@
 # vgseven
 
-## 4.1.2
+## 4.1.3
 
 ### Patch Changes
 
-- core: ui issues fixed
-
-## 4.1.1
-
-### Patch Changes
-
-- core: project update
-
-## 4.1.0
-
-### Minor Changes
-
-- core: new ui initialzed
-
-## 4.0.2
-
-### Patch Changes
-
-- core: project update and removed updates section
-
-## 4.0.1
-
-### Patch Changes
-
-- core: project update
+- core: links and info update
