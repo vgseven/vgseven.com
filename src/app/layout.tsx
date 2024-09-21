@@ -1,4 +1,5 @@
 import { fonts } from "@/lib/fonts";
+import { cn } from "@/lib/utils";
 import "@/styles/root-layout.css";
 import { Analytics } from "@vercel/analytics/react";
 import { SpeedInsights } from "@vercel/speed-insights/next";
@@ -18,13 +19,13 @@ export const metadata: Metadata = {
     siteName: "VGSEVEN",
     images: [
       {
-        url: "https://odouepjkxheu5esn.public.blob.vercel-storage.com/silvercompany/make-happen.jpg",
+        url: "https://odouepjkxheu5esn.public.blob.vercel-storage.com/vgseven/vgseven-banner.png",
         width: 800,
         height: 600,
         alt: "VGSEVEN",
       },
       {
-        url: "https://odouepjkxheu5esn.public.blob.vercel-storage.com/silvercompany/make-happen.jpg",
+        url: "https://odouepjkxheu5esn.public.blob.vercel-storage.com/vgseven/vgseven-banner.png",
         width: 1800,
         height: 1600,
         alt: "VGSEVEN",
@@ -38,7 +39,7 @@ export const metadata: Metadata = {
     title: "VGSEVEN",
     description: "Make Happen.",
     images: [
-      "https://odouepjkxheu5esn.public.blob.vercel-storage.com/silvercompany/make-happen.jpg",
+      "https://odouepjkxheu5esn.public.blob.vercel-storage.com/vgseven/vgseven-banner.png",
     ],
   },
   metadataBase: new URL("https://vgseven.com"),
@@ -59,7 +60,11 @@ export default function RootLayout({ children }: { children: ReactNode }) {
   return (
     <html
       lang="en"
-      className={`${fonts.GeistMono.variable}${fonts.GeistSans.variable} font-geistMono`}
+      className={cn(
+        "font-geistMono",
+        fonts.GeistSans.variable,
+        fonts.GeistMono.variable
+      )}
     >
       <body>
         {children}

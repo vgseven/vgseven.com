@@ -48,7 +48,7 @@ export default function Home() {
         <Paragraph className={"font-bold text-[14px] max-md:text-[11px]"}>
           Hello World, I'm Vaibhav Gosavi (@vgseven), Creator of{" "}
           <Highlight>Radium</Highlight>, <Highlight>Elementary</Highlight>, and
-          Upcoming Personal Assistant <Highlight>Silvi</Highlight>.
+          Upcoming project Personal Assistant <Highlight>Silvi</Highlight>.
         </Paragraph>
         <div
           className={"mt-10 flex flex-wrap items-center justify-center gap-2"}
