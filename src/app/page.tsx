@@ -1,99 +1,60 @@
+"use client";
+
+import { projects } from "@/lib/content";
 import { BackgroundGrid } from "@/ui/components/bg-grids";
-import { BrandIconX } from "@/ui/icons/brand-icon-x";
+import { ProjectCard } from "@/ui/components/project-card";
+import { ProjectDetailsDialog } from "@/ui/components/project-detail-dialog";
 import { Button } from "@/ui/primitives/button";
+import { Dialog } from "@/ui/primitives/dialog";
 import { GradientText } from "@/ui/primitives/gradient-text";
-import { Highlight } from "@/ui/primitives/highlight";
 import { Label } from "@/ui/primitives/label";
-import { Paragraph } from "@/ui/primitives/paragraph";
-import {
-  ArrowTopRightIcon,
-  BookmarkFilledIcon,
-  EnvelopeOpenIcon,
-  GitHubLogoIcon,
-  HeartFilledIcon,
-  LinkedInLogoIcon,
-  RocketIcon,
-} from "@radix-ui/react-icons";
 import Link from "next/link";
+import { useState } from "react";
 
 export default function Home() {
+  const [openProjectId, setOpenProjectId] = useState<string | null>(null);
+
   return (
     <main
-      className={
-        "relative flex h-screen flex-col items-center justify-center max-lg:mx-4"
-      }
+      className={"relative flex h-screen flex-col items-center justify-center"}
     >
       <BackgroundGrid className={"z-0"} />
+
       <div
         className={
-          "flex flex-row items-center justify-center gap-6 max-sm:flex-col max-sm:gap-0"
+          "flex flex-row items-center justify-center gap-1 max-sm:flex-col sm:gap-4"
         }
       >
-        <GradientText
-          className={
-            "text-[6rem] max-sm:text-[3rem] max-md:text-[4rem] max-lg:text-[5rem]"
-          }
-        >
+        <GradientText className={"text-[2rem] sm:text-[5rem]"}>
           VAIBHAV
         </GradientText>
-        <GradientText
-          className={
-            "text-[6rem] max-sm:text-[3rem] max-md:text-[4rem] max-lg:text-[5rem]"
-          }
-        >
+        <GradientText className={"text-[2rem] sm:text-[5rem]"}>
           GOSAVI
         </GradientText>
       </div>
-      <div className={"z-10 my-4 max-w-[42rem] text-center font-medium"}>
-        <Paragraph className={"font-bold text-[14px] max-md:text-[11px]"}>
-          Hello World, I'm Vaibhav Gosavi (@vgseven), Creator of{" "}
-          <Highlight>Radium</Highlight>, <Highlight>Elementary</Highlight>, and
-          Upcoming project Personal Assistant <Highlight>Silvi</Highlight>.
-        </Paragraph>
-        <div
-          className={"mt-10 flex flex-wrap items-center justify-center gap-2"}
-        >
-          <Link href={"https://radium.vgseven.com"} target="_blank">
-            <Button
-              className={"flex flex-row items-center gap-2"}
-              variant={"secondary"}
-            >
-              <RocketIcon /> Use Radium
-              <ArrowTopRightIcon />
-            </Button>
-          </Link>
-          <Link href={"https://elementary.vgseven.com"} target="_blank">
-            <Button
-              className={"flex flex-row items-center gap-2"}
-              variant={"secondary"}
-            >
-              <BookmarkFilledIcon /> Ship with Elementary
-              <ArrowTopRightIcon />
-            </Button>
-          </Link>
-          <Link href={"https://silvi.vgseven.com/waitlist"} target="_blank">
-            <Button className={"flex flex-row items-center gap-2"}>
-              <HeartFilledIcon /> Join Waitlist for Silvi
-              <ArrowTopRightIcon />
-            </Button>
-          </Link>
-        </div>
+
+      <div className="my-4 grid gap-4 sm:grid-cols-1 md:grid-cols-2">
+        {projects.map((project) => (
+          <Dialog
+            key={project.id}
+            open={openProjectId === project.id}
+            onOpenChange={(isOpen) =>
+              setOpenProjectId(isOpen ? project.id : null)
+            }
+          >
+            <ProjectCard
+              project={project}
+              onClick={() => setOpenProjectId(project.id)}
+            />
+            <ProjectDetailsDialog project={project} />
+          </Dialog>
+        ))}
       </div>
-      <div className={"my-4 flex flex-col items-center justify-center"}>
-        <div className={"flex flex-row items-center justify-center gap-6"}>
-          <Link href={"https://x.com/vgsevenn/"} target="_blank">
-            <BrandIconX width={16} height={16} />
-          </Link>
-          <Link href={"https://github.com/vgseven"} target="_blank">
-            <GitHubLogoIcon width={16} height={16} />
-          </Link>
-          <Link href={"https://linkedin.com/in/vgseven"} target="_blank">
-            <LinkedInLogoIcon width={16} height={16} />
-          </Link>
-          <Link href={"mailto:ivaibhavgosavi@gmail.com"} target="_blank">
-            <EnvelopeOpenIcon width={16} height={16} />
-          </Link>
-        </div>
+
+      <div className="my-4 flex flex-col items-center justify-center">
+        <Link href="https://x.com/vgsevenn" target="_blank">
+          <Button>Find More Updates</Button>
+        </Link>
         <Label className={"my-2 text-center text-[12px] tracking-widest"}>
           ALL RIGHTS RESERVED. VGSEVEN &copy; {new Date().getFullYear()}
         </Label>
