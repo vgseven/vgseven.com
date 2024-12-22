@@ -13,7 +13,7 @@ export function ProjectCard({
   return (
     <Button
       className={
-        "flex h-14 flex-row justify-start gap-4 rounded-lg border-ring/40 bg-secondary/30 hover:cursor-pointer sm:h-16"
+        "flex h-14 flex-row justify-start gap-4 rounded-lg border-ring/40 bg-secondary/20 hover:cursor-pointer sm:h-16"
       }
       onClick={onClick}
       variant={"outline"}

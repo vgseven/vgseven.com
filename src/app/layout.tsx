@@ -66,7 +66,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
         fonts.GeistMono.variable
       )}
     >
-      <body>
+      <body className={"bg-gradient-to-tr from-black via-black/50 to-white"}>
         {children}
         <SpeedInsights />
         <Analytics />

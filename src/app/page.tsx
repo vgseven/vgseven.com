@@ -1,12 +1,10 @@
 "use client";
 
 import { projects } from "@/lib/content";
-import { BackgroundGrid } from "@/ui/components/bg-grids";
 import { ProjectCard } from "@/ui/components/project-card";
 import { ProjectDetailsDialog } from "@/ui/components/project-detail-dialog";
 import { Button } from "@/ui/primitives/button";
 import { Dialog } from "@/ui/primitives/dialog";
-import { GradientText } from "@/ui/primitives/gradient-text";
 import { Label } from "@/ui/primitives/label";
 import Link from "next/link";
 import { useState } from "react";
@@ -18,19 +16,25 @@ export default function Home() {
     <main
       className={"relative flex h-screen flex-col items-center justify-center"}
     >
-      <BackgroundGrid className={"z-0"} />
-
       <div
         className={
-          "flex flex-row items-center justify-center gap-1 max-sm:flex-col sm:gap-4"
+          "mb-4 flex flex-row items-center justify-center gap-4 leading-none max-sm:flex-col"
         }
       >
-        <GradientText className={"text-[2rem] sm:text-[5rem]"}>
+        <Label
+          className={
+            "bg-gradient-to-tl from-black via-white/60 to-white bg-clip-text p-0 font-semibold text-[4rem] text-transparent sm:text-[5rem]"
+          }
+        >
           VAIBHAV
-        </GradientText>
-        <GradientText className={"text-[2rem] sm:text-[5rem]"}>
+        </Label>
+        <Label
+          className={
+            "bg-gradient-to-tl from-black via-white/60 to-white bg-clip-text p-0 font-semibold text-[4rem] text-transparent sm:text-[5rem]"
+          }
+        >
           GOSAVI
-        </GradientText>
+        </Label>
       </div>
 
       <div className="my-4 grid gap-4 sm:grid-cols-1 md:grid-cols-2">

@@ -3,7 +3,7 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "dev": "next dev --turbopack",
+    "dev": "next dev -H 192.168.43.56 --turbopack",
     "lint": "biome lint --write .",
     "lint:fix": "biome lint --write --unsafe .",
     "typecheck": "tsc --noEmit",
