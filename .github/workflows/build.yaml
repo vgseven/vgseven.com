@@ -27,14 +27,17 @@ jobs:
       - name: Install dependencies
         run: pnpm install
 
-      - name: Run Type-Check
+      - name: Performing Type Check
         run: pnpm run typecheck
 
-      - name: Run Lint
+      - name: Performing Lint
         run: pnpm run lint
 
-      - name: Run Format
+      - name: Performing Format
         run: pnpm run format
 
-      - name: Run Build
+      - name: Performing Check
+        run: pnpm run check
+
+      - name: Performing Build
         run: pnpm run build

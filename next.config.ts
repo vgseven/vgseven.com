@@ -1,6 +1,6 @@
-/** @type {import('next').NextConfig} */
+import type { NextConfig } from "next";
 
-const nextConfig = {
+const nextConfig: NextConfig = {
   images: {
     remotePatterns: [
       {
@@ -11,6 +11,7 @@ const nextConfig = {
       },
     ],
   },
+  reactStrictMode: true,
   eslint: {
     ignoreDuringBuilds: true,
   },
@@ -21,4 +22,4 @@ const nextConfig = {
 
 export default nextConfig;
 
-// https://odouepjkxheu5esn.public.blob.vercel-storage.com/vgseven/vgseven-banner.png
+// https://odouepjkxheu5esn.public.blob.vercel-storage.com/vgseven/makehappen-banner.png

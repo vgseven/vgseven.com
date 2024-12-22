@@ -19,13 +19,15 @@ export const metadata: Metadata = {
     siteName: "VGSEVEN",
     images: [
       {
-        url: "https://odouepjkxheu5esn.public.blob.vercel-storage.com/vgseven/vgseven-banner.png",
+        url:
+          "https://odouepjkxheu5esn.public.blob.vercel-storage.com/vgseven/makehappen-banner.png",
         width: 800,
         height: 600,
         alt: "VGSEVEN",
       },
       {
-        url: "https://odouepjkxheu5esn.public.blob.vercel-storage.com/vgseven/vgseven-banner.png",
+        url:
+          "https://odouepjkxheu5esn.public.blob.vercel-storage.com/vgseven/makehappen-banner.png",
         width: 1800,
         height: 1600,
         alt: "VGSEVEN",
@@ -39,7 +41,7 @@ export const metadata: Metadata = {
     title: "VGSEVEN",
     description: "Make Happen.",
     images: [
-      "https://odouepjkxheu5esn.public.blob.vercel-storage.com/vgseven/vgseven-banner.png",
+      "https://odouepjkxheu5esn.public.blob.vercel-storage.com/vgseven/makehappen-banner.png",
     ],
   },
   metadataBase: new URL("https://vgseven.com"),
@@ -63,7 +65,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
       className={cn(
         "font-geistMono",
         fonts.GeistSans.variable,
-        fonts.GeistMono.variable
+        fonts.GeistMono.variable,
       )}
     >
       <body>
