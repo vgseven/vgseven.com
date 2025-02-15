@@ -7,28 +7,28 @@ import type { Metadata } from "next";
 import type { ReactNode } from "react";
 
 export const metadata: Metadata = {
-  title: "VGSEVEN",
-  description: "Make Happen.",
+  title: "vgseven",
+  description: "make happen.",
   icons: {
     icon: "/favicon.png",
   },
   openGraph: {
-    title: "VGSEVEN",
-    description: "Make Happen.",
+    title: "vgseven",
+    description: "make happen.",
     url: "https://vgseven.com",
-    siteName: "VGSEVEN",
+    siteName: "vgseven",
     images: [
       {
         url: "https://odouepjkxheu5esn.public.blob.vercel-storage.com/vgseven/makehappen-banner.png",
         width: 800,
         height: 600,
-        alt: "VGSEVEN",
+        alt: "vgseven",
       },
       {
         url: "https://odouepjkxheu5esn.public.blob.vercel-storage.com/vgseven/makehappen-banner.png",
         width: 1800,
         height: 1600,
-        alt: "VGSEVEN",
+        alt: "vgseven",
       },
     ],
     locale: "en_US",
@@ -36,8 +36,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "VGSEVEN",
-    description: "Make Happen.",
+    title: "vgseven",
+    description: "make happen.",
     images: [
       "https://odouepjkxheu5esn.public.blob.vercel-storage.com/vgseven/makehappen-banner.png",
     ],
@@ -61,12 +61,12 @@ export default function RootLayout({ children }: { children: ReactNode }) {
     <html
       lang="en"
       className={cn(
-        "font-geistMono",
+        "font-geist-sans",
         fonts.GeistSans.variable,
         fonts.GeistMono.variable
       )}
     >
-      <body className={"bg-linear-to-tr from-zinc-900 via-black to-zinc-900"}>
+      <body>
         {children}
         <SpeedInsights />
         <Analytics />
