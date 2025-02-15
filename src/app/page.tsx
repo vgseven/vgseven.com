@@ -26,14 +26,7 @@ export default function Home() {
             "bg-gradient-to-tl from-black via-white/60 to-white bg-clip-text p-0 font-semibold text-[4rem] text-transparent sm:text-[5rem]"
           }
         >
-          VAIBHAV
-        </Label>
-        <Label
-          className={
-            "bg-gradient-to-tl from-black via-white/60 to-white bg-clip-text p-0 font-semibold text-[4rem] text-transparent sm:text-[5rem]"
-          }
-        >
-          GOSAVI
+          VAIBHAV GOSAVI
         </Label>
       </div>
 
