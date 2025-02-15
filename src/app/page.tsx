@@ -23,7 +23,7 @@ export default function Home() {
       >
         <Label
           className={
-            "bg-gradient-to-tl from-black via-white/60 to-white bg-clip-text p-0 font-semibold text-[4rem] text-transparent sm:text-[5rem]"
+            "bg-linear-to-tl from-black via-white/60 to-white bg-clip-text p-0 font-semibold text-[4rem] text-transparent sm:text-[5rem]"
           }
         >
           VAIBHAV GOSAVI
